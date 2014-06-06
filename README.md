@@ -11,6 +11,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ## <a name='toc'>Table of Contents</a>
 
   1. [General Questions](#general)
+  1. [Patterns Questions](#patterns)
   1. [Databases Questions](#database)
   1. [NoSQL Questions](#nosql)
   1. [Code Revision Questions](#coderevision)
@@ -21,11 +22,17 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What did you learn yesterday/this week?
 
 
+####[[↑]](#toc) <a name='patterns'>Questions about Patterns:</a>
+
+* Tell me about the Hollywood Principle.
+
+
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 
 * How would you manage the migration of a project from MySQL to PostgreSQL?
 * Why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ```field``?
 * What's ACID (Atomicity, Consistency, Isolation, Durability)?
+
 
 ####[[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
 

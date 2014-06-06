@@ -13,7 +13,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [General Questions](#general)
   1. [Databases Questions](#database)
   1. [Code Revision Questions](#coderevision)
-
+  1. [Concurrency Questions](#concurrency)
 
 ####[[↑]](#toc) <a name='general'>General Questions:</a>
 
@@ -23,9 +23,16 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 
 * How would you manage the migration of a project from MySQL to PostgreSQL?
+* Why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ```field``?
 
 
 ####[[↑]](#toc) <a name='coderevision'>Questions about code revision:</a>
 
 * Why branching with Mercurial or git is easier than with SVN?
+* What are the pros and cons of Distributed Version Control Systems like git over Centralized ones like SVN?
 
+
+####[[↑]](#toc) <a name='concurrency'>Questions about Concurrency:</a>
+* What is a Race Condition?
+* What is a Deadlock?
+* What is Process Starvation?

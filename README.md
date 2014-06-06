@@ -3,7 +3,7 @@ Back-End-Developer-Interview-Questions
 
 This repo contains a number of back-end interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
-This project is admittedly inspired by (https://github.com/dypsilon/frontend-dev-bookmarks) - Front-end Job Interview Questions by @darcyclarke
+This project is admittedly inspired by (https://github.com/darcyclarke/Front-end-Developer-Interview-Questions) - Front-end Job Interview Questions by (https://github.com/darcyclarke) @darcyclarke
 
 **Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would.
 

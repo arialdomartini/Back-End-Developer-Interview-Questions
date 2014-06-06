@@ -12,6 +12,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
   1. [General Questions](#general)
   1. [Databases Questions](#database)
+  1. [NoSQL Questions](#nosql)
   1. [Code Revision Questions](#coderevision)
   1. [Concurrency Questions](#concurrency)
 
@@ -24,6 +25,11 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 * How would you manage the migration of a project from MySQL to PostgreSQL?
 * Why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ```field``?
+* What's ACID (Atomicity, Consistency, Isolation, Durability)?
+
+####[[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
+
+* What is Eventual Consistency?
 
 
 ####[[↑]](#toc) <a name='coderevision'>Questions about code revision:</a>
@@ -36,3 +42,5 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is a Race Condition?
 * What is a Deadlock?
 * What is Process Starvation?
+* What is a Wait Free algorithm?
+* In which case whould you apply asynchronously communication between two systems?

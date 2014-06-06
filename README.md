@@ -15,17 +15,17 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [Code Revision Questions](#coderevision)
 
 
-####[[⬆]](#toc) <a name='general'>General Questions:</a>
+####[[↑]](#toc) <a name='general'>General Questions:</a>
 
 * What did you learn yesterday/this week?
 
 
-####[[⬆]](#toc) <a name='databases'>Questions about Databases:</a>
+####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 
 * How would you manage the migration of a project from MySQL to PostgreSQL?
 
 
-####[[⬆]](#toc) <a name='coderevision'>Questions about code revision:</a>
+####[[↑]](#toc) <a name='coderevision'>Questions about code revision:</a>
 
 * Why branching with Mercurial or git is easier than with SVN?
 

@@ -43,6 +43,9 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 * Why branching with Mercurial or git is easier than with SVN?
 * What are the pros and cons of Distributed Version Control Systems like git over Centralized ones like SVN?
+* Could you describe GitHubFLow and GitFlow workflows?
+* What's a rebase?
+* Why merges are easier with Mercurial and git than with SVN and CVS?
 
 
 ####[[↑]](#toc) <a name='concurrency'>Questions about Concurrency:</a>

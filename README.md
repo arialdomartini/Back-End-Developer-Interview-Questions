@@ -12,6 +12,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
   1. [General Questions](#general)
   1. [Patterns Questions](#patterns)
+  1. [Languages Questions](#languages)
   1. [Databases Questions](#database)
   1. [NoSQL Questions](#nosql)
   1. [Code Revision Questions](#coderevision)
@@ -25,6 +26,12 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='patterns'>Questions about Patterns:</a>
 
 * Tell me about the Hollywood Principle.
+
+
+####[[↑]](#toc) <a name='patterns'>Questions about Languages:</a>
+
+* Why is there a rising interest about Functional Programming?
+* What is a closure, and what is useful for?
 
 
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>

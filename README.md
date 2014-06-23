@@ -35,11 +35,14 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * About the Law of Demeter (the Principle of Least Knowledge): write a code violating it, then fix it.
 * Which are the limits and pitfalls of Active-Record?
 
+
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 
 * Why is there a rising interest about Functional Programming?
 * What is a closure, and what is useful for?
 * What are generics useful for? 
+* What are high-order functions? What are they useful for? Write one, in your preferred language. 
+
 
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 
@@ -47,8 +50,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ``field``?
 * What's ACID (Atomicity, Consistency, Isolation, Durability)?
 
-####[[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
 
+####[[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
 * What is Eventual Consistency?
 
 

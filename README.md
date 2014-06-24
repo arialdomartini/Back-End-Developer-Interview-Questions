@@ -42,7 +42,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is a closure, and what is useful for?
 * What are generics useful for? 
 * What are high-order functions? What are they useful for? Write one, in your preferred language. 
-
+* Write a loop, then transform it into a recursive function, avoiding mutability. Discuss. 
 
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 

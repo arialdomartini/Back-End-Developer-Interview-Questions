@@ -21,12 +21,19 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='general'>General Questions:</a>
 
 * What did you learn yesterday/this week?
-
+* Why Functional Programming matters?
+* What is Encapsulation important for?
+* What is a real-time system and how is it different from an ordinary system?
+* What's the relationship between real-time languages and heap memory allocation?
+* Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How immutability can help writing safer code?
+* Pro and cons of mutable and unmutable values.
+* What's the Object-Relational impedence mismatch?
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Patterns:</a>
 
 * Tell me about the Hollywood Principle.
-
+* About the Law of Demeter (the Principle of Least Knowledge): write a code violating it, then fix it.
+* Which are the limits and pitfalls of Active-Record?
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Languages:</a>
 

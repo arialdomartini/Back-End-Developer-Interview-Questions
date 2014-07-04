@@ -44,7 +44,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 
 * How would you manage the migration of a project from MySQL to PostgreSQL?
-* Why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ```field``?
+* Why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ``field``?
 * What's ACID (Atomicity, Consistency, Isolation, Durability)?
 
 ####[[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>

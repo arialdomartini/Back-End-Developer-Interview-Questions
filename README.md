@@ -13,7 +13,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [General Questions](#general)
   1. [Patterns Questions](#patterns)
   1. [Languages Questions](#languages)
-  1. [Databases Questions](#database)
+  1. [Databases Questions](#databases)
   1. [NoSQL Questions](#nosql)
   1. [Code Revision Questions](#coderevision)
   1. [Concurrency Questions](#concurrency)

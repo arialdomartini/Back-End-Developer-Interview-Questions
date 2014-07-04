@@ -39,7 +39,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 * Why is there a rising interest about Functional Programming?
 * What is a closure, and what is useful for?
-
+* What are generics useful for? 
 
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 

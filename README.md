@@ -35,7 +35,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * About the Law of Demeter (the Principle of Least Knowledge): write a code violating it, then fix it.
 * Which are the limits and pitfalls of Active-Record?
 
-####[[↑]](#toc) <a name='patterns'>Questions about Languages:</a>
+####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 
 * Why is there a rising interest about Functional Programming?
 * What is a closure, and what is useful for?
@@ -46,7 +46,6 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How would you manage the migration of a project from MySQL to PostgreSQL?
 * Why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ```field``?
 * What's ACID (Atomicity, Consistency, Isolation, Durability)?
-
 
 ####[[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
 

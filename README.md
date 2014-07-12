@@ -71,3 +71,4 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is a Wait Free algorithm?
 * In which case whould you apply asynchronously communication between two systems?
 * If you are building a distributed system for scalability and robustness, what are the different things you'd think of in the case you are working in a closed and secure network environment or in geographically distributed and public system?
+* How to manage Fault Tolerance in a Web application? And in a Desktop one? 

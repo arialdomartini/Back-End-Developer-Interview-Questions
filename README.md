@@ -17,6 +17,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [NoSQL Questions](#nosql)
   1. [Code Revision Questions](#coderevision)
   1. [Concurrency Questions](#concurrency)
+  1. [Questions about Software Lifecycle and Team Management](#management)
 
 ####[[↑]](#toc) <a name='general'>General Questions:</a>
 
@@ -72,3 +73,6 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * In which case whould you apply asynchronously communication between two systems?
 * If you are building a distributed system for scalability and robustness, what are the different things you'd think of in the case you are working in a closed and secure network environment or in geographically distributed and public system?
 * How to manage Fault Tolerance in a Web application? And in a Desktop one? 
+
+####[[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>
+* What is agility?

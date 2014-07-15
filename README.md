@@ -18,6 +18,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [Code Revision Questions](#coderevision)
   1. [Concurrency Questions](#concurrency)
   1. [Questions about Software Lifecycle and Team Management](#management)
+  1. [Questions about logic and algorithms](#algorithms)
 
 ####[[↑]](#toc) <a name='general'>General Questions:</a>
 
@@ -76,3 +77,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>
 * What is agility?
+
+####[[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>
+* Make a FIFO Queue using only LIFO Stacks. Then build a LIFO Stack using only FIFO Queues.
+

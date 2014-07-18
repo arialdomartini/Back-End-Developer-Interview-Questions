@@ -33,6 +33,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Pro and cons of mutable and unmutable values.
 * What's the Object-Relational impedence mismatch?
 
+
 ####[[↑]](#toc) <a name='patterns'>Questions about Patterns:</a>
 
 * Tell me about the Hollywood Principle.
@@ -48,6 +49,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What are high-order functions? What are they useful for? Write one, in your preferred language. 
 * Write a loop, then transform it into a recursive function, avoiding mutability. Discuss. 
 
+
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 
 * How would you manage the migration of a project from MySQL to PostgreSQL?
@@ -55,7 +57,9 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What's ACID (Atomicity, Consistency, Isolation, Durability)?
 * How would you manage database schema migrations?
 
+
 ####[[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
+
 * What is Eventual Consistency?
 
 
@@ -69,6 +73,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 
 ####[[↑]](#toc) <a name='concurrency'>Questions about Concurrency:</a>
+
 * What is a Race Condition?
 * What is a Deadlock?
 * What is Process Starvation?
@@ -77,11 +82,17 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * If you are building a distributed system for scalability and robustness, what are the different things you'd think of in the case you are working in a closed and secure network environment or in geographically distributed and public system?
 * How to manage Fault Tolerance in a Web application? And in a Desktop one? 
 
+
 ####[[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>
+
 * What is agility?
 
+
 ####[[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>
+
 * Make a FIFO Queue using only LIFO Stacks. Then build a LIFO Stack using only FIFO Queues.
 
+
 ####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
+
 * What is CQRS (Command Query Responsibility Segregation)?

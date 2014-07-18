@@ -53,7 +53,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How would you manage the migration of a project from MySQL to PostgreSQL?
 * Why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ``field``?
 * What's ACID (Atomicity, Consistency, Isolation, Durability)?
-
+* How would you manage database schema migrations?
 
 ####[[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
 * What is Eventual Consistency?

@@ -96,3 +96,4 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
 
 * What is CQRS (Command Query Responsibility Segregation)?
+* What is Three-Tier architecture? 

@@ -97,3 +97,4 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 * What is CQRS (Command Query Responsibility Segregation)?
 * What is Three-Tier architecture? 
+* What are the pros and cons of MicroService architecture?

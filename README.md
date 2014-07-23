@@ -81,7 +81,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * In which case whould you apply asynchronously communication between two systems?
 * If you are building a distributed system for scalability and robustness, what are the different things you'd think of in the case you are working in a closed and secure network environment or in geographically distributed and public system?
 * How to manage Fault Tolerance in a Web application? And in a Desktop one? 
-
+* What are the general pitfalls of Remote Procecure Call?
 
 ####[[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>
 

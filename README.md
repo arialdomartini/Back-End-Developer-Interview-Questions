@@ -104,6 +104,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>
 * What did you learn yesterday/this week?
 * List the last 5 books you read. 
+* Why are Quora's answers better than Yahoo Answers' ones?
 
 
 ####[[↑]](#snippets) <a name='open'>Questions about snippets of code:</a>

@@ -20,11 +20,11 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [Questions about Software Lifecycle and Team Management](#management)
   1. [Questions about logic and algorithms](#algorithms)
   1. [Questions about Software Architecture](#architecture)
+  1. [Open Questions](#open)
 
 
 ####[[↑]](#toc) <a name='general'>General Questions:</a>
 
-* What did you learn yesterday/this week?
 * Why Functional Programming matters?
 * What is Encapsulation important for?
 * What is a real-time system and how is it different from an ordinary system?
@@ -98,3 +98,9 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is CQRS (Command Query Responsibility Segregation)?
 * What is Three-Tier architecture? 
 * What are the pros and cons of MicroService architecture?
+
+
+####[[↑]](#toc) <a name='open'>Open Questions:</a>
+* What did you learn yesterday/this week?
+* List the last 5 books you read. 
+

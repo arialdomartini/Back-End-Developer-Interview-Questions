@@ -84,12 +84,14 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How to manage Fault Tolerance in a Web application? And in a Desktop one? 
 * What are the general pitfalls of Remote Procecure Call?
 
+
 ####[[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>
 
 * What is agility?
 * How would you deal with Legacy Code?
 * What is Kanban?
 * What is the biggest difference between Agile and Waterfall?
+* Being a team manager, how would you deal with the problem of having too many meetings?
 
 
 ####[[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>

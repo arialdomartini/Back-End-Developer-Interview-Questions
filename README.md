@@ -87,6 +87,9 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>
 
 * What is agility?
+* How would you deal with Legacy Code?
+* What is Kanban?
+* What is the biggest difference between Agile and Waterfall?
 
 
 ####[[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>

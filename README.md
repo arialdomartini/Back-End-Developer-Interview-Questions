@@ -21,6 +21,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [Questions about logic and algorithms](#algorithms)
   1. [Questions about Software Architecture](#architecture)
   1. [Open Questions](#open)
+  1. [Questions based on snippets of code](#snippets)
 
 
 ####[[↑]](#toc) <a name='general'>General Questions:</a>
@@ -103,4 +104,18 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>
 * What did you learn yesterday/this week?
 * List the last 5 books you read. 
+
+
+####[[↑]](#snippets) <a name='open'>Questions about snippets of code:</a>
+* What's the output of this Javascript function?
+```
+function hookupevents() {
+  for (var i = 0; i < 3; i++) {
+    document.getElementById("button" + i)
+      .addEventListener("click", function() { 
+        alert(i); 
+      });
+  }
+}
+```
 

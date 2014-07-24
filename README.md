@@ -107,9 +107,10 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>
-* What did you learn yesterday/this week?
+* What did you learn this week?
 * List the last 5 books you read. 
 * Why are Quora's answers better than Yahoo Answers' ones?
+* Imagine there's a perfect clone of yourself. Imagine that that clone is your boss. Would you like to work for him/her?
 
 
 ####[[↑]](#snippets) <a name='open'>Questions about snippets of code:</a>

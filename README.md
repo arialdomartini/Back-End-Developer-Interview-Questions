@@ -41,6 +41,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * About the Law of Demeter (the Principle of Least Knowledge): write a code violating it, then fix it.
 * Which are the limits and pitfalls of Active-Record?
 * What is the intent of the Null Object Pattern?
+* Discuss the advantages of Composition over Inheritance
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 

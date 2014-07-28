@@ -58,7 +58,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ``field``?
 * What's ACID (Atomicity, Consistency, Isolation, Durability)?
 * How would you manage database schema migrations?
-
+* How is Lazy Loading achieved? When is it useful? What are its pitfalls?
+* What's the N+1 problem?
 
 ####[[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
 

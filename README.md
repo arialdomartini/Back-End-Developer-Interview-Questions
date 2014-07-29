@@ -43,6 +43,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is the intent of the Null Object Pattern?
 * Discuss the advantages of Composition over Inheritance
 
+
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 
 * Why is there a rising interest about Functional Programming?
@@ -50,6 +51,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What are generics useful for? 
 * What are high-order functions? What are they useful for? Write one, in your preferred language. 
 * Write a loop, then transform it into a recursive function, avoiding mutability. Discuss. 
+* What does it mean when a language treats functions as first-class citizens?
 
 
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>

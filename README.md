@@ -42,6 +42,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Which are the limits and pitfalls of Active-Record?
 * What is the intent of the Null Object Pattern?
 * Discuss the advantages of Composition over Inheritance
+* What is an Anti-corruption Layer?
 
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>

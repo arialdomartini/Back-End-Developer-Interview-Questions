@@ -64,6 +64,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How is Lazy Loading achieved? When is it useful? What are its pitfalls?
 * What's the N+1 problem?
 
+
 ####[[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
 
 * What is Eventual Consistency?
@@ -76,6 +77,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Could you describe GitHubFLow and GitFlow workflows?
 * What's a rebase?
 * Why merges are easier with Mercurial and git than with SVN and CVS?
+
 
 
 ####[[↑]](#toc) <a name='concurrency'>Questions about Concurrency:</a>
@@ -103,6 +105,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 * Make a FIFO Queue using only LIFO Stacks. Then build a LIFO Stack using only FIFO Queues.
 * Write a snippet of code affected by a Stack Overflow 
+* Write a tail-recursive version of the factorial function
 
 
 ####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>

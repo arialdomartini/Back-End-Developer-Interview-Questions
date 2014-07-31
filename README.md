@@ -102,6 +102,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>
 
 * Make a FIFO Queue using only LIFO Stacks. Then build a LIFO Stack using only FIFO Queues.
+* Write a snippet of code affected by a Stack Overflow 
 
 
 ####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>

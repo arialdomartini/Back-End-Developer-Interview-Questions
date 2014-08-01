@@ -43,6 +43,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is the intent of the Null Object Pattern?
 * Discuss the advantages of Composition over Inheritance
 * What is an Anti-corruption Layer?
+* Could you write a Thread-Safe Singleton class?
 
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>

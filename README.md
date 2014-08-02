@@ -64,6 +64,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How would you manage database schema migrations?
 * How is Lazy Loading achieved? When is it useful? What are its pitfalls?
 * What's the N+1 problem?
+* Write two functions, one Referentially Transparent and the other one Referentially Opaque. Discuss.
 
 
 ####[[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>

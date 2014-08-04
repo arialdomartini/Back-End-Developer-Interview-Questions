@@ -116,6 +116,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is CQRS (Command Query Responsibility Segregation)?
 * What is Three-Tier architecture? 
 * What are the pros and cons of MicroService architecture?
+* How would you design a software system for scalability?
 
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>

@@ -45,6 +45,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is an Anti-corruption Layer?
 * Could you write a Thread-Safe Singleton class?
 * Could you implement Objects in terms of Higher Order Functions, and vice-versa?
+* Show with an example that global objects are evil.
 
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>

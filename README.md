@@ -57,6 +57,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Write a loop, then transform it into a recursive function, avoiding mutability. Discuss. 
 * What does it mean when a language treats functions as first-class citizens?
 * Show me an example where an Anonymous Function can be useful
+* What is Dynamic Method Dispatch?
 
 
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>

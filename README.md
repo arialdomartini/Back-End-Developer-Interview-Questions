@@ -112,6 +112,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Make a FIFO Queue using only LIFO Stacks. Then build a LIFO Stack using only FIFO Queues.
 * Write a snippet of code affected by a Stack Overflow 
 * Write a tail-recursive version of the factorial function
+* Using your preferred language, write a REPL that echoes your inputs. Evolve it to make it an RPN calculator.
 
 
 ####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>

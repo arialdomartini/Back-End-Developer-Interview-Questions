@@ -41,7 +41,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * About the Law of Demeter (the Principle of Least Knowledge): write a code violating it, then fix it.
 * Which are the limits and pitfalls of Active-Record?
 * What is the intent of the Null Object Pattern?
-* Discuss the advantages of Composition over Inheritance
+* Why is Composition often better than Inheritance?
 * What is an Anti-corruption Layer?
 * Could you write a Thread-Safe Singleton class?
 * Could you implement Objects in terms of Higher Order Functions, and vice-versa?

@@ -122,6 +122,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is Three-Tier architecture? 
 * What are the pros and cons of MicroService architecture?
 * How would you design a software system for scalability?
+* What are the strategies to deal with the C10k problem?
 
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>

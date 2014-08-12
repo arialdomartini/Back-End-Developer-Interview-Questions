@@ -123,6 +123,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What are the pros and cons of MicroService architecture?
 * How would you design a software system for scalability?
 * What are the strategies to deal with the C10k problem?
+* How to deal with failover and user sessions?
 
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>

@@ -46,7 +46,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Could you write a Thread-Safe Singleton class?
 * Could you implement Objects in terms of Higher Order Functions, and vice-versa?
 * Show with an example that global objects are evil.
-
+* The ability to change implementation without affecting clients is called Data Abstraction. Produce and example violating this property, then fix it.
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 

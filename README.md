@@ -146,3 +146,11 @@ function hookupevents() {
 }
 ```
 
+* About Type Erasure, what's the output of this Java snippet, and why?
+
+```
+ArrayList<Integer> li = new ArrayList<Integer>();
+ArrayList<Float> lf = new ArrayList<Float>();
+if (li.getClass() == lf.getClass()) // evaluates to true
+  System.out.println("Equal");
+```

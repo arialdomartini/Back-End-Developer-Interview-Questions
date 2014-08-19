@@ -48,6 +48,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Show with an example that global objects are evil.
 * The ability to change implementation without affecting clients is called Data Abstraction. Produce and example violating this property, then fix it.
 
+
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 
 * Why is there a rising interest about Functional Programming?
@@ -124,6 +125,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How would you design a software system for scalability?
 * What are the strategies to deal with the C10k problem?
 * How to deal with failover and user sessions?
+* How would you design a decentralized (that is, with no central server) P2P system?
 
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>

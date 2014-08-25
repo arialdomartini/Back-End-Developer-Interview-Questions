@@ -40,6 +40,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Tell me about the Hollywood Principle.
 * About the Law of Demeter (the Principle of Least Knowledge): write a code violating it, then fix it.
 * Which are the limits and pitfalls of Active-Record?
+* What are the differences between Active-Record and Data-Mapper?
 * What is the intent of the Null Object Pattern?
 * Why is Composition often better than Inheritance?
 * What is an Anti-corruption Layer?

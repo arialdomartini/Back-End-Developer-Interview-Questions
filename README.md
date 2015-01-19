@@ -112,6 +112,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='concurrency'>Questions about Concurrency:</a>
 
+* Why is testing multithreading / concurrent code so difficult? 
 * What is a Race Condition?
 * What is a Deadlock?
 * What is Process Starvation?

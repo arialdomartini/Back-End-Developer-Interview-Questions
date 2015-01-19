@@ -158,3 +158,5 @@ ArrayList<Float> lf = new ArrayList<Float>();
 if (li.getClass() == lf.getClass()) // evaluates to true
   System.out.println("Equal");
 ```
+
+*  Write a sample code that produces a memory leak

@@ -175,4 +175,5 @@ if (li.getClass() == lf.getClass()) // evaluates to true
   System.out.println("Equal");
 ```
 
-*  Write a sample code that produces a memory leak
+* Write a sample code that produces a memory leak
+* Generate a sequence of unique random numbers

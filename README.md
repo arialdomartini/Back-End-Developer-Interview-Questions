@@ -134,6 +134,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How would you design a decentralized (that is, with no central server) P2P system?
 * Why doesn't CGI scale?
 * How would you defend the design of your systems against Vendor Lock-in?
+* What makes code readable?
 
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>
 * What's Two Factor Authentication? How would you implement it in an existing web application?

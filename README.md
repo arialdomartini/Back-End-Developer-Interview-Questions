@@ -33,7 +33,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How immutability can help writing safer code?
 * Pro and cons of mutable and unmutable values.
 * What's the Object-Relational impedence mismatch?
-
+* What's the difference between design, architecture, functionality and aesthetic? Discuss
+    
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Patterns:</a>
 

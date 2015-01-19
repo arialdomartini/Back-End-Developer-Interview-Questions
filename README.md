@@ -130,7 +130,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What are the strategies to deal with the C10k problem?
 * How to deal with failover and user sessions?
 * How would you design a decentralized (that is, with no central server) P2P system?
-
+* Why doesn't CGI scale?
 
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>
 * What's Two Factor Authentication? How would you implement it in an existing web application?

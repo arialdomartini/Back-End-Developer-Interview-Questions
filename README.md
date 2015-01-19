@@ -14,6 +14,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [Open Questions](#open)
   1. [Patterns Questions](#patterns)
   1. [Languages Questions](#languages)
+  1. [Web Questions](#web)
   1. [Databases Questions](#databases)
   1. [NoSQL Questions](#nosql)
   1. [Code Revision Questions](#coderevision)
@@ -78,6 +79,9 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Show me an example where an Anonymous Function can be useful
 * What is Dynamic Method Dispatch?
  
+
+####[[↑]](#toc) <a name='web'>Questions about Web development:</a>
+* Why first-party cookies and third-party cookies are treated so differently?
 
 
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>

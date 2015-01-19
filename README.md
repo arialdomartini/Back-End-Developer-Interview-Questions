@@ -142,7 +142,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * List the last 5 books you read. 
 * Why are Quora's answers better than Yahoo Answers' ones?
 * Imagine there's a perfect clone of yourself. Imagine that that clone is your boss. Would you like to work for him/her?
-
+* Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
 
 ####[[↑]](#snippets) <a name='open'>Questions about snippets of code:</a>
 * What's the output of this Javascript function?

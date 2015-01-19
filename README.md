@@ -111,6 +111,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is Kanban?
 * What is the biggest difference between Agile and Waterfall?
 * Being a team manager, how would you deal with the problem of having too many meetings?
+* How would you manage a very late project?
 
 
 ####[[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>

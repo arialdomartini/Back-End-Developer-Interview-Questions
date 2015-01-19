@@ -11,6 +11,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ## <a name='toc'>Table of Contents</a>
 
   1. [General Questions](#general)
+  1. [Open Questions](#open)
   1. [Patterns Questions](#patterns)
   1. [Languages Questions](#languages)
   1. [Databases Questions](#databases)
@@ -21,7 +22,6 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [Questions about logic and algorithms](#algorithms)
   1. [Questions about Software Architecture](#architecture)
   1. [Questions about Security](#security)
-  1. [Open Questions](#open)
   1. [Questions based on snippets of code](#snippets)
 
 
@@ -36,6 +36,18 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What's the Object-Relational impedence mismatch?
 * What's the difference between design, architecture, functionality and aesthetic? Discuss
 * Which principles would you apply to define the size of a cache?
+
+
+####[[↑]](#toc) <a name='open'>Open Questions:</a>
+* What did you learn this week?
+* List the last 5 books you read. 
+* Why are Quora's answers better than Yahoo Answers' ones?
+* Imagine there's a perfect clone of yourself. Imagine that that clone is your boss. Would you like to work for him/her?
+* Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
+* What makes good code good?
+* Why do people resist change?
+* Why is writing software difficult? What makes maintaining software hard?
+
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Patterns:</a>
 
@@ -145,16 +157,6 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>
 * What's Two Factor Authentication? How would you implement it in an existing web application?
 
-
-####[[↑]](#toc) <a name='open'>Open Questions:</a>
-* What did you learn this week?
-* List the last 5 books you read. 
-* Why are Quora's answers better than Yahoo Answers' ones?
-* Imagine there's a perfect clone of yourself. Imagine that that clone is your boss. Would you like to work for him/her?
-* Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
-* What makes good code good?
-* Why do people resist change?
-* Why is writing software difficult? What makes maintaining software hard?
 
 ####[[↑]](#snippets) <a name='open'>Questions about snippets of code:</a>
 * What's the output of this Javascript function?

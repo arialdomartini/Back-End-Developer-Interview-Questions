@@ -56,6 +56,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 
+* Tell me the 3 worse defects of your preferred language
 * Why is there a rising interest about Functional Programming?
 * What is a closure, and what is useful for?
 * What are generics useful for? 
@@ -64,6 +65,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What does it mean when a language treats functions as first-class citizens?
 * Show me an example where an Anonymous Function can be useful
 * What is Dynamic Method Dispatch?
+ 
 
 
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>

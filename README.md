@@ -139,6 +139,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How would you defend the design of your systems against Vendor Lock-in?
 * What makes code readable?
 * What are the differences between Soa and Microservices?
+* What are the disadvantages of the Publish-Subscribe pattern at scale?
 
 
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>

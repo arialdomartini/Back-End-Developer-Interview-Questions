@@ -52,6 +52,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * The ability to change implementation without affecting clients is called Data Abstraction. Produce and example violating this property, then fix it.
 * Write a snippet of code violating the DRY principle. Then, fix it.
 * How would you deal with Dependency Hell?
+* Why is goto evil?
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 

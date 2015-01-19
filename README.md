@@ -135,6 +135,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Why doesn't CGI scale?
 * How would you defend the design of your systems against Vendor Lock-in?
 * What makes code readable?
+* What are the differences between Soa and Microservices?
+
 
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>
 * What's Two Factor Authentication? How would you implement it in an existing web application?

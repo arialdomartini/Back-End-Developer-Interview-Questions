@@ -151,7 +151,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
 * What makes good code good?
 * Why do people resist change?
-
+* Why is writing software difficult? What makes maintaining software hard?
 
 ####[[↑]](#snippets) <a name='open'>Questions about snippets of code:</a>
 * What's the output of this Javascript function?

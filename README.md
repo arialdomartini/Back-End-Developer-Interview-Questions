@@ -47,7 +47,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What makes good code good?
 * Why do people resist change?
 * Why is writing software difficult? What makes maintaining software hard?
-
+* Would you prefer working on Green Field or Brown Field projects? Why?
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Patterns:</a>
 

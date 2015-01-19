@@ -49,6 +49,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Why do people resist change?
 * Why is writing software difficult? What makes maintaining software hard?
 * Would you prefer working on Green Field or Brown Field projects? Why?
+* [What happens when you type google.com into your browser and press enter?](https://github.com/froztbyte/what-happens-when)
+
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Patterns:</a>
 

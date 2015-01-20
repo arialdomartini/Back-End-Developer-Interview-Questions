@@ -159,7 +159,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What makes code readable?
 * What are the differences between Soa and Microservices?
 * What are the disadvantages of the Publish-Subscribe pattern at scale?
-
+* When would you apply horizontal scaling and when vertical scaling?
 
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>
 * What's Two Factor Authentication? How would you implement it in an existing web application?

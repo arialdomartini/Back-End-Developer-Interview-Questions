@@ -53,6 +53,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Would you prefer working on Green Field or Brown Field projects? Why?
 * [What happens when you type google.com into your browser and press enter?](https://github.com/alex/what-happens-when)
 * As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
+* There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
+
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Patterns:</a>
 

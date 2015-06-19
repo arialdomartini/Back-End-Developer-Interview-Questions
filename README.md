@@ -39,6 +39,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What's the Object-Relational impedence mismatch?
 * What's the difference between design, architecture, functionality and aesthetic? Discuss
 * Which principles would you apply to define the size of a cache?
+* How do Companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
 
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>

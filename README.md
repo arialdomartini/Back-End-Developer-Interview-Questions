@@ -86,7 +86,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What does it mean when a language treats functions as first-class citizens?
 * Show me an example where an Anonymous Function can be useful
 * What is Dynamic Method Dispatch?
- 
+* What are namespaces useful for? Invent an alternative.
+
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>
 * Why first-party cookies and third-party cookies are treated so differently?

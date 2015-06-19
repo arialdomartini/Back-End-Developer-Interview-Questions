@@ -25,6 +25,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [Questions about logic and algorithms](#algorithms)
   1. [Questions about Software Architecture](#architecture)
   1. [Questions about Security](#security)
+  1. [Bill Gates Style Questions](#billgates)
   1. [Questions based on snippets of code](#snippets)
 
 
@@ -176,6 +177,10 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>
 * What's Two Factor Authentication? How would you implement it in an existing web application?
+
+
+####[[↑]](#billgates)) <a name='open'>Bill Gates Style Questions:</a>
+* What would happen if you put a mirror in a scanner?
 
 
 ####[[↑]](#snippets) <a name='open'>Questions about snippets of code:</a>

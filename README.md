@@ -72,6 +72,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Write a snippet of code violating the DRY principle. Then, fix it.
 * How would you deal with Dependency Hell?
 * Why is goto evil?
+* Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 

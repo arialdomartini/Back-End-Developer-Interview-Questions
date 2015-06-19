@@ -181,7 +181,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#billgates)) <a name='open'>Bill Gates Style Questions:</a>
 * What would happen if you put a mirror in a scanner?
 * Imagine there's a perfect clone of yourself. Imagine that that clone is your boss. Would you like to work for him/her?
-
+* Interview me
 
 ####[[↑]](#snippets) <a name='open'>Questions about snippets of code:</a>
 * What's the output of this Javascript function?

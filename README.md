@@ -166,6 +166,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * When would you apply horizontal scaling and when vertical scaling?
 * When is a cache not useful or even dangerous?
 * What's new in CPUs since the 80s, and how does it affect programming?
+* In which part of the lifecycle performace should be taken in consideration, and how?
+
 
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>
 * What's Two Factor Authentication? How would you implement it in an existing web application?

@@ -46,7 +46,6 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>
 * What did you learn this week?
 * List the last 5 books you read. 
-* Why are Quora's answers better than Yahoo Answers' ones?
 * Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
 * What makes good code good?
 * Why do people resist change?
@@ -183,6 +182,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What would happen if you put a mirror in a scanner?
 * Imagine there's a perfect clone of yourself. Imagine that that clone is your boss. Would you like to work for him/her?
 * Interview me
+* Why are Quora's answers better than Yahoo Answers' ones?
 
 
 ####[[↑]](#toc) <a name='snippets'>Questions about snippets of code:</a>

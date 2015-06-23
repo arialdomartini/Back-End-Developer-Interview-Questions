@@ -180,6 +180,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What's new in CPUs since the 80s, and how does it affect programming?
 * In which part of the lifecycle performance should be taken in consideration, and how?
 * How could a Denial of Service arise not maliciously but for a design or architectural problem?
+* Why does Event-Driven Architecture improve scalability?
 
 
 ####[[↑]](#toc) <a name='soa'>Questions about Service Oriented Architecture and Microservices:</a>

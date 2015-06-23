@@ -96,6 +96,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is Dynamic Method Dispatch?
 * What are namespaces useful for? Invent an alternative.
 * Talk about Interoperability between Java and C# (choose 2 other arbitrary languages)
+* Why do many software engineers not like Java?
 
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>

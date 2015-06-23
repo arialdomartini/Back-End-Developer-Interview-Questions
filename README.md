@@ -46,6 +46,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Why opening a TCP socket has a large overhead?
 * What's the difference between TCP and HTTP?
 * Remove the concept of "null" from your preferred language.
+* What are the tradeoffs of client-side rendering vs. server-side rendering?
+
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>
 * What did you learn this week?

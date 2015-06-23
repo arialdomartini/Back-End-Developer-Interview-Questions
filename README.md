@@ -169,6 +169,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Using your preferred language, write a REPL that echoes your inputs. Evolve it to make it an RPN calculator.
 * How would you design a "defragger" utility?
 * Write a programs that builds random mazes.
+* Write a sample code that produces a memory leak
+* Generate a sequence of unique random numbers
 
 
 ####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
@@ -233,6 +235,3 @@ ArrayList<Float> lf = new ArrayList<Float>();
 if (li.getClass() == lf.getClass()) // evaluates to true
   System.out.println("Equal");
 ```
-
-* Write a sample code that produces a memory leak
-* Generate a sequence of unique random numbers

@@ -187,6 +187,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How could a Denial of Service arise not maliciously but for a design or architectural problem?
 * Why does Event-Driven Architecture improve scalability?
 * What’s the relationship between Performance and Scalability?
+* When is it OK to use tight coupling?
 
 
 ####[[↑]](#toc) <a name='soa'>Questions about Service Oriented Architecture and Microservices:</a>

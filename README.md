@@ -44,6 +44,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Which principles would you apply to define the size of a cache?
 * How do Companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
 * Why opening a TCP socket has a large overhead?
+* What's the difference between TCP and HTTP?
 
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>

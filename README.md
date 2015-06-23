@@ -99,6 +99,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Talk about Interoperability between Java and C# (choose 2 other arbitrary languages)
 * Why do many software engineers not like Java?
 * What makes a good language good and a bad language bad?
+* Write two functions, one Referentially Transparent and the other one Referentially Opaque. Discuss.
 
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>
@@ -113,8 +114,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How would you manage database schema migrations?
 * How is Lazy Loading achieved? When is it useful? What are its pitfalls?
 * What's the N+1 problem?
-* Write two functions, one Referentially Transparent and the other one Referentially Opaque. Discuss.
 * How would you find the most expensive queries in an application?
+
 
 ####[[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
 

@@ -131,7 +131,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How to manage Fault Tolerance in a Web application? And in a Desktop one? 
 * What are the general pitfalls of Remote Procecure Call?
 * How to deal with failures in Distributed Systems?
-* How could a Denial of Service arise not maliciously but for a design or architectural problem?
+
 
 ####[[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>
 
@@ -172,6 +172,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What's new in CPUs since the 80s, and how does it affect programming?
 * In which part of the lifecycle performace should be taken in consideration, and how?
 * Why, in a SOA, long-lived transactions are discorauged and Sagas are suggested instead?
+* How could a Denial of Service arise not maliciously but for a design or architectural problem?
 
 
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>

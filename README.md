@@ -177,6 +177,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Generate a sequence of unique random numbers
 * Write a simple Garbage collection system
 * Write a basic message broker, using whatever language you like.
+* Write a very basic web server. Draw a road map for features to be implemented in the future.
 
 
 ####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>

@@ -176,6 +176,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Write a sample code that produces a memory leak
 * Generate a sequence of unique random numbers
 * Write a simple Garbage collection system
+* Write a basic message broker, using whatever language you like.
 
 
 ####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>

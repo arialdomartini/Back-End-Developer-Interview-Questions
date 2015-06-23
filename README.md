@@ -45,7 +45,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How do Companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
 * Why opening a TCP socket has a large overhead?
 * What's the difference between TCP and HTTP?
-
+* Remove the concept of "null" from your preferred language.
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>
 * What did you learn this week?

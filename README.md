@@ -25,6 +25,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [Questions about Software Lifecycle and Team Management](#management)
   1. [Questions about logic and algorithms](#algorithms)
   1. [Questions about Software Architecture](#architecture)
+  1. [Questions about Service Oriented Architecture and Microservics](#soa)
   1. [Questions about Security](#security)
   1. [Bill Gates Style Questions](#billgates)
   1. [Questions based on snippets of code](#snippets)
@@ -172,14 +173,17 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Why doesn't CGI scale?
 * How would you defend the design of your systems against Vendor Lock-in?
 * What makes code readable?
-* What are the differences between Soa and Microservices?
 * What are the disadvantages of the Publish-Subscribe pattern at scale?
 * When would you apply horizontal scaling and when vertical scaling?
 * When is a cache not useful or even dangerous?
 * What's new in CPUs since the 80s, and how does it affect programming?
 * In which part of the lifecycle performace should be taken in consideration, and how?
-* Why, in a SOA, long-lived transactions are discorauged and Sagas are suggested instead?
 * How could a Denial of Service arise not maliciously but for a design or architectural problem?
+
+
+####[[↑]](#toc) <a name='soa'>Questions about Service Oriented Architecture and Microservices:</a>
+* Why, in a SOA, long-lived transactions are discorauged and Sagas are suggested instead?
+* What are the differences between Soa and Microservices?
 
 
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>

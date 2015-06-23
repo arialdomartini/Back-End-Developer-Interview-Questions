@@ -117,6 +117,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
 
 * What is Eventual Consistency?
+* About the CAP Theorem, make examples of CP, AP and CA systems.
 
 
 ####[[↑]](#toc) <a name='codeversioning'>Questions about code versioning:</a>

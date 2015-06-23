@@ -101,6 +101,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What makes a good language good and a bad language bad?
 * Write two functions, one Referentially Transparent and the other one Referentially Opaque. Discuss.
 * Whats the Stack and what's the Heap?
+* Why is it important that in a language functions are first class citizen?
 
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>

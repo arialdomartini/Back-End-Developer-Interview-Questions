@@ -65,6 +65,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Defend the monolithic architecture
 * What does it mean to be a "Professional Developer"?
 * Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
+* "People who like this also like... ". How would you implement this feature in an e-commerce shop? 
 
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>

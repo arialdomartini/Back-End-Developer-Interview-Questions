@@ -97,6 +97,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What are namespaces useful for? Invent an alternative.
 * Talk about Interoperability between Java and C# (choose 2 other arbitrary languages)
 * Why do many software engineers not like Java?
+* What makes a good language good and a bad language bad?
 
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>
@@ -216,6 +217,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Why are Quora's answers better than Yahoo Answers' ones?
 * Defend Cobol against modern languages
 * Where will be you, in 10 years?
+
 
 ####[[↑]](#toc) <a name='snippets'>Questions about snippets of code:</a>
 * What's the output of this Javascript function?

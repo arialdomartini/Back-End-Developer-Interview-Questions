@@ -168,6 +168,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Write a tail-recursive version of the factorial function
 * Using your preferred language, write a REPL that echoes your inputs. Evolve it to make it an RPN calculator.
 * How would you design a "defragger" utility?
+* Write a programs that builds random mazes.
+
 
 ####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
 

@@ -60,6 +60,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
 * What does your computer do when you wait?
 * Explain Unicode/Database Transactions to a 5 year old child
+* Defend the monolithic architecture
 
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>

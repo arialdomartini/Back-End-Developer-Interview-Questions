@@ -43,6 +43,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What's the difference between design, architecture, functionality and aesthetic? Discuss
 * Which principles would you apply to define the size of a cache?
 * How do Companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
+* Why opening a TCP socket has a large overhead?
 
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>
@@ -76,6 +77,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How would you deal with Dependency Hell?
 * Why is goto evil?
 * Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
+
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 

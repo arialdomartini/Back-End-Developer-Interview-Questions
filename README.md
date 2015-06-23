@@ -207,6 +207,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Why does Event-Driven Architecture improve scalability?
 * What’s the relationship between Performance and Scalability?
 * When is it OK to use tight coupling?
+* What characteristic should a system have to be Cloud Ready?
 
 
 ####[[↑]](#toc) <a name='soa'>Questions about Service Oriented Architecture and Microservices:</a>

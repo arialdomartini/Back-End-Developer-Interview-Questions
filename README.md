@@ -133,12 +133,12 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='concurrency'>Questions about Concurrency:</a>
 
+* Why do we need Concurrency, anyway? Explain.
 * Why is testing multithreading / concurrent code so difficult? 
 * What is a Race Condition? Code an example, using whatever language you like.
 * What is a Deadlock? Explain using code.
 * What is Process Starvation?
 * What is a Wait Free algorithm?
-
 
 ####[[↑]](#toc) <a name='distributed'>Questions about Distributed Systems:</a>
 

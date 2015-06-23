@@ -159,7 +159,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How would you manage a very late project?
 * "*Individuals and interactions over processes and tools*" and "*Customer collaboration over contract negotiation*" comprise half of the values of the Agile Manifesto. Discuss
 * Tell me what decisions would you take if you could be the CTO of your Company.
-
+* Are Program Managers useful?
 
 ####[[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>
 

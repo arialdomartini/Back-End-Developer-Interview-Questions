@@ -214,7 +214,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='snippets'>Questions about snippets of code:</a>
 * What's the output of this Javascript function?
-```
+```javascript
 function hookupevents() {
   for (var i = 0; i < 3; i++) {
     document.getElementById("button" + i)
@@ -227,7 +227,7 @@ function hookupevents() {
 
 * About Type Erasure, what's the output of this Java snippet, and why?
 
-```
+```java
 ArrayList<Integer> li = new ArrayList<Integer>();
 ArrayList<Float> lf = new ArrayList<Float>();
 if (li.getClass() == lf.getClass()) // evaluates to true

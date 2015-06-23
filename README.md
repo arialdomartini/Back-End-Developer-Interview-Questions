@@ -19,7 +19,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [Web Questions](#web)
   1. [Databases Questions](#databases)
   1. [NoSQL Questions](#nosql)
-  1. [Code Revision Questions](#coderevision)
+  1. [Code Versioning Questions](#codeversioning)
   1. [Concurrency Questions](#concurrency)
   1. [Questions about Distributed Systems](#distributed)
   1. [Questions about Software Lifecycle and Team Management](#management)
@@ -114,7 +114,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is Eventual Consistency?
 
 
-####[[↑]](#toc) <a name='coderevision'>Questions about code revision:</a>
+####[[↑]](#toc) <a name='codeversioning'>Questions about code versioning:</a>
 
 * Why branching with Mercurial or git is easier than with SVN?
 * What are the pros and cons of Distributed Version Control Systems like git over Centralized ones like SVN?

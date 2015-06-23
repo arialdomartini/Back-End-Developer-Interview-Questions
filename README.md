@@ -188,7 +188,6 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 * What is CQRS (Command Query Responsibility Segregation)?
 * What is Three-Tier architecture? 
-* What are the pros and cons of MicroService architecture?
 * How would you design a software system for scalability?
 * What are the strategies to deal with the C10k problem?
 * How to deal with failover and user sessions?
@@ -213,6 +212,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Let's talk about web services versioning, version compatibility and breaking changes.
 * What's the difference between a transaction and a compensation operation in a saga, in SOA? 
 * When is a Microservice too micro?
+* What are the pros and cons of MicroService architecture?
 
 
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>

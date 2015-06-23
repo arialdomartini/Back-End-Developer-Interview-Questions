@@ -220,6 +220,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Defend Cobol against modern languages
 * Where will be you, in 10 years?
 * You are my boss and I'm fired. Inform me.
+* I want to refactor a legacy system. You want to rewrite it from scratch. Argument. Then, switch our roles.
 
 
 ####[[↑]](#toc) <a name='snippets'>Questions about snippets of code:</a>

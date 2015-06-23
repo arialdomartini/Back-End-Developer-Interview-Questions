@@ -155,6 +155,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How to manage Fault Tolerance in a Web application? And in a Desktop one? 
 * How to deal with failures in Distributed Systems?
 * Let's talk about the several approaches to Reconciliation after network partitions
+* What are the Fallacies of Distributed Computing? 
 
 
 ####[[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>

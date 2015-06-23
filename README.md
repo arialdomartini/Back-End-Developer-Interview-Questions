@@ -100,6 +100,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Why do many software engineers not like Java?
 * What makes a good language good and a bad language bad?
 * Write two functions, one Referentially Transparent and the other one Referentially Opaque. Discuss.
+* Whats the Stack and what's the Heap?
 
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>

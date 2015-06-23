@@ -184,6 +184,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='soa'>Questions about Service Oriented Architecture and Microservices:</a>
 * Why, in a SOA, long-lived transactions are discorauged and Sagas are suggested instead?
 * What are the differences between Soa and Microservices?
+* Let's talk about web services versioning, version compatibility and breaking changes.
 
 
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>

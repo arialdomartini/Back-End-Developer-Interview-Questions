@@ -205,6 +205,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Interview me
 * Why are Quora's answers better than Yahoo Answers' ones?
 * Defend Cobol against modern languages
+* Where will be you, in 10 years?
 
 ####[[↑]](#toc) <a name='snippets'>Questions about snippets of code:</a>
 * What's the output of this Javascript function?

@@ -204,7 +204,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Imagine there's a perfect clone of yourself. Imagine that that clone is your boss. Would you like to work for him/her?
 * Interview me
 * Why are Quora's answers better than Yahoo Answers' ones?
-
+* Defend Cobol against modern languages
 
 ####[[↑]](#toc) <a name='snippets'>Questions about snippets of code:</a>
 * What's the output of this Javascript function?

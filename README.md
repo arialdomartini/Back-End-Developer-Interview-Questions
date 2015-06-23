@@ -137,6 +137,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * If you are building a distributed system for scalability and robustness, what are the different things you'd think of in the case you are working in a closed and secure network environment or in geographically distributed and public system?
 * How to manage Fault Tolerance in a Web application? And in a Desktop one? 
 * How to deal with failures in Distributed Systems?
+* Let's talk about the several approaches to Reconciliation after network partitions
 
 
 ####[[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>

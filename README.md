@@ -89,6 +89,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Show me an example where an Anonymous Function can be useful
 * What is Dynamic Method Dispatch?
 * What are namespaces useful for? Invent an alternative.
+* Talk about Interoperability between Java and C# (choose 2 other arbitrary languages)
 
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>

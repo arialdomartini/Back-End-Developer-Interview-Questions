@@ -61,6 +61,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What does your computer do when you wait?
 * Explain Unicode/Database Transactions to a 5 year old child
 * Defend the monolithic architecture
+* What does it mean to be a "Professional Developer"?
 
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>

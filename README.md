@@ -62,6 +62,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Explain Unicode/Database Transactions to a 5 year old child
 * Defend the monolithic architecture
 * What does it mean to be a "Professional Developer"?
+* Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
 
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>

@@ -184,6 +184,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * In which part of the lifecycle performance should be taken in consideration, and how?
 * How could a Denial of Service arise not maliciously but for a design or architectural problem?
 * Why does Event-Driven Architecture improve scalability?
+* What’s the relationship between Performance and Scalability?
 
 
 ####[[↑]](#toc) <a name='soa'>Questions about Service Oriented Architecture and Microservices:</a>

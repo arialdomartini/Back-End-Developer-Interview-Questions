@@ -21,6 +21,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [NoSQL Questions](#nosql)
   1. [Code Revision Questions](#coderevision)
   1. [Concurrency Questions](#concurrency)
+  1. [Questions about Distributed Systems](#distributed)
   1. [Questions about Software Lifecycle and Team Management](#management)
   1. [Questions about logic and algorithms](#algorithms)
   1. [Questions about Software Architecture](#architecture)
@@ -126,10 +127,15 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is a Deadlock? Explain using code.
 * What is Process Starvation?
 * What is a Wait Free algorithm?
+
+
+####[[↑]](#toc) <a name='distributed'>Questions about Distributed Systems:</a>
+
+* How to test a distributed system?
 * In which case whould you apply asynchronously communication between two systems?
+* What are the general pitfalls of Remote Procecure Call?
 * If you are building a distributed system for scalability and robustness, what are the different things you'd think of in the case you are working in a closed and secure network environment or in geographically distributed and public system?
 * How to manage Fault Tolerance in a Web application? And in a Desktop one? 
-* What are the general pitfalls of Remote Procecure Call?
 * How to deal with failures in Distributed Systems?
 
 

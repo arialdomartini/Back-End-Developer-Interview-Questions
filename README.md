@@ -157,6 +157,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How to deal with failures in Distributed Systems?
 * Let's talk about the several approaches to Reconciliation after network partitions
 * What are the Fallacies of Distributed Computing? 
+* When would you use Request/Reply and when Publish/Subscribe?
 
 
 ####[[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>

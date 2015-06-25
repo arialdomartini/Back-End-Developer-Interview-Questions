@@ -164,7 +164,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 * What is agility?
 * How would you deal with Legacy Code?
-* What is Kanban?
+* I'm the CEO of your Company. Explain me Kanban and convince me to invest on it.
 * What is the biggest difference between Agile and Waterfall?
 * Being a team manager, how would you deal with the problem of having too many meetings?
 * How would you manage a very late project?

@@ -291,3 +291,28 @@ public class Stack {
     }
 }
 ```
+
+* `if`s and in general conditional statements lead to procedural and imperative programming. Can you get rid of this `switch` and make this snippet more objetct oriented?
+
+```java
+public class Formatter {
+
+    private Service service;
+
+    public Formatter(Service service) {
+        this.service = service;
+    }
+
+    public String doTheJob(String theInput) {
+        String response = service.askForPermission();
+        switch (response) {
+        case "FAIL":
+            return "error";
+        case "OK":
+            return String.format("%s%s", theInput, theInput);
+        default:
+            return null;
+        }
+    }
+}
+```

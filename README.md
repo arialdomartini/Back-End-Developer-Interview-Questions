@@ -33,7 +33,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='general'>General Questions:</a>
 
-* Why Functional Programming matters?
+* Why Functional Programming matters? When should a functional programming language be used?
 * What is Encapsulation important for?
 * What is a real-time system and how is it different from an ordinary system?
 * What's the relationship between real-time languages and heap memory allocation?

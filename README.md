@@ -91,7 +91,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 * Tell me the 3 worse defects of your preferred language
 * Why is there a rising interest about Functional Programming?
-* What is a closure, and what is useful for?
+* What is a closure, and what is useful for? What's in common between closures and classes?
 * What are generics useful for? 
 * What are high-order functions? What are they useful for? Write one, in your preferred language. 
 * Write a loop, then transform it into a recursive function, avoiding mutability. Discuss. 

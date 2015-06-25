@@ -194,7 +194,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
 
-* What is CQRS (Command Query Responsibility Segregation)?
+* What is CQRS (Command Query Responsibility Segregation)? How is it different from the oldest Command-Query Separation Principle?
 * What is Three-Tier architecture? 
 * How would you design a software system for scalability?
 * What are the strategies to deal with the C10k problem?

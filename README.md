@@ -126,6 +126,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 * What is Eventual Consistency?
 * About the CAP Theorem, make examples of CP, AP and CA systems.
+* How does NoSQL tackle scalability challenges?
 
 
 ####[[↑]](#toc) <a name='codeversioning'>Questions about code versioning:</a>

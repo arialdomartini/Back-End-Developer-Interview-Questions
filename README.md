@@ -221,6 +221,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What’s the relationship between Performance and Scalability?
 * When is it OK to use tight coupling?
 * What characteristic should a system have to be Cloud Ready?
+* Does unity of design imply an aristocracy of architects?
 
 
 ####[[↑]](#toc) <a name='soa'>Questions about Service Oriented Architecture and Microservices:</a>

@@ -15,6 +15,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [General Questions](#general)
   1. [Open Questions](#open)
   1. [Questions about Design Patterns](#patterns)
+  1. [Questions about Testing](#testing)
   1. [Languages Questions](#languages)
   1. [Web Questions](#web)
   1. [Databases Questions](#databases)
@@ -87,6 +88,10 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How would you deal with Dependency Hell?
 * Why is goto evil?
 * Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
+
+####[[↑]](#toc) <a name='testing'>Questions about Testing:</a>
+
+* What it the tests influence on design?
 
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>

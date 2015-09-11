@@ -96,6 +96,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What's the difference between cohesion and coupling?
 * What is refactoring useful for?
 * Are comments in code useful?
+* What is the difference between design and architecture?
+
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 

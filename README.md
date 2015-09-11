@@ -92,6 +92,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='design'>Questions about Code Design:</a>
 
 * What it the tests influence on design?
+* What's the difference between cohesion and coupling?
 
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>

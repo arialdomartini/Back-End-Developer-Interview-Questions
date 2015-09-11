@@ -70,6 +70,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Say your Company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?
 * What's the next thing you would automate in your current workflow?
 * Why are corporations slower than startups in innovating?
+* How would you introduce Continue Delivery in a multi million waterfall shop?
 
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>

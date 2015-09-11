@@ -93,7 +93,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 * What it the tests influence on design?
 * What's the difference between cohesion and coupling?
-
+* What is refactoring useful for?
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 

@@ -118,7 +118,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Write two functions, one Referentially Transparent and the other one Referentially Opaque. Discuss.
 * Whats the Stack and what's the Heap?
 * Why is it important that in a language functions are first class citizen?
-
+* How is Pattern Matching different than Switch clauses?
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>
 * Why first-party cookies and third-party cookies are treated so differently?

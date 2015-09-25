@@ -255,6 +255,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * You are my boss and I'm fired. Inform me.
 * I want to refactor a legacy system. You want to rewrite it from scratch. Argument. Then, switch our roles.
 * Your boss asks you to lie to the Company. What's your reaction?
+* If you could travel back in time, which advice would you give to your younger self?
 
 
 ####[[↑]](#toc) <a name='snippets'>Questions about snippets of code:</a>

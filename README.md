@@ -190,6 +190,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Are Program Managers useful?
 * Organize a development team using flexible schedules (that is, no imposed working hours) and "Take as you need" vacation policy
 * How would you manage a very high turn over and convince developers not to leave the team, without increasing compensation?
+* What are the top 3 qualities you look for in colleagues, beyond their code? 
 
 
 ####[[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>

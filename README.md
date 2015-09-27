@@ -16,7 +16,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [Open Questions](#open)
   1. [Questions about Design Patterns](#patterns)
   1. [Questions about Code Design](#design)
-  1. [Languages Questions](#languages)
+  1. [Questions about languages](#languages)
   1. [Web Questions](#web)
   1. [Databases Questions](#databases)
   1. [NoSQL Questions](#nosql)
@@ -120,6 +120,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Whats the Stack and what's the Heap?
 * Why is it important that in a language functions are first class citizen?
 * How is Pattern Matching different than Switch clauses?
+* Why do some languages have no exceptions by design? What are the pros and cons?
+
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>
 * Why first-party cookies and third-party cookies are treated so differently?

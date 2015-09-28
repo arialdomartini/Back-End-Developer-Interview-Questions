@@ -215,6 +215,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
 
+* Scale out vs scale up: how are they different? When to apply one, when the other?
 * What is CQRS (Command Query Responsibility Segregation)? How is it different from the oldest Command-Query Separation Principle?
 * What is Three-Tier architecture? 
 * How would you design a software system for scalability?

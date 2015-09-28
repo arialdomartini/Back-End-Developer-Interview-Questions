@@ -215,28 +215,29 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
 
+* When is a cache not useful or even dangerous?
+* Why does Event-Driven Architecture improve scalability?
+* What makes code readable?
+* What is the difference between emergent design and evolutionary architecture?
 * Scale out vs scale up: how are they different? When to apply one, when the other?
+* How to deal with failover and user sessions?
 * What is CQRS (Command Query Responsibility Segregation)? How is it different from the oldest Command-Query Separation Principle?
 * What is Three-Tier architecture? 
 * How would you design a software system for scalability?
 * What are the strategies to deal with the C10k problem?
-* How to deal with failover and user sessions?
 * How would you design a decentralized (that is, with no central server) P2P system?
 * Why doesn't CGI scale?
 * How would you defend the design of your systems against Vendor Lock-in?
-* What makes code readable?
 * What are the disadvantages of the Publish-Subscribe pattern at scale?
 * When would you apply horizontal scaling and when vertical scaling?
-* When is a cache not useful or even dangerous?
 * What's new in CPUs since the 80s, and how does it affect programming?
 * In which part of the lifecycle performance should be taken in consideration, and how?
 * How could a Denial of Service arise not maliciously but for a design or architectural problem?
-* Why does Event-Driven Architecture improve scalability?
 * What’s the relationship between Performance and Scalability?
 * When is it OK to use tight coupling?
 * What characteristic should a system have to be Cloud Ready?
 * Does unity of design imply an aristocracy of architects?
-* What is the difference between emergent design and evolutionary architecture?
+
 
 
 ####[[↑]](#toc) <a name='soa'>Questions about Service Oriented Architecture and Microservices:</a>

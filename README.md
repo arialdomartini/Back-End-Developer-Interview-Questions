@@ -34,47 +34,49 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='general'>General Questions:</a>
 
+* Remove the concept of "null" from your preferred language.
 * Why Functional Programming matters? When should a functional programming language be used?
+* What's the difference between design, architecture, functionality and aesthetic? Discuss
+* How do Companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
+* Why opening a TCP socket has a large overhead?
 * What is Encapsulation important for?
 * What is a real-time system and how is it different from an ordinary system?
 * What's the relationship between real-time languages and heap memory allocation?
 * Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How immutability can help writing safer code?
 * Pro and cons of mutable and unmutable values.
 * What's the Object-Relational impedence mismatch?
-* What's the difference between design, architecture, functionality and aesthetic? Discuss
 * Which principles would you apply to define the size of a cache?
-* How do Companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
-* Why opening a TCP socket has a large overhead?
 * What's the difference between TCP and HTTP?
-* Remove the concept of "null" from your preferred language.
 * What are the tradeoffs of client-side rendering vs. server-side rendering?
 
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>
-* What did you learn this week?
-* List the last 5 books you read. 
-* Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
-* What makes good code good?
 * Why do people resist change?
+* As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
+* What makes good code good?
+* Say your Company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?
+* What did you learn this week?
+* There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
+* List the last 5 books you read. 
+* How would you introduce Continue Delivery in a multi million waterfall shop?
+* Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
+* What's the next thing you would automate in your current workflow?
 * Why is writing software difficult? What makes maintaining software hard?
 * Would you prefer working on Green Field or Brown Field projects? Why?
 * [What happens when you type google.com into your browser and press enter?](https://github.com/alex/what-happens-when)
-* As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
-* There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
 * What does your computer do when you wait?
 * Explain Unicode/Database Transactions to a 5 year old child
 * Defend the monolithic architecture
 * What does it mean to be a "Professional Developer"?
 * Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
 * "People who like this also like... ". How would you implement this feature in an e-commerce shop? 
-* Say your Company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?
-* What's the next thing you would automate in your current workflow?
 * Why are corporations slower than startups in innovating?
-* How would you introduce Continue Delivery in a multi million waterfall shop?
 
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
 
+* Show with an example that global objects are evil.
+* Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
 * Tell me about the Hollywood Principle.
 * About the Law of Demeter (the Principle of Least Knowledge): write a code violating it, then fix it.
 * Which are the limits and pitfalls of Active-Record?
@@ -84,12 +86,11 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is an Anti-corruption Layer?
 * Could you write a Thread-Safe Singleton class?
 * Could you implement Objects in terms of Higher Order Functions, and vice-versa?
-* Show with an example that global objects are evil.
 * The ability to change implementation without affecting clients is called Data Abstraction. Produce and example violating this property, then fix it.
 * Write a snippet of code violating the DRY principle. Then, fix it.
 * How would you deal with Dependency Hell?
 * Why is goto evil?
-* Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
+
 
 ####[[↑]](#toc) <a name='design'>Questions about Code Design:</a>
 

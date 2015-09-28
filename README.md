@@ -121,6 +121,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Why is it important that in a language functions are first class citizen?
 * How is Pattern Matching different than Switch clauses?
 * Why do some languages have no exceptions by design? What are the pros and cons?
+* If `Cat` is an `Animal`, is `TakeCare<Cat>` a `TakeCare<Animal>`?
 
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>

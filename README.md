@@ -36,7 +36,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 * Remove the concept of "null" from your preferred language.
 * Why Functional Programming matters? When should a functional programming language be used?
-* What's the difference between design, architecture, functionality and aesthetic? Discuss
+* What's the difference between design, architecture, functionality and aesthetic? Discuss.
 * How do Companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
 * Why opening a TCP socket has a large overhead?
 * What is Encapsulation important for?
@@ -65,8 +65,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Would you prefer working on Green Field or Brown Field projects? Why?
 * [What happens when you type google.com into your browser and press enter?](https://github.com/alex/what-happens-when)
 * What does your computer do when you wait?
-* Explain Unicode/Database Transactions to a 5 year old child
-* Defend the monolithic architecture
+* Explain Unicode/Database Transactions to a 5 year old child.
+* Defend the monolithic architecture.
 * What does it mean to be a "Professional Developer"?
 * Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
 * "People who like this also like... ". How would you implement this feature in an e-commerce shop? 

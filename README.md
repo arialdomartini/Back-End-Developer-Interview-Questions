@@ -52,6 +52,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>
 * Why do people resist change?
+* Explain threads to your grandmother
 * As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
 * What makes good code good?
 * Say your Company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?

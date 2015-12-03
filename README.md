@@ -48,7 +48,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Which principles would you apply to define the size of a cache?
 * What's the difference between TCP and HTTP?
 * What are the tradeoffs of client-side rendering vs. server-side rendering?
-
+* How could you develop a reliable communication protocol based on a non-reliable one?
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>
 * Why do people resist change?

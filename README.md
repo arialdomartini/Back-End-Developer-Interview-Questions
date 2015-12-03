@@ -55,6 +55,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Explain threads to your grandmother
 * As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
 * What makes good code good?
+* Explain streaming and how you would implement it.
 * Say your Company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?
 * What did you learn this week?
 * There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?

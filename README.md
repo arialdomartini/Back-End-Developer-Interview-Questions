@@ -1,13 +1,13 @@
 Back-End Developer Interview Questions
 ======================================
 
-I'm not a big fan of asking technical questions in job interviews: I'd rather prefer to sit together with candidates in front of some real code, facing a real problem, and have a full day of pair programming rotating with all the team members. Yet, some technical questions could be used to start a deep and nice conversation, and this can be useful to get a deeper knowledge of eachothers.
+I'm not a big fan of asking technical questions in job interviews: I'd rather prefer to sit together with candidates in front of some real code, facing a real problem, and have a full day of pair programming rotating with all the team members. Yet, some technical questions could be used to start a deep and nice conversation, and this can be useful to get a deeper knowledge of each other.
 
 This repo contains a number of backend interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate (that would take hours). Choosing a few items from this list should help you vet the intended skills you require.
 
 This project is admittedly inspired by [Front-end Job Interview Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions) by [@darcyclarke](https://github.com/darcyclarke)
 
-**Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would. Again, I stress that just asking question is hardly sufficient. Complete the interview with a long pair programming session with your candidates: it is one of the best opportunities to know eachothers' style and approach and to let candidates know some details about their future dayjob.
+**Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would. Again, I stress that just asking question is hardly sufficient. Complete the interview with a long pair programming session with your candidates: it is one of the best opportunities to know each other's style and approach and to let candidates know some details about their future day job.
 
 
 ## <a name='toc'>Table of Contents</a>
@@ -26,7 +26,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [Questions about Software Lifecycle and Team Management](#management)
   1. [Questions about logic and algorithms](#algorithms)
   1. [Questions about Software Architecture](#architecture)
-  1. [Questions about Service Oriented Architecture and Microservics](#soa)
+  1. [Questions about Service Oriented Architecture and Microservices](#soa)
   1. [Questions about Security](#security)
   1. [Bill Gates Style Questions](#billgates)
   1. [Questions based on snippets of code](#snippets)
@@ -43,7 +43,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is a real-time system and how is it different from an ordinary system?
 * What's the relationship between real-time languages and heap memory allocation?
 * Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How immutability can help writing safer code?
-* Pro and cons of mutable and unmutable values.
+* Pro and cons of mutable and immutable values.
 * What's the Object-Relational impedence mismatch?
 * Which principles would you apply to define the size of a cache?
 * What's the difference between TCP and HTTP?
@@ -59,7 +59,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Say your Company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?
 * What did you learn this week?
 * There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
-* List the last 5 books you read. 
+* List the last 5 books you read.
 * How would you introduce Continue Delivery in a multi million waterfall shop?
 * Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
 * What's the next thing you would automate in your current workflow?
@@ -71,7 +71,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Defend the monolithic architecture.
 * What does it mean to be a "Professional Developer"?
 * Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
-* "People who like this also like... ". How would you implement this feature in an e-commerce shop? 
+* "People who like this also like... ". How would you implement this feature in an e-commerce shop?
 * Why are corporations slower than startups in innovating?
 
 
@@ -110,9 +110,9 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Tell me the 3 worse defects of your preferred language
 * Why is there a rising interest about Functional Programming?
 * What is a closure, and what is useful for? What's in common between closures and classes?
-* What are generics useful for? 
-* What are high-order functions? What are they useful for? Write one, in your preferred language. 
-* Write a loop, then transform it into a recursive function, avoiding mutability. Discuss. 
+* What are generics useful for?
+* What are high-order functions? What are they useful for? Write one, in your preferred language.
+* Write a loop, then transform it into a recursive function, avoiding mutability. Discuss.
 * What does it mean when a language treats functions as first-class citizens?
 * Show me an example where an Anonymous Function can be useful
 * What is Dynamic Method Dispatch?
@@ -163,7 +163,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='concurrency'>Questions about Concurrency:</a>
 
 * Why do we need Concurrency, anyway? Explain.
-* Why is testing multithreading / concurrent code so difficult? 
+* Why is testing multithreading / concurrent code so difficult?
 * What is a Race Condition? Code an example, using whatever language you like.
 * What is a Deadlock? Explain using code.
 * What is Process Starvation?
@@ -175,10 +175,10 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * In which case whould you apply asynchronously communication between two systems?
 * What are the general pitfalls of Remote Procecure Call?
 * If you are building a distributed system for scalability and robustness, what are the different things you'd think of in the case you are working in a closed and secure network environment or in geographically distributed and public system?
-* How to manage Fault Tolerance in a Web application? And in a Desktop one? 
+* How to manage Fault Tolerance in a Web application? And in a Desktop one?
 * How to deal with failures in Distributed Systems?
 * Let's talk about the several approaches to Reconciliation after network partitions
-* What are the Fallacies of Distributed Computing? 
+* What are the Fallacies of Distributed Computing?
 * When would you use Request/Reply and when Publish/Subscribe?
 
 
@@ -195,18 +195,17 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Are Program Managers useful?
 * Organize a development team using flexible schedules (that is, no imposed working hours) and "Take as you need" vacation policy
 * How would you manage a very high turn over and convince developers not to leave the team, without increasing compensation?
-* What are the top 3 qualities you look for in colleagues, beyond their code? 
+* What are the top 3 qualities you look for in colleagues, beyond their code?
 * What are the top 3 things you wish non-technical people knew about code?
-
 
 ####[[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>
 
 * Make a FIFO Queue using only LIFO Stacks. Then build a LIFO Stack using only FIFO Queues.
-* Write a snippet of code affected by a Stack Overflow 
+* Write a snippet of code affected by a Stack Overflow
 * Write a tail-recursive version of the factorial function
 * Using your preferred language, write a REPL that echoes your inputs. Evolve it to make it an RPN calculator.
 * How would you design a "defragger" utility?
-* Write a programs that builds random mazes.
+* Write a program that builds random mazes.
 * Write a sample code that produces a memory leak
 * Generate a sequence of unique random numbers
 * Write a simple Garbage collection system
@@ -225,7 +224,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Scale out vs scale up: how are they different? When to apply one, when the other?
 * How to deal with failover and user sessions?
 * What is CQRS (Command Query Responsibility Segregation)? How is it different from the oldest Command-Query Separation Principle?
-* What is Three-Tier architecture? 
+* What is Three-Tier architecture?
 * How would you design a software system for scalability?
 * What are the strategies to deal with the C10k problem?
 * How would you design a decentralized (that is, with no central server) P2P system?
@@ -247,7 +246,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Why, in a SOA, long-lived transactions are discorauged and Sagas are suggested instead?
 * What are the differences between Soa and Microservices?
 * Let's talk about web services versioning, version compatibility and breaking changes.
-* What's the difference between a transaction and a compensation operation in a saga, in SOA? 
+* What's the difference between a transaction and a compensation operation in a saga, in SOA?
 * When is a Microservice too micro?
 * What are the pros and cons of MicroService architecture?
 
@@ -262,7 +261,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Interview me
 * Why are Quora's answers better than Yahoo Answers' ones?
 * Defend Cobol against modern languages
-* Where will be you, in 10 years?
+* Where will you be in 10 years?
 * You are my boss and I'm fired. Inform me.
 * I want to refactor a legacy system. You want to rewrite it from scratch. Argument. Then, switch our roles.
 * Your boss asks you to lie to the Company. What's your reaction?
@@ -275,8 +274,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 function hookupevents() {
   for (var i = 0; i < 3; i++) {
     document.getElementById("button" + i)
-      .addEventListener("click", function() { 
-        alert(i); 
+      .addEventListener("click", function() {
+        alert(i);
       });
   }
 }
@@ -306,7 +305,7 @@ public class Stack {
         ensureCapacity();
         elements[size++] = e;
     }
-   
+
     public Object pop() {
         if (size == 0)
             throw new EmptyStackException();
@@ -324,7 +323,7 @@ public class Stack {
 }
 ```
 
-* `if`s and in general conditional statements lead to procedural and imperative programming. Can you get rid of this `switch` and make this snippet more objetct oriented?
+* `if`s and in general conditional statements lead to procedural and imperative programming. Can you get rid of this `switch` and make this snippet more object oriented?
 
 ```java
 public class Formatter {

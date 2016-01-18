@@ -48,7 +48,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What's the difference between TCP and HTTP?
 * What are the tradeoffs of client-side rendering vs. server-side rendering?
 * How could you develop a reliable communication protocol based on a non-reliable one?
-* [Tony Hoare](https://en.m.wikipedia.org/wiki/Tony_Hoare) who invented the null reference once said "I call it my billion-dollar mistake." since it lead to "innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years". Imagine you want to remove the possibility to have null references in your preferred language: how would you achieve this goal? What consequences could this have?
+* [Tony Hoare](https://en.m.wikipedia.org/wiki/Tony_Hoare) who invented the null reference once said "*I call it my billion-dollar mistake*" since it lead to "*innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years*". Imagine you want to remove the possibility to have null references in your preferred language: how would you achieve this goal? What consequences could this have?
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>
 * Why do people resist change?
@@ -73,6 +73,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
 * "People who like this also like... ". How would you implement this feature in an e-commerce shop?
 * Why are corporations slower than startups in innovating?
+* Why is it said that cryptography is not something you should try to invent or design yourself?
 
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
@@ -92,6 +93,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Write a snippet of code violating the DRY principle. Then, fix it.
 * How would you deal with Dependency Hell?
 * Why is goto evil?
+* The robustness principle is a general design guideline for software that recommends "*Be conservative in what you send, be liberal in what you accept*". It is often reworded as "*Be a tolerant reader and a careful writer*". Would you like to discuss the rationale of this principle?
+
 
 
 ####[[↑]](#toc) <a name='design'>Questions about Code Design:</a>
@@ -103,6 +106,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is the difference between design and architecture?
 * Why in TDD tests are written before code?
 * C++ supports multiple inheritance, and Java allows a class to implement multiple interfaces. What impact does using these facilities have on orthogonality? Is there a difference in impact between using multiple inheritance and multiple interfaces? Is there a difference between using delegation and using inheritance? [This question is from The Pragmatic Programmer, by Andrew .Hunt and David Thomas]
+* Pros and cons of holding domain logic in Stored Procedures.
 
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
@@ -128,6 +132,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * If `Cat` is an `Animal`, is `TakeCare<Cat>` a `TakeCare<Animal>`?
 
 
+
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>
 * Why first-party cookies and third-party cookies are treated so differently?
 
@@ -148,6 +153,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is Eventual Consistency?
 * About the CAP Theorem, make examples of CP, AP and CA systems.
 * How does NoSQL tackle scalability challenges?
+* In which case would you use a document database like MongoDB instead of a relational database like MySQL or PostgreSQL?
 
 
 ####[[↑]](#toc) <a name='codeversioning'>Questions about code versioning:</a>

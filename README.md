@@ -34,7 +34,6 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='general'>General Questions:</a>
 
-* Remove the concept of "null" from your preferred language.
 * Why Functional Programming matters? When should a functional programming language be used?
 * What's the difference between design, architecture, functionality and aesthetic? Discuss.
 * How do Companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
@@ -49,6 +48,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What's the difference between TCP and HTTP?
 * What are the tradeoffs of client-side rendering vs. server-side rendering?
 * How could you develop a reliable communication protocol based on a non-reliable one?
+* [Tony Hoare](https://en.m.wikipedia.org/wiki/Tony_Hoare) who invented the null reference once said "I call it my billion-dollar mistake." since it lead to "innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years". Imagine you want to remove the possibility to have null references in your preferred language: how would you achieve this goal? What consequences could this have?
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>
 * Why do people resist change?

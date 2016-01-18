@@ -43,7 +43,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What's the relationship between real-time languages and heap memory allocation?
 * Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How immutability can help writing safer code?
 * Pro and cons of mutable and immutable values.
-* What's the Object-Relational impedence mismatch?
+* What's the Object-Relational impedance mismatch?
 * Which principles would you apply to define the size of a cache?
 * What's the difference between TCP and HTTP?
 * What are the tradeoffs of client-side rendering vs. server-side rendering?

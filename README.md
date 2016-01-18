@@ -149,6 +149,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is Eventual Consistency?
 * About the CAP Theorem, make examples of CP, AP and CA systems.
 * How does NoSQL tackle scalability challenges?
+* In which case would you use a document database like MongoDB instead of a relational database like MySQL or PostgreSQL?
 
 
 ####[[↑]](#toc) <a name='codeversioning'>Questions about code versioning:</a>

@@ -231,7 +231,6 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Why doesn't CGI scale?
 * How would you defend the design of your systems against Vendor Lock-in?
 * What are the disadvantages of the Publish-Subscribe pattern at scale?
-* When would you apply horizontal scaling and when vertical scaling?
 * What's new in CPUs since the 80s, and how does it affect programming?
 * In which part of the lifecycle performance should be taken in consideration, and how?
 * How could a Denial of Service arise not maliciously but for a design or architectural problem?

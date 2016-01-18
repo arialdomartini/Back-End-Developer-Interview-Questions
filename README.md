@@ -103,6 +103,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is the difference between design and architecture?
 * Why in TDD tests are written before code?
 * C++ supports multiple inheritance, and Java allows a class to implement multiple interfaces. What impact does using these facilities have on orthogonality? Is there a difference in impact between using multiple inheritance and multiple interfaces? Is there a difference between using delegation and using inheritance? [This question is from The Pragmatic Programmer, by Andrew .Hunt and David Thomas]
+* Pros and cons of holding domain logic in Stored Procedures.
 
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>

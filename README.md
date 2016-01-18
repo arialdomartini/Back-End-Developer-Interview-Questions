@@ -73,6 +73,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
 * "People who like this also like... ". How would you implement this feature in an e-commerce shop?
 * Why are corporations slower than startups in innovating?
+* Why is it said that cryptography is not something you should try to invent or design yourself?
 
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
@@ -127,6 +128,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How is Pattern Matching different than Switch clauses?
 * Why do some languages have no exceptions by design? What are the pros and cons?
 * If `Cat` is an `Animal`, is `TakeCare<Cat>` a `TakeCare<Animal>`?
+
 
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>

@@ -93,6 +93,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Write a snippet of code violating the DRY principle. Then, fix it.
 * How would you deal with Dependency Hell?
 * Why is goto evil?
+* The robustness principle is a general design guideline for software that recommends "*Be conservative in what you send, be liberal in what you accept*". It is often reworded as "*Be a tolerant reader and a careful writer*". Would you like to discuss the rationale of this principle?
+
 
 
 ####[[↑]](#toc) <a name='design'>Questions about Code Design:</a>

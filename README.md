@@ -68,6 +68,9 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Write a snippet of code violating the DRY principle. Then, fix it.
 * How would you deal with Dependency Hell?
 * Why is goto evil?
+* What is coupling and cohesion?
+* Tell me about separation of concerns.
+
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 

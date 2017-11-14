@@ -55,7 +55,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='open'>Open Questions:</a>
 * Why do people resist change?
-* Explain threads to your grandmother
+* Explain threads to your grandparents
 * As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
 * What makes good code good?
 * Explain streaming and how you would implement it.

@@ -39,7 +39,6 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
 
 * WHy are global objects evil? Can you show it with a code example?
-* Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
 * Tell me about the Hollywood Principle.
 * About the Law of Demeter (the Principle of Least Knowledge): write a code violating it, then fix it.
 * Which are the limits and pitfalls of Active-Record?
@@ -151,6 +150,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * When would you use Request/Reply and when Publish/Subscribe?
 * Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when statefullness is bad?
 * REST and SOAP: when would you choose one, and when the other?
+* Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
 
 
 ####[[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>

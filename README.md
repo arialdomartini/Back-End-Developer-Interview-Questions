@@ -76,7 +76,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is a closure, and what is useful for? What's in common between closures and classes?
 * What are generics useful for?
 * What are high-order functions? What are they useful for? Write one, in your preferred language.
-* Write a loop, then transform it into a recursive function, avoiding mutability. Discuss.
+* Write a loop, then transform it into a recursive function, using only immutable structures (i.e. avoid using variables). Discuss.
 * What does it mean when a language treats functions as first-class citizens?
 * Show me an example where an Anonymous Function can be useful
 * What is Dynamic Method Dispatch?

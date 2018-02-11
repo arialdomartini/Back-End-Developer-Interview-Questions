@@ -140,6 +140,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>
 * Why first-party cookies and third-party cookies are treated so differently?
+* How would you manage Web Services API's versions?
 
 
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>
@@ -170,7 +171,6 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Why merges are easier with Mercurial and git than with SVN and CVS?
 
 
-
 ####[[↑]](#toc) <a name='concurrency'>Questions about Concurrency:</a>
 
 * Why do we need Concurrency, anyway? Explain.
@@ -179,6 +179,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What is a Deadlock? Would you be able to write some code that is affected by deadlocks?
 * What is Process Starvation?
 * What is a Wait Free algorithm?
+
 
 ####[[↑]](#toc) <a name='distributed'>Questions about Distributed Systems:</a>
 
@@ -193,6 +194,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * When would you use Request/Reply and when Publish/Subscribe?
 * Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when statefullness is bad?
 * REST and SOAP: when would you choose one and when the other?
+
 
 ####[[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>
 

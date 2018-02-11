@@ -134,6 +134,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How is Pattern Matching different than Switch clauses?
 * Why do some languages have no exceptions by design? What are the pros and cons?
 * If `Cat` is an `Animal`, is `TakeCare<Cat>` a `TakeCare<Animal>`?
+* Why in Java, C# and many other languages constructors are not part of the interface?
 
 
 

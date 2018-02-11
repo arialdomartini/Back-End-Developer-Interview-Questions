@@ -13,6 +13,13 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 **Note:** Keep in mind that many of these questions are open ended and could lead to interesting discussions that tell you more about the person's capabilities than a straight answer would. Again, I stress that just asking question is hardly sufficient. Complete the interview with a long pair programming session with your candidates: it is one of the best opportunities to know each other's style and approach and to let candidates know some details about their future day job.
 
 
+### Where are the answers?
+
+I started writing down this list for a very personal goal, as a reminder of topics I had the chance to discuss with colleagues and friends, and that I wanted to deepen...
+
+Sooner or later I will complete it with the relative answers. Feel free to contribute, it would be highly appreciated!
+
+
 ## <a name='toc'>Table of Contents</a>
 
   1. [Questions about Design Patterns](#patterns)

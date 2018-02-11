@@ -225,7 +225,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Write a very basic web server. Draw a road map for features to be implemented in the future.
 * How would you sort a 10GB file? How would your approach change with a 10TB one?
 * Implement a random number generator that does not emit duplicates (e.g, the Fisher–Yates shuffle)
-* 
+* How would you programmatically detect file duplicates?
 
 ####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
 

@@ -38,8 +38,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
 
-* WHy are global objects evil? Can you show it with a code example?
-* Tell me about the Hollywood Principle.
+* Why are global objects evil? Can you show it with a code example?
+* Tell me about Inversion of Control and how does it improve the design of code.
 * About the Law of Demeter (the Principle of Least Knowledge): write a code violating it, then fix it.
 * Which are the limits and pitfalls of Active-Record?
 * What are the differences between Active-Record and Data-Mapper?

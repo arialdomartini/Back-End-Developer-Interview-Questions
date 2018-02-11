@@ -95,7 +95,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>
 * Why first-party cookies and third-party cookies are treated so differently?
-* How would you manage Web Services API's versions?
+* How would you manage Web Services API versioning?
 
 
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>

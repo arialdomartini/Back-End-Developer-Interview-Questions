@@ -38,7 +38,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
 
-* Show with an example that global objects are evil.
+* WHy are global objects evil? Can you show it with a code example?
 * Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
 * Tell me about the Hollywood Principle.
 * About the Law of Demeter (the Principle of Least Knowledge): write a code violating it, then fix it.

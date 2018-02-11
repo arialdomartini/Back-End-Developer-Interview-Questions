@@ -255,7 +255,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What did you learn this week?
 * There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
 * List the last 5 books you read.
-* How would you introduce Continue Delivery in a multi million waterfall shop?
+* How would you introduce Continuous Delivery in a successful, huge company for which the change from Waterfall to Continuous Delivery would be not trivial, because of the size and complexity of the business?
 * Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
 * What's the next thing you would automate in your current workflow?
 * Why is writing software difficult? What makes maintaining software hard?

@@ -15,8 +15,6 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ## <a name='toc'>Table of Contents</a>
 
-  1. [General Questions](#general)
-  1. [Open Questions](#open)
   1. [Questions about Design Patterns](#patterns)
   1. [Questions about Code Design](#design)
   1. [Questions about languages](#languages)
@@ -31,51 +29,11 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
   1. [Questions about Software Architecture](#architecture)
   1. [Questions about Service Oriented Architecture and Microservices](#soa)
   1. [Questions about Security](#security)
+  1. [General Questions](#general)
+  1. [Open Questions](#open)
   1. [Bill Gates Style Questions](#billgates)
   1. [Questions based on snippets of code](#snippets)
 
-
-####[[↑]](#toc) <a name='general'>General Questions:</a>
-
-* Why Functional Programming matters? When should a functional programming language be used?
-* How do Companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
-* Why opening a TCP socket has a large overhead?
-* What is Encapsulation important for?
-* What is a real-time system and how is it different from an ordinary system?
-* What's the relationship between real-time languages and heap memory allocation?
-* Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How immutability can help writing safer code?
-* Pro and cons of mutable and immutable values.
-* What's the Object-Relational impedance mismatch?
-* Which principles would you apply to define the size of a cache?
-* What's the difference between TCP and HTTP?
-* What are the tradeoffs of client-side rendering vs. server-side rendering?
-* How could you develop a reliable communication protocol based on a non-reliable one?
-* [Tony Hoare](https://en.m.wikipedia.org/wiki/Tony_Hoare) who invented the null reference once said "*I call it my billion-dollar mistake*" since it lead to "*innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years*". Imagine you want to remove the possibility to have null references in your preferred language: how would you achieve this goal? What consequences could this have?
-
-####[[↑]](#toc) <a name='open'>Open Questions:</a>
-* Why do people resist change?
-* Explain threads to your grandmother
-* As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
-* What makes good code good?
-* Explain streaming and how you would implement it.
-* Say your Company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?
-* What did you learn this week?
-* There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
-* List the last 5 books you read.
-* How would you introduce Continue Delivery in a multi million waterfall shop?
-* Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
-* What's the next thing you would automate in your current workflow?
-* Why is writing software difficult? What makes maintaining software hard?
-* Would you prefer working on Green Field or Brown Field projects? Why?
-* [What happens when you type google.com into your browser and press enter?](https://github.com/alex/what-happens-when)
-* What does your computer do when you wait?
-* Explain Unicode/Database Transactions to a 5 year old child.
-* Defend the monolithic architecture.
-* What does it mean to be a "Professional Developer"?
-* Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
-* "People who like this also like... ". How would you implement this feature in an e-commerce shop?
-* Why are corporations slower than startups in innovating?
-* Why is it said that cryptography is not something you should try to invent or design yourself?
 
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
@@ -267,6 +225,51 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>
 * What's Two Factor Authentication? How would you implement it in an existing web application?
+
+
+####[[↑]](#toc) <a name='general'>General Questions:</a>
+
+* Why Functional Programming matters? When should a functional programming language be used?
+* How do Companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
+* Why opening a TCP socket has a large overhead?
+* What is Encapsulation important for?
+* What is a real-time system and how is it different from an ordinary system?
+* What's the relationship between real-time languages and heap memory allocation?
+* Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How immutability can help writing safer code?
+* Pro and cons of mutable and immutable values.
+* What's the Object-Relational impedance mismatch?
+* Which principles would you apply to define the size of a cache?
+* What's the difference between TCP and HTTP?
+* What are the tradeoffs of client-side rendering vs. server-side rendering?
+* How could you develop a reliable communication protocol based on a non-reliable one?
+* [Tony Hoare](https://en.m.wikipedia.org/wiki/Tony_Hoare) who invented the null reference once said "*I call it my billion-dollar mistake*" since it lead to "*innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years*". Imagine you want to remove the possibility to have null references in your preferred language: how would you achieve this goal? What consequences could this have?
+
+
+####[[↑]](#toc) <a name='open'>Open Questions:</a>
+* Why do people resist change?
+* Explain threads to your grandmother
+* As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
+* What makes good code good?
+* Explain streaming and how you would implement it.
+* Say your Company gives you one week you can use to improve your and your colleagues' lifes: how would you use that week?
+* What did you learn this week?
+* There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
+* List the last 5 books you read.
+* How would you introduce Continue Delivery in a multi million waterfall shop?
+* Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
+* What's the next thing you would automate in your current workflow?
+* Why is writing software difficult? What makes maintaining software hard?
+* Would you prefer working on Green Field or Brown Field projects? Why?
+* [What happens when you type google.com into your browser and press enter?](https://github.com/alex/what-happens-when)
+* What does your computer do when you wait?
+* Explain Unicode/Database Transactions to a 5 year old child.
+* Defend the monolithic architecture.
+* What does it mean to be a "Professional Developer"?
+* Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
+* "People who like this also like... ". How would you implement this feature in an e-commerce shop?
+* Why are corporations slower than startups in innovating?
+* Why is it said that cryptography is not something you should try to invent or design yourself?
+
 
 
 ####[[↑]](#toc) <a name='billgates'>Bill Gates Style Questions:</a>

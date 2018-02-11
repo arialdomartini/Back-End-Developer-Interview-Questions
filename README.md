@@ -251,7 +251,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What’s the relationship between Performance and Scalability?
 * When is it OK to use tight coupling?
 * What characteristic should a system have to be Cloud Ready?
-* Does unity of design imply an aristocracy of architects?
+* Does unity of design imply an aristocracy of architects? Put simple: can good design emerge from a collective effort of all developers?
 * What's the difference between design, architecture, functionality and aesthetic? Discuss.
 
 

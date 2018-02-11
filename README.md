@@ -38,7 +38,6 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='general'>General Questions:</a>
 
 * Why Functional Programming matters? When should a functional programming language be used?
-* What's the difference between design, architecture, functionality and aesthetic? Discuss.
 * How do Companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
 * Why opening a TCP socket has a large overhead?
 * What is Encapsulation important for?
@@ -130,12 +129,11 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What makes a good language good and a bad language bad?
 * Write two functions, one Referentially Transparent and the other one Referentially Opaque. Discuss.
 * Whats the Stack and what's the Heap?
-* Why is it important that in a language functions are first class citizen?
+* Why is it important that in a language functions are first class citizens?
 * How is Pattern Matching different than Switch clauses?
 * Why do some languages have no exceptions by design? What are the pros and cons?
 * If `Cat` is an `Animal`, is `TakeCare<Cat>` a `TakeCare<Animal>`?
 * Why in Java, C# and many other languages constructors are not part of the interface?
-
 
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>
@@ -166,8 +164,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 ####[[↑]](#toc) <a name='codeversioning'>Questions about code versioning:</a>
 
 * Why branching with Mercurial or git is easier than with SVN?
-* What are the pros and cons of Distributed Version Control Systems like git over Centralized ones like SVN?
-* Could you describe GitHubFLow and GitFlow workflows?
+* What are the pros and cons of Distributed Version Control Systems like Git over Centralized ones like SVN?
+* Could you describe GitHub Flow and GitFlow workflows?
 * What's a rebase?
 * Why merges are easier with Mercurial and git than with SVN and CVS?
 
@@ -194,7 +192,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What are the Fallacies of Distributed Computing?
 * When would you use Request/Reply and when Publish/Subscribe?
 * Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when statefullness is bad?
-* REST and SOAP: when would you choose one and when the other?
+* REST and SOAP: when would you choose one, and when the other?
 
 
 ####[[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>
@@ -213,6 +211,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * What are the top 3 qualities you look for in colleagues, beyond their code?
 * What are the top 3 things you wish non-technical people knew about code?
 
+
 ####[[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>
 
 * Make a FIFO Queue using only LIFO Stacks. Then build a LIFO Stack using only FIFO Queues.
@@ -228,6 +227,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Write a very basic web server. Draw a road map for features to be implemented in the future.
 * How would you sort a 10GB file? How would your approach change with a 10TB one?
 * How would you programmatically detect file duplicates?
+
 
 ####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
 
@@ -252,6 +252,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * When is it OK to use tight coupling?
 * What characteristic should a system have to be Cloud Ready?
 * Does unity of design imply an aristocracy of architects?
+* What's the difference between design, architecture, functionality and aesthetic? Discuss.
 
 
 

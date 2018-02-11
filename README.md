@@ -221,8 +221,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Write a basic message broker, using whatever language you like.
 * Write a very basic web server. Draw a road map for features to be implemented in the future.
 * How would you sort a 10GB file? How would your approach change with a 10TB one?
-* Implement the `rnd()` function.
-
+* Implement a random number generator that does not emit duplicates (e.g, the Fisher–Yates shuffle)
+* 
 
 ####[[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
 

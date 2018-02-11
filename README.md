@@ -58,7 +58,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 
 ####[[↑]](#toc) <a name='design'>Questions about Code Design:</a>
 
-* What it the tests influence on design?
+* How tests influence code design?
 * What's the difference between cohesion and coupling?
 * What is refactoring useful for?
 * Are comments in code useful?

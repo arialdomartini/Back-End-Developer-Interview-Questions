@@ -152,6 +152,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * How is Lazy Loading achieved? When is it useful? What are its pitfalls?
 * What's the N+1 problem?
 * How would you find the most expensive queries in an application?
+* In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?
 
 
 ####[[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>

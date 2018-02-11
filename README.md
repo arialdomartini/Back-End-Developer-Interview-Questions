@@ -191,7 +191,8 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Let's talk about the several approaches to Reconciliation after network partitions
 * What are the Fallacies of Distributed Computing?
 * When would you use Request/Reply and when Publish/Subscribe?
-* Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when statefullness is bad? 
+* Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when statefullness is bad?
+* REST and SOAP: when would you choose one and when the other?
 
 ####[[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>
 

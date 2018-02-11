@@ -261,7 +261,7 @@ This project is admittedly inspired by [Front-end Job Interview Questions](https
 * Why is writing software difficult? What makes maintaining software hard?
 * Would you prefer working on Green Field or Brown Field projects? Why?
 * [What happens when you type google.com into your browser and press enter?](https://github.com/alex/what-happens-when)
-* What does your computer do when you wait?
+* What does an Operating System do when it has got no custom code to run, and therefore it looks idle? I would like to start a discussions about interrupts, daemons, background services, polling, event handling and so on.
 * Explain Unicode/Database Transactions to a 5 year old child.
 * Defend the monolithic architecture.
 * What does it mean to be a "Professional Developer"?

@@ -42,7 +42,6 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   1. [Questions based on snippets of code](#snippets)
 
 
-* Explain threads to your grandparents
 
 #### [[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
 
@@ -278,7 +277,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 #### [[↑]](#toc) <a name='open'>Open Questions:</a>
 * Why do people resist change?
-* Explain threads to your grandmother
+* Explain threads to your grandparents
 * As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
 * What makes good code good?
 * Explain streaming and how you would implement it.

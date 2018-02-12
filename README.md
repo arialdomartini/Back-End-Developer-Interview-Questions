@@ -302,6 +302,8 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 
 ### [[↑]](#toc) <a name='billgates'>Bill Gates Style Questions:</a>
+This section collects some weird questions along the lines of the [Manhole Cover Question](https://en.wikipedia.org/wiki/Microsoft_interview#Manhole_cover_question).
+
 * What would happen if you put a mirror in a scanner?
 * Imagine there's a perfect clone of yourself. Imagine that that clone is your boss. Would you like to work for him/her?
 * Interview me

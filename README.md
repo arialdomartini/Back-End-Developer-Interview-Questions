@@ -43,7 +43,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 
 
-#### [[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
+### [[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
 
 * Why are global objects and static evil? Can you show it with a code example?
 * Tell me about Inversion of Control and how does it improve the design of code.
@@ -62,7 +62,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Separation of Concerns is a design principle for separating a computer program into distinct areas, each of ones addressing a separate concern. There are a lot of different mechanisms for achieving Separation of Concerns (use of objects, functions, modules, or patterns such as MVC and the like). Would you discuss this topic?
 
 
-#### [[↑]](#toc) <a name='design'>Questions about Code Design:</a>
+### [[↑]](#toc) <a name='design'>Questions about Code Design:</a>
 
 * It is often heard that one of the most important goals in Object-Oriented Design (and code design in general) is to have High Cohesion and Loose Coupling. What does it mean? Why is it that important and how is it achieved?
 * Why does array index start with '0' in most of languages?
@@ -80,7 +80,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * What would you do to understand if your code has a bad design?
 
 
-#### [[↑]](#toc) <a name='languages'>Questions about Languages:</a>
+### [[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 
 * Tell me the 3 worse defects of your preferred language
 * Why is there a rising interest about Functional Programming?
@@ -107,7 +107,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 
 
-#### [[↑]](#toc) <a name='web'>Questions about Web development:</a>
+### [[↑]](#toc) <a name='web'>Questions about Web development:</a>
 * Why first-party cookies and third-party cookies are treated so differently?
 * How would you manage Web Services API versioning?
 * From a Back End perspective, are there any disadvantages or drawbacks on the adopion of Single Page Applications?
@@ -116,7 +116,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * In Web development, Model-View Controller and Model-View-View-Model approaches are very common, both in the Back End and in the Fron End. What are they, and why are they advisable?
 
 
-#### [[↑]](#toc) <a name='databases'>Questions about Databases:</a>
+### [[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 
 * How would you manage the migration of a project from MySQL to PostgreSQL?
 * Why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ``field``?
@@ -129,7 +129,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Of of the Continuous Integration's techniques is called Blue-Green Deployment: it consists in having two production environments, as identical as possible, and in performing the deployment in one of them while the other one is still operating, and than in safely switching the traffic to the second one after some convenient testing. This technique becomes more complicated when the deployment includes changes to the database structure or content. I'd like to discuss this topic with you.
 
 
-#### [[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
+### [[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
 
 * What is Eventual Consistency?
 * About the CAP Theorem, make examples of CP, AP and CA systems.
@@ -138,7 +138,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * In which case would you use a document database like MongoDB instead of a relational database like MySQL or PostgreSQL?
 
 
-#### [[↑]](#toc) <a name='codeversioning'>Questions about code versioning:</a>
+### [[↑]](#toc) <a name='codeversioning'>Questions about code versioning:</a>
 
 * Why is branching with Mercurial or git easier than with SVN?
 * What are the pros and cons of Distributed Version Control Systems like Git over Centralized ones like SVN?
@@ -147,7 +147,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Why merges are easier with Mercurial and git than with SVN and CVS?
 
 
-#### [[↑]](#toc) <a name='concurrency'>Questions about Concurrency:</a>
+### [[↑]](#toc) <a name='concurrency'>Questions about Concurrency:</a>
 
 * Why do we need Concurrency, anyway? Explain.
 * Why is testing multithreading / concurrent code so difficult?
@@ -157,7 +157,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * What is a Wait Free algorithm?
 
 
-#### [[↑]](#toc) <a name='distributed'>Questions about Distributed Systems:</a>
+### [[↑]](#toc) <a name='distributed'>Questions about Distributed Systems:</a>
 
 * How to test a distributed system?
 * In which case whould you apply asynchronously communication between two systems?
@@ -171,7 +171,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
 
 
-#### [[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>
+### [[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>
 
 * What is agility?
 * How would you deal with Legacy Code?
@@ -190,7 +190,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Imagine your company gives you 1 month and some budget to improve your and your colleagues' daily life. What would you do?
 
 
-#### [[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>
+### [[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>
 
 * Make a FIFO Queue using only LIFO Stacks. Then build a LIFO Stack using only FIFO Queues.
 * Write a snippet of code affected by a Stack Overflow
@@ -207,7 +207,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * How would you programmatically detect file duplicates?
 
 
-#### [[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
+### [[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
 
 * When is a cache not useful or even dangerous?
 * Why does Event-Driven Architecture improve scalability?
@@ -234,7 +234,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 
 
-#### [[↑]](#toc) <a name='soa'>Questions about Service Oriented Architecture and Microservices:</a>
+### [[↑]](#toc) <a name='soa'>Questions about Service Oriented Architecture and Microservices:</a>
 * Why, in a SOA, long-lived transactions are discorauged and Sagas are suggested instead?
 * What are the differences between Soa and Microservices?
 * Let's talk about web services versioning, version compatibility and breaking changes.
@@ -243,7 +243,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * What are the pros and cons of MicroService architecture?
 
 
-#### [[↑]](#toc) <a name='security'>Questions about Security:</a>
+### [[↑]](#toc) <a name='security'>Questions about Security:</a>
 * How to write secure code? In your opinion, is it one of the developer's duties, or does it require a specialized role in the Company? And why?
 * Why is it said that cryptography is not something you should try to invent or design yourself?
 * What's Two Factor Authentication? How would you implement it in an existing web application?
@@ -257,7 +257,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * How can you prevent the user session to be stolen? Chances are you remember what Session or Cookie Hijacking is, otherwise let's read its Wikipedia page together.
 
 
-#### [[↑]](#toc) <a name='general'>General Questions:</a>
+### [[↑]](#toc) <a name='general'>General Questions:</a>
 
 * Why Functional Programming matters? When should a functional programming language be used?
 * How do companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
@@ -275,7 +275,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * [Tony Hoare](https://en.m.wikipedia.org/wiki/Tony_Hoare) who invented the null reference once said "*I call it my billion-dollar mistake*" since it lead to "*innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years*". Imagine you want to remove the possibility to have null references in your preferred language: how would you achieve this goal? What consequences could this have?
 
 
-#### [[↑]](#toc) <a name='open'>Open Questions:</a>
+### [[↑]](#toc) <a name='open'>Open Questions:</a>
 * Why do people resist change?
 * Explain threads to your grandparents
 * As a software engineer you want both to innovate and to be predictable. How those 2 goals can coexist in the same strategy?
@@ -302,7 +302,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * What have you achieved recently that you are proud of?
 
 
-#### [[↑]](#toc) <a name='billgates'>Bill Gates Style Questions:</a>
+### [[↑]](#toc) <a name='billgates'>Bill Gates Style Questions:</a>
 * What would happen if you put a mirror in a scanner?
 * Imagine there's a perfect clone of yourself. Imagine that that clone is your boss. Would you like to work for him/her?
 * Interview me
@@ -315,7 +315,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * If you could travel back in time, which advice would you give to your younger self?
 
 
-#### [[↑]](#toc) <a name='snippets'>Questions about snippets of code:</a>
+### [[↑]](#toc) <a name='snippets'>Questions about snippets of code:</a>
 * What's the output of this Javascript function?
 ```javascript
 function hookupevents() {

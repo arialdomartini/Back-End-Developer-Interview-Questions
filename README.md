@@ -118,7 +118,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 ### [[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 
 * How would you manage the migration of a project from MySQL to PostgreSQL?
-* Why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ``field``?
+* Why databases treat null as a so special case? For example, why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ``field``?
 * What's ACID (Atomicity, Consistency, Isolation, Durability)?
 * How would you manage database schema migrations?
 * How is Lazy Loading achieved? When is it useful? What are its pitfalls?

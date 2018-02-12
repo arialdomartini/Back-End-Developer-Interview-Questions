@@ -169,6 +169,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 * What is agility?
 * How would you deal with Legacy Code?
+* Say I'm your Project Manager, and I'm no expert in programming. Would you try explaining me what Legacy Code is and why should I care about code quality?
 * I'm the CEO of your Company. Explain me Kanban and convince me to invest on it.
 * What is the biggest difference between Agile and Waterfall?
 * Being a team manager, how would you deal with the problem of having too many meetings?

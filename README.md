@@ -98,6 +98,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Why do some languages have no exceptions by design? What are the pros and cons?
 * If `Cat` is an `Animal`, is `TakeCare<Cat>` a `TakeCare<Animal>`?
 * Why in Java, C# and many other languages constructors are not part of the interface?
+* In the last years there has been a lot of hype on Node. What's your opinion on the use in the back end of a language that was initially conceived to run in the browser?
 
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>

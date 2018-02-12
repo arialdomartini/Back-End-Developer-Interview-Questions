@@ -295,7 +295,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * "People who like this also like... ". How would you implement this feature in an e-commerce shop?
 * Why are corporations slower than startups in innovating?
 * Why is it said that cryptography is not something you should try to invent or design yourself?
-
+* What have you achieved recently that you are proud of?
 
 
 ####[[↑]](#toc) <a name='billgates'>Bill Gates Style Questions:</a>

@@ -45,7 +45,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
 
-* Why are global objects evil? Can you show it with a code example?
+* Why are global objects and static evil? Can you show it with a code example?
 * Tell me about Inversion of Control and how does it improve the design of code.
 * About the Law of Demeter (the Principle of Least Knowledge): write a code violating it, then fix it.
 * Which are the limits and pitfalls of Active-Record?
@@ -64,7 +64,9 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 ####[[↑]](#toc) <a name='design'>Questions about Code Design:</a>
 
-* How tests influence code design?
+* It is often heard that one of the most important goals in Object-Oriented Design (and code design in general) is to have High Cohesion and Loose Coupling. What does it mean? Why is it that important and how is it achieved?
+* Why does array index start with '0' in most of the languages?
+* How tests and TDD influence code design?
 * What's the difference between cohesion and coupling?
 * What is refactoring useful for?
 * Are comments in code useful?
@@ -72,7 +74,6 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Why in TDD tests are written before code?
 * C++ supports multiple inheritance, and Java allows a class to implement multiple interfaces. What impact does using these facilities have on orthogonality? Is there a difference in impact between using multiple inheritance and multiple interfaces? Is there a difference between using delegation and using inheritance? [This question is from The Pragmatic Programmer, by Andrew Hunt and David Thomas]
 * Pros and cons of holding domain logic in Stored Procedures.
-* Why does array index start with '0' in most of the languages?
 
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
@@ -240,8 +241,6 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * How does HTTPS work?
 * What's a Man-in-the-middle Attack? And why does HTTPS can help protecting against it?
 * How can you prevent the user session to be stolen? Chances are you remember what Session or Cookie Hijacking is, otherwise let's read its Wikipedia page together.
-
-
 
 
 ####[[↑]](#toc) <a name='general'>General Questions:</a>

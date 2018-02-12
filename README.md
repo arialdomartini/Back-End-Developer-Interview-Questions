@@ -47,7 +47,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 * Why are global objects and static evil? Can you show it with a code example?
 * Tell me about Inversion of Control and how does it improve the design of code.
-* About the Law of Demeter (the Principle of Least Knowledge): write a code violating it, then fix it.
+* The Law of Demeter (the Principle of Least Knowledge) states that each unit should have only limited knowledge about other units and it should only talk to its immediate friends (sometimes stated as "Don't talk to strangers"). Would you write a code violating this principle, show why it is a bad design and then fix it?
 * Which are the limits and pitfalls of Active-Record?
 * What are the differences between Active-Record and Data-Mapper?
 * What is the intent of the Null Object Pattern?

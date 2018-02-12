@@ -60,8 +60,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * How would you deal with Dependency Hell?
 * Why is goto evil?
 * The robustness principle is a general design guideline for software that recommends "*Be conservative in what you send, be liberal in what you accept*". It is often reworded as "*Be a tolerant reader and a careful writer*". Would you like to discuss the rationale of this principle?
-* What is coupling and cohesion principle?
-* Tell me about separation of concerns.
+* Separation of Concerns is a design principle for separating a computer program into distinct areas, each of ones addressing a separate concern. There are a lot of different mechanisms for achieving Separation of Concerns (use of objects, functions, modules, or patterns such as MVC and the like). Would you discuss this topic?
 
 
 ####[[↑]](#toc) <a name='design'>Questions about Code Design:</a>

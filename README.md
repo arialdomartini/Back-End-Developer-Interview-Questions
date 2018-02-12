@@ -105,6 +105,8 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Why first-party cookies and third-party cookies are treated so differently?
 * How would you manage Web Services API versioning?
 * From a Back End perspective, are there any disadvantages or drawbacks on the adopion of Single Page Applications?
+* Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when statefullness is bad?
+* REST and SOAP: when would you choose one, and when the other?
 
 
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>
@@ -159,8 +161,6 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Let's talk about the several approaches to Reconciliation after network partitions
 * What are the Fallacies of Distributed Computing?
 * When would you use Request/Reply and when Publish/Subscribe?
-* Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when statefullness is bad?
-* REST and SOAP: when would you choose one, and when the other?
 * Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
 
 

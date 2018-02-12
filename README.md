@@ -92,9 +92,9 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Why do many software engineers not like Java?
 * What makes a good language good and a bad language bad?
 * Write two functions, one Referentially Transparent and the other one Referentially Opaque. Discuss.
-* Whats the Stack and what's the Heap?
+* Whats the Stack and what's the Heap? What's a Stack Overflow?
 * Why is it important that in a language functions are first class citizens?
-* How is Pattern Matching different than Switch clauses?
+* Some languages, expecially the ones that promote a Functional approach, allow a technique called Pattern Matching. Do you know it? How is Pattern Matching different from Switch clauses?
 * Why do some languages have no exceptions by design? What are the pros and cons?
 * If `Cat` is an `Animal`, is `TakeCare<Cat>` a `TakeCare<Animal>`?
 * Why in Java, C# and many other languages constructors are not part of the interface?

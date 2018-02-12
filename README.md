@@ -142,7 +142,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Why is testing multithreading / concurrent code so difficult?
 * What is a Race Condition? Code an example, using whatever language you like.
 * What is a Deadlock? Would you be able to write some code that is affected by deadlocks?
-* What is Process Starvation?
+* What is Process Starvation? If you need, let's review its definition.
 * What is a Wait Free algorithm?
 
 
@@ -174,7 +174,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Tell me what decisions would you take if you could be the CTO of your Company.
 * Are Program Managers useful?
 * Organize a development team using flexible schedules (that is, no imposed working hours) and "Take as you need" vacation policy
-* How would you manage a very high turn over and convince developers not to leave the team, without increasing compensation?
+* How would you manage a very high turn over and convince developers not to leave the team, without increasing compensation? What could a Company improve to make them stay?
 * What are the top 3 qualities you look for in colleagues, beyond their code?
 * What are the top 3 things you wish non-technical people knew about code?
 

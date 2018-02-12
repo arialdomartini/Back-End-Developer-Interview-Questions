@@ -9,7 +9,8 @@ I'm not a big fan of asking technical questions in job interviews: I'd rather pr
 
 This repo contains a number of backend interview questions that can be used when vetting potential candidates. It is by no means recommended to use every single question here on the same candidate: that would take hours, and would have no sense at all, as they cover a too broad set of topics no single developer would probably have such a broad knowledge. Choosing a few selected items from this list should help you vet the intended skills you require.
 
-** Note** Most of the questions are open-ended, and they just don't have a **right** answer. On the contrary, they are intended to be used as the starting point for a conversation that hopefully tell you more about the person's capabilities than a straight answer would.
+### Notice
+Most of the questions are open-ended, and they just don't have a **right** answer. On the contrary, they are intended to be used as the starting point for a conversation that hopefully tell you more about the person's capabilities than a straight answer would.
 
 Again, I stress that just asking questions is hardly sufficient. Complete the interview with a long pair programming session with your candidates: it is one of the best opportunities to know each other's style and approach and to let candidates know some details about their future day job.
 

@@ -50,7 +50,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * The Law of Demeter (the Principle of Least Knowledge) states that each unit should have only limited knowledge about other units and it should only talk to its immediate friends (sometimes stated as "Don't talk to strangers"). Would you write a code violating this principle, show why it is a bad design and then fix it?
 * Active-Record is the design pattern that promotes objects to include functions such as Insert, Update, and Delete, and properties that correspond to the columns in some underlying database table. In your opinion and experience, which are the limits and pitfalls of the this pattern?
 * What are the differences between Active-Record and Data-Mapper?
-* What is the intent of the Null Object Pattern?
+* Why it is often said that the introduction of `null` is a "Billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
 * Why is Composition often better than Inheritance?
 * What is an Anti-corruption Layer?
 * Could you write a Thread-Safe Singleton class?

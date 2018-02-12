@@ -75,6 +75,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * C++ supports multiple inheritance, and Java allows a class to implement multiple interfaces. What impact does using these facilities have on orthogonality? Is there a difference in impact between using multiple inheritance and multiple interfaces? Is there a difference between using delegation and using inheritance? [This question is from The Pragmatic Programmer, by Andrew Hunt and David Thomas]
 * Pros and cons of holding domain logic in Stored Procedures.
 * In your opinion, why have Object-Oriented Design dominated the market for so many years?
+* What would you do to understand if your code has a bad design?
 
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>

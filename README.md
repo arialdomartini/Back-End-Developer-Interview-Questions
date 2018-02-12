@@ -104,6 +104,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>
 * Why first-party cookies and third-party cookies are treated so differently?
 * How would you manage Web Services API versioning?
+* From a Back End perspective, are there any disadvantages or drawbacks on the adopion of Single Page Applications?
 
 
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>

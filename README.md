@@ -69,7 +69,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, explain why is it a bad design, and fix it.
 * What's the difference between cohesion and coupling?
 * What is refactoring useful for?
-* Are comments in code useful?
+* Are comments in code useful? Some say they should be avoided as much as possible, and hopefully made unnecessary. Do you agree?
 * What is the difference between design and architecture?
 * Why in TDD tests are written before code?
 * C++ supports multiple inheritance, and Java allows a class to implement multiple interfaces. What impact does using these facilities have on orthogonality? Is there a difference in impact between using multiple inheritance and multiple interfaces? Is there a difference between using delegation and using inheritance? [This question is from The Pragmatic Programmer, by Andrew Hunt and David Thomas]

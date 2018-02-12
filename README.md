@@ -45,15 +45,15 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 ####[[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
 
-* Why are global objects evil? Can you show it with a code example?
+* Why are global objects and static evil? Can you show it with a code example?
 * Tell me about Inversion of Control and how does it improve the design of code.
-* About the Law of Demeter (the Principle of Least Knowledge): write code violating it, then fix it.
-* Which are the limits and pitfalls of Active-Record?
+* The Law of Demeter (the Principle of Least Knowledge) states that each unit should have only limited knowledge about other units and it should only talk to its immediate friends (sometimes stated as "Don't talk to strangers"). Would you write code violating this principle, show why it is a bad design and then fix it?
+* Active-Record is the design pattern that promotes objects to include functions such as Insert, Update, and Delete, and properties that correspond to the columns in some underlying database table. In your opinion and experience, which are the limits and pitfalls of the this pattern?
 * What are the differences between Active-Record and Data-Mapper?
-* What is the intent of the Null Object Pattern?
+* Why it is often said that the introduction of `null` is a "Billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
 * Why is Composition often better than Inheritance?
 * What is an Anti-corruption Layer?
-* Could you write a Thread-Safe Singleton class?
+* Singleton is a design pattern that restricts the instantiation of a class to one single object. Writing a Thread-Safe Singleton class is not so obvious. Would you try?
 * The ability to change implementation without affecting clients is called Data Abstraction. Produce and example violating this property, then fix it.
 * Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, fix it.
 * How would you deal with Dependency Hell?
@@ -64,15 +64,20 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 ####[[↑]](#toc) <a name='design'>Questions about Code Design:</a>
 
-* How do tests influence code design?
+* It is often heard that one of the most important goals in Object-Oriented Design (and code design in general) is to have High Cohesion and Loose Coupling. What does it mean? Why is it that important and how is it achieved?
+* Why does array index start with '0' in most of languages?
+* How do tests and TDD influence code design?
+* Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, explain why is it a bad design, and fix it.
 * What's the difference between cohesion and coupling?
 * What is refactoring useful for?
-* Are comments in code useful?
+* Are comments in code useful? Some say they should be avoided as much as possible, and hopefully made unnecessary. Do you agree?
 * What is the difference between design and architecture?
-* Why in TDD are tests are written before code?
+* Why in TDD are tests written before code?
 * C++ supports multiple inheritance, and Java allows a class to implement multiple interfaces. What impact does using these facilities have on orthogonality? Is there a difference in impact between using multiple inheritance and multiple interfaces? Is there a difference between using delegation and using inheritance? [This question is from The Pragmatic Programmer, by Andrew Hunt and David Thomas]
 * Pros and cons of holding domain logic in Stored Procedures.
+* In your opinion, why have Object-Oriented Design dominated the market for so many years?
 * Why does array index start with '0' in most of languages?
+* What would you do to understand if your code has a bad design?
 
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
@@ -85,23 +90,30 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Write a loop, then transform it into a recursive function, using only immutable structures (i.e. avoid using variables). Discuss.
 * What does it mean when a language treats functions as first-class citizens?
 * Show me an example where an Anonymous Function can be useful
-* What is Dynamic Method Dispatch?
+* There are a lot of different type systems: let's talk about static and dynamic type systems, and about strong and weak ones. You surely have an opinion and a preference about this topic. Would you like to share them, and discuss why and when would you promote one particular type system for developing an enterprise software?
 * What are namespaces useful for? Invent an alternative.
-* Talk about Interoperability between Java and C# (choose 2 other arbitrary languages)
+* Talk about Interoperability between Java and C# (in alternative, choose 2 other arbitrary languages)
 * Why do many software engineers not like Java?
 * What makes a good language good and a bad language bad?
 * Write two functions, one Referentially Transparent and the other one Referentially Opaque. Discuss.
-* Whats the Stack and what's the Heap?
+* Whats the Stack and what's the Heap? What's a Stack Overflow?
 * Why is it important that in a language functions are first class citizens?
-* How is Pattern Matching different than Switch clauses?
+* Some languages, expecially the ones that promote a Functional approach, allow a technique called Pattern Matching. Do you know it? How is Pattern Matching different from Switch clauses?
 * Why do some languages have no exceptions by design? What are the pros and cons?
 * If `Cat` is an `Animal`, is `TakeCare<Cat>` a `TakeCare<Animal>`?
-* Why in Java, C# and many other languages are constructors are not part of the interface?
+* Why in Java, C# and many other languages constructors are not part of the interface?
+* In the last years there has been a lot of hype on Node. What's your opinion on the use in the back end of a language that was initially conceived to run in the browser?
+* Pretend you have a time machine and pretend that you have the opportunity to go to a particular point in time during Java's (or C#, Python, Go or whatever) history, and talk with some of the JDK architects. What would you try to convince them of? Removing checked exceptions? Adding unsigned primitives? Adding multiple-inheritance?
+
 
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>
 * Why first-party cookies and third-party cookies are treated so differently?
 * How would you manage Web Services API versioning?
+* From a Back End perspective, are there any disadvantages or drawbacks on the adopion of Single Page Applications?
+* Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when statefullness is bad?
+* REST and SOAP: when would you choose one, and when the other?
+* In Web development, Model-View Controller and Model-View-View-Model approaches are very common, both in the Back End and in the Fron End. What are they, and why are they advisable?
 
 
 ####[[↑]](#toc) <a name='databases'>Questions about Databases:</a>
@@ -114,19 +126,21 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * What's the N+1 problem?
 * How would you find the most expensive queries in an application?
 * In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?
+* Of of the Continuous Integration's techniques is called Blue-Green Deployment: it consists in having two production environments, as identical as possible, and in performing the deployment in one of them while the other one is still operating, and than in safely switching the traffic to the second one after some convenient testing. This technique becomes more complicated when the deployment includes changes to the database structure or content. I'd like to discuss this topic with you.
 
 
 ####[[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
 
 * What is Eventual Consistency?
 * About the CAP Theorem, make examples of CP, AP and CA systems.
+* How would you explain the recent rise in interest for NoSQL?
 * How does NoSQL tackle scalability challenges?
 * In which case would you use a document database like MongoDB instead of a relational database like MySQL or PostgreSQL?
 
 
 ####[[↑]](#toc) <a name='codeversioning'>Questions about code versioning:</a>
 
-* Why is branching with Mercurial or git is easier than with SVN?
+* Why is branching with Mercurial or git easier than with SVN?
 * What are the pros and cons of Distributed Version Control Systems like Git over Centralized ones like SVN?
 * Could you describe GitHub Flow and GitFlow workflows?
 * What's a rebase?
@@ -139,7 +153,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Why is testing multithreading / concurrent code so difficult?
 * What is a Race Condition? Code an example, using whatever language you like.
 * What is a Deadlock? Would you be able to write some code that is affected by deadlocks?
-* What is Process Starvation?
+* What is Process Starvation? If you need, let's review its definition.
 * What is a Wait Free algorithm?
 
 
@@ -154,8 +168,6 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Let's talk about the several approaches to Reconciliation after network partitions
 * What are the Fallacies of Distributed Computing?
 * When would you use Request/Reply and when Publish/Subscribe?
-* Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when statefullness is bad?
-* REST and SOAP: when would you choose one, and when the other?
 * Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
 
 
@@ -163,7 +175,8 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 * What is agility?
 * How would you deal with Legacy Code?
-* I'm the CEO of your Company. Explain to me Kanban and convince me to invest in it.
+* Say I'm your Project Manager, and I'm no expert in programming. Would you try explaining me what Legacy Code is and why should I care about code quality?
+* I'm the CEO of your company. Explain to me Kanban and convince me to invest in it.
 * What is the biggest difference between Agile and Waterfall?
 * Being a team manager, how would you deal with the problem of having too many meetings?
 * How would you manage a very late project?
@@ -171,9 +184,10 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Tell me what decisions would you take if you could be the CTO of your Company.
 * Are Program Managers useful?
 * Organize a development team using flexible schedules (that is, no imposed working hours) and "Take as you need" vacation policy
-* How would you manage a very high turn over and convince developers not to leave the team, without increasing compensation?
+* How would you manage a very high turn over and convince developers not to leave the team, without increasing compensation? What could a Company improve to make them stay?
 * What are the top 3 qualities you look for in colleagues, beyond their code?
 * What are the top 3 things you wish non-technical people knew about code?
+* Imagine your company gives you 1 month and some budget to improve your and your colleagues' daily life. What would you do?
 
 
 ####[[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>
@@ -230,7 +244,17 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>
+* How to write secure code? In your opinion, is it one of the developer's duties, or does it require a specialized role in the Company? And why?
+* Why is it said that cryptography is not something you should try to invent or design yourself?
 * What's Two Factor Authentication? How would you implement it in an existing web application?
+* If not carefully handled, logs always risk to contain sensible information, such as passwords. How would you deal with this?
+* Write down a snippet of code affected by SQL Injection and fix it.
+* How would it be possible to detect SQL Injection via static code analisys? I don't expect you to write an algorithm capable of doing this, as it is probably a huge topic, but let's discuss a general approach.
+* What do you know about Cross-Site Scripting? If you don't remember it, let's review online its definition and let's discuss about it.
+* What do you know about Cross-Site Forgery Attack? If you don't remember it, let's review online its definition and let's discuss about it.
+* How does HTTPS work?
+* What's a Man-in-the-middle Attack? And why does HTTPS can help protecting against it?
+* How can you prevent the user session to be stolen? Chances are you remember what Session or Cookie Hijacking is, otherwise let's read its Wikipedia page together.
 
 
 ####[[↑]](#toc) <a name='general'>General Questions:</a>
@@ -262,6 +286,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
 * List the last 5 books you read.
 * How would you introduce Continuous Delivery in a successful, huge company for which the change from Waterfall to Continuous Delivery would be not trivial, because of the size and complexity of the business?
+* When does it make sense to reinvent the wheel? 
 * Let's have a conversation about "*Reinventing the wheel*", the "*Not Invented Here Syndrome*" and the "*Eating Your Own Food*" practice
 * What's the next thing you would automate in your current workflow?
 * Why is writing software difficult? What makes maintaining software hard?
@@ -274,8 +299,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
 * "People who like this also like... ". How would you implement this feature in an e-commerce shop?
 * Why are corporations slower than startups in innovating?
-* Why is it said that cryptography is not something you should try to invent or design yourself?
-
+* What have you achieved recently that you are proud of?
 
 
 ####[[↑]](#toc) <a name='billgates'>Bill Gates Style Questions:</a>

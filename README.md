@@ -241,6 +241,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>
 * How to write secure code? In your opinion, is it one of the developer's duties, or does it require a specialized role in the Company? And why?
+* Why is it said that cryptography is not something you should try to invent or design yourself?
 * What's Two Factor Authentication? How would you implement it in an existing web application?
 * If not carefully handled, logs always risk to contain sensible information, such as passwords. How would you deal with this?
 * Write down a snippet of code affected by SQL Injection and fix it.
@@ -294,7 +295,6 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
 * "People who like this also like... ". How would you implement this feature in an e-commerce shop?
 * Why are corporations slower than startups in innovating?
-* Why is it said that cryptography is not something you should try to invent or design yourself?
 * What have you achieved recently that you are proud of?
 
 

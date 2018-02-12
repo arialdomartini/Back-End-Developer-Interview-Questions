@@ -88,7 +88,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Show me an example where an Anonymous Function can be useful
 * There are a lot of different type systems: let's talk about static and dynamic type systems, and about strong and weak ones. You surely have an opinion and a preference about this topic. Would you like to share them, and discuss why and when would you promote one particular type system for developing an enterprise software?
 * What are namespaces useful for? Invent an alternative.
-* Talk about Interoperability between Java and C# (choose 2 other arbitrary languages)
+* Talk about Interoperability between Java and C# (in alternative, choose 2 other arbitrary languages)
 * Why do many software engineers not like Java?
 * What makes a good language good and a bad language bad?
 * Write two functions, one Referentially Transparent and the other one Referentially Opaque. Discuss.

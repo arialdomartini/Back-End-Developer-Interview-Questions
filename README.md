@@ -236,6 +236,9 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * How would it be possible to detect SQL Injection via static code analisys? I don't expect you to write an algorithm capable of doing this, as it is probably a huge topic, but let's discuss a general approach.
 * What do you know about Cross-Site Scripting? If you don't remember it, let's review online its definition and let's discuss about it.
 * What do you know about Cross-Site Forgery Attack? If you don't remember it, let's review online its definition and let's discuss about it.
+* How does HTTPS work?
+* What's a Man-in-the-middle Attack? And why does HTTPS can help protecting against it?
+
 
 
 

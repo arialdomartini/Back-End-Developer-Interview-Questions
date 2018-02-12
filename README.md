@@ -47,7 +47,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 * Why are global objects and static evil? Can you show it with a code example?
 * Tell me about Inversion of Control and how does it improve the design of code.
-* The Law of Demeter (the Principle of Least Knowledge) states that each unit should have only limited knowledge about other units and it should only talk to its immediate friends (sometimes stated as "Don't talk to strangers"). Would you write a code violating this principle, show why it is a bad design and then fix it?
+* The Law of Demeter (the Principle of Least Knowledge) states that each unit should have only limited knowledge about other units and it should only talk to its immediate friends (sometimes stated as "Don't talk to strangers"). Would you write code violating this principle, show why it is a bad design and then fix it?
 * Active-Record is the design pattern that promotes objects to include functions such as Insert, Update, and Delete, and properties that correspond to the columns in some underlying database table. In your opinion and experience, which are the limits and pitfalls of the this pattern?
 * What are the differences between Active-Record and Data-Mapper?
 * Why it is often said that the introduction of `null` is a "Billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
@@ -65,7 +65,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 * It is often heard that one of the most important goals in Object-Oriented Design (and code design in general) is to have High Cohesion and Loose Coupling. What does it mean? Why is it that important and how is it achieved?
 * Why does array index start with '0' in most of the languages?
-* How tests and TDD influence code design?
+* How do tests and TDD influence code design?
 * Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, explain why is it a bad design, and fix it.
 * What's the difference between cohesion and coupling?
 * What is refactoring useful for?

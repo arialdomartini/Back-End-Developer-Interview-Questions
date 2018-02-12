@@ -86,7 +86,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Write a loop, then transform it into a recursive function, using only immutable structures (i.e. avoid using variables). Discuss.
 * What does it mean when a language treats functions as first-class citizens?
 * Show me an example where an Anonymous Function can be useful
-* What is Dynamic Method Dispatch?
+* There are a lot of different type systems: let's talk about static and dynamic type systems, and about strong and weak ones. You surely have an opinion and a preference about this topic. Would you like to share them, and discuss why and when would you promote one particular type system for developing an enterprise software?
 * What are namespaces useful for? Invent an alternative.
 * Talk about Interoperability between Java and C# (choose 2 other arbitrary languages)
 * Why do many software engineers not like Java?

@@ -47,7 +47,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 * Why are global objects evil? Can you show it with a code example?
 * Tell me about Inversion of Control and how does it improve the design of code.
-* About the Law of Demeter (the Principle of Least Knowledge): write a code violating it, then fix it.
+* About the Law of Demeter (the Principle of Least Knowledge): write code violating it, then fix it.
 * Which are the limits and pitfalls of Active-Record?
 * What are the differences between Active-Record and Data-Mapper?
 * What is the intent of the Null Object Pattern?
@@ -64,15 +64,15 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 ####[[↑]](#toc) <a name='design'>Questions about Code Design:</a>
 
-* How tests influence code design?
+* How do tests influence code design?
 * What's the difference between cohesion and coupling?
 * What is refactoring useful for?
 * Are comments in code useful?
 * What is the difference between design and architecture?
-* Why in TDD tests are written before code?
+* Why in TDD are tests are written before code?
 * C++ supports multiple inheritance, and Java allows a class to implement multiple interfaces. What impact does using these facilities have on orthogonality? Is there a difference in impact between using multiple inheritance and multiple interfaces? Is there a difference between using delegation and using inheritance? [This question is from The Pragmatic Programmer, by Andrew Hunt and David Thomas]
 * Pros and cons of holding domain logic in Stored Procedures.
-* Why does array index start with '0' in most of the languages?
+* Why does array index start with '0' in most of languages?
 
 
 ####[[↑]](#toc) <a name='languages'>Questions about Languages:</a>
@@ -96,7 +96,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * How is Pattern Matching different than Switch clauses?
 * Why do some languages have no exceptions by design? What are the pros and cons?
 * If `Cat` is an `Animal`, is `TakeCare<Cat>` a `TakeCare<Animal>`?
-* Why in Java, C# and many other languages constructors are not part of the interface?
+* Why in Java, C# and many other languages are constructors are not part of the interface?
 
 
 ####[[↑]](#toc) <a name='web'>Questions about Web development:</a>
@@ -126,7 +126,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 ####[[↑]](#toc) <a name='codeversioning'>Questions about code versioning:</a>
 
-* Why branching with Mercurial or git is easier than with SVN?
+* Why is branching with Mercurial or git is easier than with SVN?
 * What are the pros and cons of Distributed Version Control Systems like Git over Centralized ones like SVN?
 * Could you describe GitHub Flow and GitFlow workflows?
 * What's a rebase?
@@ -163,7 +163,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 * What is agility?
 * How would you deal with Legacy Code?
-* I'm the CEO of your Company. Explain me Kanban and convince me to invest on it.
+* I'm the CEO of your Company. Explain to me Kanban and convince me to invest in it.
 * What is the biggest difference between Agile and Waterfall?
 * Being a team manager, how would you deal with the problem of having too many meetings?
 * How would you manage a very late project?
@@ -236,8 +236,8 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 ####[[↑]](#toc) <a name='general'>General Questions:</a>
 
 * Why Functional Programming matters? When should a functional programming language be used?
-* How do Companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
-* Why opening a TCP socket has a large overhead?
+* How do companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
+* Why does opening a TCP socket have a large overhead?
 * What is Encapsulation important for?
 * What is a real-time system and how is it different from an ordinary system?
 * What's the relationship between real-time languages and heap memory allocation?

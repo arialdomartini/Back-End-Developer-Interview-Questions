@@ -182,6 +182,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * How would you manage a very high turn over and convince developers not to leave the team, without increasing compensation? What could a Company improve to make them stay?
 * What are the top 3 qualities you look for in colleagues, beyond their code?
 * What are the top 3 things you wish non-technical people knew about code?
+* Imagine your Company gives you 1 month and some budget to improve your and your colleagues' daily life. What would you do?
 
 
 ####[[↑]](#toc) <a name='algorithms'>Questions about logic and algorithms:</a>

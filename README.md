@@ -231,6 +231,8 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 ####[[↑]](#toc) <a name='security'>Questions about Security:</a>
 * What's Two Factor Authentication? How would you implement it in an existing web application?
+* If not carefully handled, logs always risk to contain sensible information, such as passwords. How would you deal with this?
+
 
 
 ####[[↑]](#toc) <a name='general'>General Questions:</a>

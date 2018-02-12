@@ -117,7 +117,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 ### [[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 
-* How would you manage the migration of a project from MySQL to PostgreSQL?
+* How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face?
 * Why databases treat null as a so special case? For example, why in SQL ```SELECT * FROM table WHERE field = null``` does not match records with null ``field``?
 * What's ACID (Atomicity, Consistency, Isolation, Durability)?
 * How would you manage database schema migrations?

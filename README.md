@@ -238,7 +238,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * What do you know about Cross-Site Forgery Attack? If you don't remember it, let's review online its definition and let's discuss about it.
 * How does HTTPS work?
 * What's a Man-in-the-middle Attack? And why does HTTPS can help protecting against it?
-
+* How can you prevent the user session to be stolen? Chances are you remember what Session or Cookie Hijacking is, otherwise let's read its Wikipedia page together.
 
 
 

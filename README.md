@@ -115,7 +115,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * From a Back End perspective, are there any disadvantages or drawbacks on the adoption of Single Page Applications?
 * Why do we usually put so much effort for having stateless services? What's so good in stateless code and why and when statefullness is bad?
 * REST and SOAP: when would you choose one, and when the other?
-* In Web development, Model-View Controller and Model-View-View-Model approaches are very common, both in the Back End and in the Fron End. What are they, and why are they advisable?
+* In Web development, Model-View Controller and Model-View-View-Model approaches are very common, both in the Back End and in the Front End. What are they, and why are they advisable?
 
 
 ### [[↑]](#toc) <a name='databases'>Questions about Databases:</a>
@@ -162,7 +162,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 ### [[↑]](#toc) <a name='distributed'>Questions about Distributed Systems:</a>
 
 * How to test a distributed system?
-* In which case whould you apply asynchronously communication between two systems?
+* In which case would you apply asynchronously communication between two systems?
 * What are the general pitfalls of Remote Procecure Call?
 * If you are building a distributed system for scalability and robustness, what are the different things you'd think of in the case you are working in a closed and secure network environment or in geographically distributed and public system?
 * How to manage Fault Tolerance in a Web application? And in a Desktop one?
@@ -237,7 +237,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 
 ### [[↑]](#toc) <a name='soa'>Questions about Service Oriented Architecture and Microservices:</a>
-* Why, in a SOA, long-lived transactions are discorauged and Sagas are suggested instead?
+* Why, in a SOA, long-lived transactions are discouraged and Sagas are suggested instead?
 * What are the differences between Soa and Microservices?
 * Let's talk about web services versioning, version compatibility and breaking changes.
 * What's the difference between a transaction and a compensation operation in a saga, in SOA?
@@ -251,7 +251,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * What's Two Factor Authentication? How would you implement it in an existing web application?
 * If not carefully handled, logs always risk to contain sensible information, such as passwords. How would you deal with this?
 * Write down a snippet of code affected by SQL Injection and fix it.
-* How would it be possible to detect SQL Injection via static code analisys? I don't expect you to write an algorithm capable of doing this, as it is probably a huge topic, but let's discuss a general approach.
+* How would it be possible to detect SQL Injection via static code analysis? I don't expect you to write an algorithm capable of doing this, as it is probably a huge topic, but let's discuss a general approach.
 * What do you know about Cross-Site Scripting? If you don't remember it, let's review online its definition and let's discuss about it.
 * What do you know about Cross-Site Forgery Attack? If you don't remember it, let's review online its definition and let's discuss about it.
 * How does HTTPS work?

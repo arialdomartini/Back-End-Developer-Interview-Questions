@@ -246,29 +246,29 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 
 ### [[↑]](#toc) <a name='security'>Questions about Security:</a>
-* How to write secure code? In your opinion, is it one of the developer's duties, or does it require a specialized role in the Company? And why?
+* How do you write secure code? In your opinion, is it one of the developer's duties, or does it require a specialized role in the company? And why?
 * Why is it said that cryptography is not something you should try to invent or design yourself?
-* What's Two Factor Authentication? How would you implement it in an existing web application?
-* If not carefully handled, logs always risk to contain sensible information, such as passwords. How would you deal with this?
+* What is two factor authentication? How would you implement it in an existing web application?
+* If not carefully handled, there is always a risk of logs containing sensitive information, such as passwords. How would you deal with this?
 * Write down a snippet of code affected by SQL Injection and fix it.
 * How would it be possible to detect SQL Injection via static code analysis? I don't expect you to write an algorithm capable of doing this, as it is probably a huge topic, but let's discuss a general approach.
 * What do you know about Cross-Site Scripting? If you don't remember it, let's review online its definition and let's discuss about it.
 * What do you know about Cross-Site Forgery Attack? If you don't remember it, let's review online its definition and let's discuss about it.
 * How does HTTPS work?
-* What's a Man-in-the-middle Attack? And why does HTTPS can help protecting against it?
-* How can you prevent the user session to be stolen? Chances are you remember what Session or Cookie Hijacking is, otherwise let's read its Wikipedia page together.
+* What's a Man-in-the-middle Attack, and why does HTTPS help protect against it?
+* How can you prevent the user's session from being stolen? Chances are you remember what Session or Cookie Hijacking is, otherwise let's read its Wikipedia page together.
 
 
 ### [[↑]](#toc) <a name='general'>General Questions:</a>
 
-* Why Functional Programming matters? When should a functional programming language be used?
+* Why does Functional Programming matter? When should a functional programming language be used?
 * How do companies like Microsoft, Google, Opera and Mozilla profit from their browsers?
 * Why does opening a TCP socket have a large overhead?
 * What is Encapsulation important for?
 * What is a real-time system and how is it different from an ordinary system?
 * What's the relationship between real-time languages and heap memory allocation?
-* Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How immutability can help writing safer code?
-* Pro and cons of mutable and immutable values.
+* Immutability is the practice of setting values once, at the moment of their creation, and never changing them. How can immutability help write safer code?
+* What are the pros and cons of mutable and immutable values.
 * What's the Object-Relational impedance mismatch?
 * Which principles would you apply to define the size of a cache?
 * What's the difference between TCP and HTTP?

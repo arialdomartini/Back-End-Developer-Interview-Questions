@@ -60,7 +60,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * The ability to change implementation without affecting clients is called Data Abstraction. Produce and example violating this property, then fix it.
 * Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, fix it.
 * How would you deal with Dependency Hell?
-* Why is goto evil?
+* Is goto evil? You may have heard of the famous paper "Go To Statement Considered Harmful" by Edsger Dijkstra, in which he criticized the use of the `goto` statement and advocated structured programming instead. The use of `goto` has always been controversial, so much that even Dijkstra's letter was criticized with articles such as "'GOTO Considered Harmful' Considered Harmful". What's your opinion on the use of `goto`?
 * The robustness principle is a general design guideline for software that recommends "*Be conservative in what you send, be liberal in what you accept*". It is often reworded as "*Be a tolerant reader and a careful writer*". Would you like to discuss the rationale of this principle?
 * Separation of Concerns is a design principle for separating a computer program into distinct areas, each of ones addressing a separate concern. There are a lot of different mechanisms for achieving Separation of Concerns (use of objects, functions, modules, or patterns such as MVC and the like). Would you discuss this topic?
 

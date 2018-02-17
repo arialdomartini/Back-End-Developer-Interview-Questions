@@ -85,7 +85,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 ### [[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 
 * Tell me the 3 worse defects of your preferred language
-* Why is there a rising interest about Functional Programming?
+* Why is there a rising interest on Functional Programming?
 * What is a closure, and what is useful for? What's in common between closures and classes?
 * What are generics useful for?
 * What are high-order functions? What are they useful for? Write one, in your preferred language.
@@ -134,7 +134,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 ### [[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
 
 * What is Eventual Consistency?
-* About the CAP Theorem, make examples of CP, AP and CA systems.
+* The Brewer's Theorem, most commonly known as the CAP theorem, states that in the presence of a Network Partition (the P in CAP), a system's designer has to choose between Consistency (the C in CAP) and Availability (the A in CAP). Can you think about examples of CP, AP and CA systems?
 * How would you explain the recent rise in interest for NoSQL?
 * How does NoSQL tackle scalability challenges?
 * In which case would you use a document database like MongoDB instead of a relational database like MySQL or PostgreSQL?

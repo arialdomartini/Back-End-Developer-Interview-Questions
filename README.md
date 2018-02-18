@@ -138,7 +138,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * How would you explain the recent rise in interest for NoSQL?
 * How does NoSQL tackle scalability challenges?
 * In which case would you use a document database like MongoDB instead of a relational database like MySQL or PostgreSQL?
-
+* How to enforce authentication on a sharded MongoDB cluster?
 
 ### [[↑]](#toc) <a name='codeversioning'>Questions about code versioning:</a>
 

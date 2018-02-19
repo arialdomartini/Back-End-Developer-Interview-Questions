@@ -218,7 +218,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Scale out vs scale up: how are they different? When to apply one, when the other?
 * How to deal with failover and user sessions?
 * What is CQRS (Command Query Responsibility Segregation)? How is it different from the oldest Command-Query Separation Principle?
-* What is Three-Tier architecture?
+* The so called "multitier architecture" is an approach to design a client–server system aimed to keep physically and logically separated presentation, application processing, data management and other functions. The most widespread of the multitier architectures is the three-tier architecture. Would you discuss the pros and cons of such approach?
 * How would you design a software system for scalability?
 * Someone gave the name "The "C10k problem" to the problem of optimising network sockets to handle over 10.000 open connections at once. While handling 10.000 concurrent clients is not the same as handling 10.000 open connection, the context is similar. It's a tough challenge anyway, and no one is expected to know every single detail to solve it. It may be interesting to discuss the strategies you know to deal with that problem. Would you like to try?
 * How would you design a decentralized (that is, with no central server) P2P system?

@@ -163,7 +163,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 * How to test a distributed system?
 * In which case would you apply asynchronously communication between two systems?
-* What are the general pitfalls of Remote Procecure Call?
+* What are the general pitfalls of Remote Procedure Call?
 * If you are building a distributed system for scalability and robustness, what are the different things you'd think of in the case you are working in a closed and secure network environment or in geographically distributed and public system?
 * How to manage Fault Tolerance in a Web application? And in a Desktop one?
 * How to deal with failures in Distributed Systems?

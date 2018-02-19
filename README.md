@@ -220,7 +220,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * What is CQRS (Command Query Responsibility Segregation)? How is it different from the oldest Command-Query Separation Principle?
 * What is Three-Tier architecture?
 * How would you design a software system for scalability?
-* What are the strategies to deal with the C10k problem?
+* Someone gave the name "The "C10k problem" to the problem of optimising network sockets to handle over 10.000 open connections at once. While handling 10.000 concurrent clients is not the same as handling 10.000 open connection, the context is similar. It's a tough challenge anyway, and no one is expected to know every single detail to solve it. It may be interesting to discuss the strategies you know to deal with that problem. Would you like to try?
 * How would you design a decentralized (that is, with no central server) P2P system?
 * Why doesn't CGI scale?
 * How would you defend the design of your systems against Vendor Lock-in?

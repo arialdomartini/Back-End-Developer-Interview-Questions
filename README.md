@@ -222,9 +222,9 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * How would you design a software system for scalability?
 * Someone gave the name "The "C10k problem" to the problem of optimising network sockets to handle over 10.000 open connections at once. While handling 10.000 concurrent clients is not the same as handling 10.000 open connection, the context is similar. It's a tough challenge anyway, and no one is expected to know every single detail to solve it. It may be interesting to discuss the strategies you know to deal with that problem. Would you like to try?
 * How would you design a decentralized (that is, with no central server) P2P system?
-* Why doesn't CGI scale?
+* You may recall that Common Gateway Interface (CGI) is a standard protocol for web servers to execute programs (CGI scripts) that execute as Command-line programs on a server, and that dynamically generate HTML pages when invoked by a HTTP request. Perl and PHP used to be common languages for such scripts. In CGI, a HTTP request generally causes the invocation of a new process on the server, but FastCGI, SCGI and other approaches improved the mechanism, raising the performance, with techniques such as preforking processes. Can you imagine why has't CGI eventually win, and was instead replaced with other architectural approaches?
 * How would you defend the design of your systems against Vendor Lock-in?
-* What are the disadvantages of the Publish-Subscribe pattern at scale, if any?
+* What are the disadvantages of the Publish-Subscribe pattern at scale?
 * What's new in CPUs since the 80s, and how does it affect programming?
 * In which part of the lifecycle of a software performance should be taken in consideration, and how?
 * How could a Denial of Service arise not maliciously but for a design or architectural problem?

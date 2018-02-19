@@ -224,14 +224,14 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * How would you design a decentralized (that is, with no central server) P2P system?
 * Why doesn't CGI scale?
 * How would you defend the design of your systems against Vendor Lock-in?
-* What are the disadvantages of the Publish-Subscribe pattern at scale?
+* What are the disadvantages of the Publish-Subscribe pattern at scale, if any?
 * What's new in CPUs since the 80s, and how does it affect programming?
-* In which part of the lifecycle performance should be taken in consideration, and how?
+* In which part of the lifecycle of a software performance should be taken in consideration, and how?
 * How could a Denial of Service arise not maliciously but for a design or architectural problem?
 * What’s the relationship between Performance and Scalability?
-* When is it OK to use tight coupling?
+* When is it OK (if ever) to use tight coupling?
 * What characteristic should a system have to be Cloud Ready?
-* Does unity of design imply an aristocracy of architects? Put simple: can good design emerge from a collective effort of all developers?
+* Does unity of design imply an aristocracy of architects? Putting it simple: can good design emerge from a collective effort of all developers?
 * What's the difference between design, architecture, functionality and aesthetic? Discuss.
 
 

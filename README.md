@@ -84,7 +84,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 ### [[↑]](#toc) <a name='languages'>Questions about Languages:</a>
 
-* Tell me the 3 worse defects of your preferred language
+* Tell me the 3 worst defects of your preferred language
 * Why is there a rising interest on Functional Programming?
 * What is a closure, and what is useful for? What's in common between closures and classes?
 * What are generics useful for?

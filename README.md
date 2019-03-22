@@ -171,6 +171,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * What are the fallacies of distributed computing?
 * When would you use request/reply and when publish/subscribe?
 * Suppose the system you are working on does not support transactionality. How would you implement it from scratch?
+* What do you know about Consistent Hashing?
 
 
 ### [[↑]](#toc) <a name='management'>Questions about Software Lifecycle and Team Management:</a>

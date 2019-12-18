@@ -55,9 +55,9 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one instead of the other?
 * Why is it often said that the introduction of `null` is a "billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
 * Many state that, in Object-Oriented Programming, composition is often a better option than inheritance. What's you opinion?
-* What is an Anti-corruption Layer?
+* [What is an Anti-corruption Layer?](#what-is-an-anti-corruption-layer)
 * Singleton is a design pattern that restricts the instantiation of a class to one single object. Writing a Thread-Safe Singleton class is not so obvious. Would you try?
-* The ability to change implementation without affecting clients is called Data Abstraction. Produce an example violating this property, then fix it.
+* [The ability to change implementation without affecting clients is called Data Abstraction. Produce an example violating this property, then fix it.](#the-ability-to-change-implementation-without-affecting-clients-is-called-data-abstraction-produce-an-example-violating-this-property-then-fix-it)
 * Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, fix it.
 * How would you deal with Dependency Hell?
 * Is goto evil? You may have heard of the famous paper "Go To Statement Considered Harmful" by Edsger Dijkstra, in which he criticized the use of the `goto` statement and advocated structured programming instead. The use of `goto` has always been controversial, so much that even Dijkstra's letter was criticized with articles such as "'GOTO Considered Harmful' Considered Harmful". What's your opinion on the use of `goto`?
@@ -557,5 +557,43 @@ class Crew {
         return this.pilot.getName();
     }
 }
+```
+<br>[⬆ Back to top](#table-of-contents)
+
+### What is an Anti-corruption Layer?
+    
+It's a layer in the system which is responsible for communication between subsystems (most likely with the external or legacy system) which don't operate on the same models.
+Its purpose is to create an isolating layer which provides clients with functionality in terms of their own domain model.
+<br>[⬆ Back to top](#table-of-contents)
+
+### The ability to change implementation without affecting clients is called Data Abstraction. Produce an example violating this property, then fix it.
+
+Data Abstraction violation:
+```javascript
+class Book {
+    constructor(pages) {
+        this.pages = pages;
+    }
+}
+
+const myBook = new Book([{ text: 'content of the title page'}, { text: '...'}]);
+const titlePage = myBook.pages[0];
+```
+
+Fixed:
+```javascript
+class Book {
+    constructor(title, pages) {
+        this.title = title;
+        this.pages = pages;
+    }
+
+    getTitlePage() {
+        return this.pages[0];
+    }   
+}
+
+const myBook = new Book([{ text: 'content of the title page'}, { text: '...'}]);
+const titlePage = myBook.getTitlePage();
 ```
 <br>[⬆ Back to top](#table-of-contents)

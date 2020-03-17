@@ -125,10 +125,10 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * ACID is an acronym that refers to Atomicity, Consistency, Isolation and Durability, 4 properties guaranteed by a database transaction in most database engines. What do you know about this topic? Would you like to elaborate?
 * How would you manage database schema migrations? That is, how would you automate changes to database schema, as the application evolves, version after version?
 * How is lazy loading achieved? When is it useful? What are its pitfalls?
-* The so called "N + 1 problem" is an issue that occurs when code needs to load the children of a parent-child relationship with a ORMs that have lazy-loading enabled, and that therefore issue a query for the parent record, and then one query for each child record. How to fix it?
-* How would you find the most expensive queries in an application?
-* In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?
-* Of of the Continuous Integration's techniques is called Blue-Green Deployment: it consists in having two production environments, as identical as possible, and in performing the deployment in one of them while the other one is still operating, and than in safely switching the traffic to the second one after some convenient testing. This technique becomes more complicated when the deployment includes changes to the database structure or content. I'd like to discuss this topic with you.
+* [The so called "N + 1 problem" is an issue that occurs when code needs to load the children of a parent-child relationship with a ORMs that have lazy-loading enabled, and that therefore issue a query for the parent record, and then one query for each child record. How to fix it?](#the-so-called-n--1-problem-is-an-issue-that-occurs-when-code-needs-to-load-the-children-of-a-parent-child-relationship-with-a-orms-that-have-lazy-loading-enabled-and-that-therefore-issue-a-query-for-the-parent-record-and-then-one-query-for-each-child-record-how-to-fix-it)
+* [How would you find the most expensive queries in an application?](#how-would-you-find-the-most-expensive-queries-in-an-application)
+* [In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?](#in-your-opinion-is-it-always-needed-to-use-database-normalization-when-is-it-advisable-to-use-denormalized-databases)
+* [Of of the Continuous Integration's techniques is called Blue-Green Deployment: it consists in having two production environments, as identical as possible, and in performing the deployment in one of them while the other one is still operating, and than in safely switching the traffic to the second one after some convenient testing. This technique becomes more complicated when the deployment includes changes to the database structure or content. I'd like to discuss this topic with you.](#of-of-the-continuous-integrations-techniques-is-called-blue-green-deployment-it-consists-in-having-two-production-environments-as-identical-as-possible-and-in-performing-the-deployment-in-one-of-them-while-the-other-one-is-still-operating-and-than-in-safely-switching-the-traffic-to-the-second-one-after-some-convenient-testing-this-technique-becomes-more-complicated-when-the-deployment-includes-changes-to-the-database-structure-or-content-id-like-to-discuss-this-topic-with-you)
 
 
 ### [[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
@@ -558,4 +558,31 @@ class Crew {
     }
 }
 ```
+<br>[⬆ Back to top](#table-of-contents)
+
+### The so called "N + 1 problem" is an issue that occurs when code needs to load the children of a parent-child relationship with a ORMs that have lazy-loading enabled, and that therefore issue a query for the parent record, and then one query for each child record. How to fix it?
+
+It depends on the ORM engine, but generally, the fix is to use `JOIN` query. In hibernate it's e.g. `join fetch` which results in `INNER JOIN` SQL query.
+
+<br>[⬆ Back to top](#table-of-contents)
+
+### How would you find the most expensive queries in an application?
+
+I worked mainly with mySql database. It provides a tool for monitoring slow queries. All You have to do is enabling logging slow queries into the specified file. You can also specify the minimum time threshold.
+Additionally, if app is deployed to the cloud, probably there is an option to setup an email notifications which will notify you if those queries were executed.
+
+<br>[⬆ Back to top](#table-of-contents)
+
+### In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?
+
+I think that database denormalization is needed only if we need to improve the performance of our queries, and the other optimizations (indexing, sql views) are not enough.
+We need to remember that the cost of database denormalization is to build and maintain tools for keeping our data consistent (e.g. crons).
+
+<br>[⬆ Back to top](#table-of-contents)
+
+### Of of the Continuous Integration's techniques is called Blue-Green Deployment: it consists in having two production environments, as identical as possible, and in performing the deployment in one of them while the other one is still operating, and than in safely switching the traffic to the second one after some convenient testing. This technique becomes more complicated when the deployment includes changes to the database structure or content. I'd like to discuss this topic with you.
+
+This is the most tricky part of the Blue-Green Deployment. The common solution for this case is to have an intermediate release, with database schema which will be supported by both previous and the next release.
+With this approach, we still have all the benefits of the Blue-Green Deployment, including quick revert. The cost is an overhead with the intermediate release.
+
 <br>[⬆ Back to top](#table-of-contents)

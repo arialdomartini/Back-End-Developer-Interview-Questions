@@ -48,9 +48,9 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 ### [[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
 
-* Why are global and static objects evil? Can you show it with a code example?
-* Tell me about Inversion of Control and how it improves the design of code.
-* The Law of Demeter (the Principle of Least Knowledge) states that each unit should have only limited knowledge about other units and it should only talk to its immediate friends (sometimes stated as "don't talk to strangers"). Would you write code violating this principle, show why it is a bad design and then fix it?
+* [Why are global and static objects evil? Can you show it with a code example?](#why-are-global-and-static-objects-evil-can-you-show-it-with-a-code-example)
+* [Tell me about Inversion of Control and how it improves the design of code.](#tell-me-about-inversion-of-control-and-how-it-improves-the-design-of-code)
+* [The Law of Demeter (the Principle of Least Knowledge) states that each unit should have only limited knowledge about other units and it should only talk to its immediate friends (sometimes stated as "don't talk to strangers"). Would you write code violating this principle, show why it is a bad design and then fix it?](#user-content-the-law-of-demeter-the-principle-of-least-knowledge-states-that-each-unit-should-have-only-limited-knowledge-about-other-units-and-it-should-only-talk-to-its-immediate-friends-sometimes-stated-as-dont-talk-to-strangers-would-you-write-code-violating-this-principle-show-why-it-is-a-bad-design-and-then-fix-it)
 * Active-Record is the design pattern that promotes objects to include functions such as Insert, Update, and Delete, and properties that correspond to the columns in some underlying database table. In your opinion and experience, which are the limits and pitfalls of the this pattern?
 * Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one instead of the other?
 * Why is it often said that the introduction of `null` is a "billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
@@ -471,3 +471,91 @@ This section collects some weird questions along the lines of the [Manhole Cover
 * I want to refactor a legacy system. You want to rewrite it from scratch. Argument. Then, switch our roles.
 * Your boss asks you to lie to the company. What's your reaction?
 * If you could travel back in time, which advice would you give to your younger self?
+
+
+---
+
+
+### Why are global and static objects evil? Can you show it with a code example?
+
+1. Global and static objects causes implicit dependencies/coupling, thus breaks the idea of encapsulation.
+2. It's hard to reason about them - logical scope for understanding behaviour of these objects is expanded to the whole program.
+3. It's Hard to mock/stub them.
+4. Global objects pollutes the main scope.
+
+Bad:
+```javascript
+class Player {
+    walk() {
+        this.x = nextDestination.x;
+        this.y = nextDestination.y;
+    }
+}
+```
+
+Good:
+```javascript
+class Player {
+    walk(destination) {
+        this.x = destination.x;
+        this.y = destination.y;
+    }
+}
+```
+<br>[⬆ Back to top](#table-of-contents)
+
+### Tell me about Inversion of Control and how it improves the design of code.
+
+Inversion of Control is a pattern in which we reverse the relation of the code execution: we don't call the external code, external code calls our code.
+E.g. when working we libraries, we usually import some module and call functions from that module. When working with frameworks, our custom code 
+is called by the framework code. This is also known as the Hollywood Principle - "Don't call us, we'll call you".
+It may help keeping single responsibility of the specific classes and design more concise API's.
+<br>[⬆ Back to top](#table-of-contents)
+
+### The Law of Demeter (the Principle of Least Knowledge) states that each unit should have only limited knowledge about other units and it should only talk to its immediate friends (sometimes stated as "don't talk to strangers"). Would you write code violating this principle, show why it is a bad design and then fix it?
+
+Code violating The Law of Demeter:
+```javascript
+class Plane {
+    constructor(crew) {
+        this.crew = crew;
+    }
+    
+    getPilotsName() {
+        this.crew.pilot.getName();
+    }
+}
+
+class Crew {
+    constructor(pilot) {
+        this.pilot = pilot;
+    }
+}
+
+class Pilot {
+    getName() {
+        // ...
+    }
+}
+```
+It's bad, because it creates tight coupling between objects - they are dependent on internal structure of other objects.
+
+Fixed code:
+```javascript
+class Plane {
+    getPilotsName() {
+        this.crew.getPilotsName();
+    }
+}
+
+class Crew {
+    constructor(pilot) {
+        this.pilot = pilot;
+    }
+
+    getPilotsName() {
+        return this.pilot.getName();
+    }
+}
+```
+<br>[⬆ Back to top](#table-of-contents)

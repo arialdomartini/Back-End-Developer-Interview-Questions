@@ -120,11 +120,11 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 ### [[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 
-* How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face?
-* Why do databases treat null as a so special case? For example, why does ```SELECT * FROM table WHERE field = null``` not match records with null ``field`` in SQL?
-* ACID is an acronym that refers to Atomicity, Consistency, Isolation and Durability, 4 properties guaranteed by a database transaction in most database engines. What do you know about this topic? Would you like to elaborate?
-* How would you manage database schema migrations? That is, how would you automate changes to database schema, as the application evolves, version after version?
-* How is lazy loading achieved? When is it useful? What are its pitfalls?
+* [How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face?](#how-would-you-migrate-an-application-from-a-database-to-another-for-example-from-mysql-to-postgresql-if-you-had-to-manage-that-project-which-issues-would-you-expect-to-face)
+* [Why do databases treat null as a so special case? For example, why does ```SELECT * FROM table WHERE field = null``` not match records with null ``field`` in SQL?](#why-do-databases-treat-null-as-a-so-special-case-for-example-why-does-select--from-table-where-field--null-not-match-records-with-null-field-in-sql)
+* [ACID is an acronym that refers to Atomicity, Consistency, Isolation and Durability, 4 properties guaranteed by a database transaction in most database engines. What do you know about this topic? Would you like to elaborate?](#acid-is-an-acronym-that-refers-to-atomicity-consistency-isolation-and-durability-4-properties-guaranteed-by-a-database-transaction-in-most-database-engines-what-do-you-know-about-this-topic-would-you-like-to-elaborate)
+* [How would you manage database schema migrations? That is, how would you automate changes to database schema, as the application evolves, version after version?](#how-would-you-manage-database-schema-migrations-that-is-how-would-you-automate-changes-to-database-schema-as-the-application-evolves-version-after-version)
+* [How is lazy loading achieved? When is it useful? What are its pitfalls?](#how-is-lazy-loading-achieved-when-is-it-useful-what-are-its-pitfalls)
 * The so called "N + 1 problem" is an issue that occurs when code needs to load the children of a parent-child relationship with a ORMs that have lazy-loading enabled, and that therefore issue a query for the parent record, and then one query for each child record. How to fix it?
 * How would you find the most expensive queries in an application?
 * In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?
@@ -605,6 +605,51 @@ const titlePage = myBook.getTitlePage();
 4. It's easy to hit the database multiple times (e.g. in foreach loop) because of the leaking abstraction.
 <br>[⬆ Back to top](#table-of-contents)
 ### Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, fix it.
+### How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face?
+
+The strategy would highly depend on application downtime possibility. If some downtime would be possible, migration would be much easier. I would pay attention especially to:
+1. Consistency in data changes after migration has been started (if downtime is not possible).
+2. Data types compatibility between different db engines.
+3. Database api changes.
+4. Security issues (we would transfer a lot of sensitive data through the network).
+5. Troublesome potential revert.
+<br>[⬆ Back to top](#table-of-contents)
+
+### Why do databases treat null as a so special case? For example, why does ```SELECT * FROM table WHERE field = null``` not match records with null ``field`` in SQL?
+
+"NULL", basically means "a missing unknown value". It requires often special treatment because it represents something that doesn't exist.
+The example above doesn't work, because the result of any arithmetic comparison with NULL is NULL itself, e.g.:
+
+```sql
+1 = NULL, 1 <> NULL, 1 < NULL, 1 > NULL
+```
+, and even
+```sql
+NULL = NULL
+```
+It somehow makes sense, because how would you compare a number to something that doesn't exist, or how would you compare something that doesn't exist to something that doesn't exist?!
+<br>[⬆ Back to top](#table-of-contents)
+
+### ACID is an acronym that refers to Atomicity, Consistency, Isolation and Durability, 4 properties guaranteed by a database transaction in most database engines. What do you know about this topic? Would you like to elaborate?
+
+1. Atomicity specifies that if any query in a single transaction fails, the whole transaction also fails and the database is left unchanged. By "fail" we mean not only application errors, but also external factors, like a power outage.
+2. Consistency specifies that each transaction has to lead the database from one valid state to another valid state. It has to maintain its invariants.
+3. Isolation specifies that each transaction has to be performed in isolation of each other. There are different levels of isolation:
+    * "read uncommitted" - no isolation - we can read uncommitted data from another transaction
+    * "read committed" - better isolation - we can read only committed data from other transactions. It leads to inconsistencies if a concurrent transaction has been started during another transaction, but has been finished earlier.
+    * "repeatable read" - usually "good enough" isolation - each query in the transaction sees only committed updates at the beginning of the transaction. It might be implemented with locks or versioning. Phantom reads might occur.
+    * "serializable" - the highest level of isolation - transactions are not executed concurrently, they are executed consecutively.
+    
+    The performance goes down with the level of isolation. That's why "repeatable read" is used most often.
+    Also, presented model is often more complicated in some db engines implementation. You can find the details here https://github.com/ept/hermitage
+4. Durability specifies that after a transaction has been committed, the data will remain even after power outage or crash.
+    
+<br>[⬆ Back to top](#table-of-contents)
+
+### How would you manage database schema migrations? That is, how would you automate changes to database schema, as the application evolves, version after version?
+
+I would use migration scripts which would be tracked in the version control system. Each change to database schema would be a script ordered chronologically, e.g. they would be named `1_add_age_to_user`, `2_add_price_to_order`.
+I would also track in database which migration scripts were executed already. With setup like this, it would be easy to execute migration scripts automatically - in development environment on application start, and in CI - before deployment. 
 
 Code violating the DRY principle:
 ```javascript
@@ -615,6 +660,15 @@ class Employee {
 
     calculateSalaryGross() {
         return this.hoursWorked * this.hourlyWage + TAX;
+<br>[⬆ Back to top](#table-of-contents)
+
+### How is lazy loading achieved? When is it useful? What are its pitfalls?
+
+Lazy loading is a pattern in which we delay loading the data until it's actually needed. Lazy loading data from the database is usually achieved by Implementing proper Proxy class.
+It might be useful if we have an object which requires a lot of data to be fetched from the database, but probably we don't need all the data in every case. It might reduce object initialization phase and memory usage.
+On the other hand, we might end up with a lot of database queries to get small chunks of data, and it might cause performance problems. It's not so hard to do that because lazy loading is a very leaking abstraction.
+Another pitfall, probably more important is that we might work with inconsistent data. If we loaded user data first, and then after some time we loaded user orders, we can't be sure that the orders data wasn't modified already by someone else.
+
     }
 }
 ```

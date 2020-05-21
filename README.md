@@ -51,10 +51,10 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * [Why are global and static objects evil? Can you show it with a code example?](#why-are-global-and-static-objects-evil-can-you-show-it-with-a-code-example)
 * [Tell me about Inversion of Control and how it improves the design of code.](#tell-me-about-inversion-of-control-and-how-it-improves-the-design-of-code)
 * [The Law of Demeter (the Principle of Least Knowledge) states that each unit should have only limited knowledge about other units and it should only talk to its immediate friends (sometimes stated as "don't talk to strangers"). Would you write code violating this principle, show why it is a bad design and then fix it?](#user-content-the-law-of-demeter-the-principle-of-least-knowledge-states-that-each-unit-should-have-only-limited-knowledge-about-other-units-and-it-should-only-talk-to-its-immediate-friends-sometimes-stated-as-dont-talk-to-strangers-would-you-write-code-violating-this-principle-show-why-it-is-a-bad-design-and-then-fix-it)
-* Active-Record is the design pattern that promotes objects to include functions such as Insert, Update, and Delete, and properties that correspond to the columns in some underlying database table. In your opinion and experience, which are the limits and pitfalls of the this pattern?
-* Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one instead of the other?
-* Why is it often said that the introduction of `null` is a "billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
-* Many state that, in Object-Oriented Programming, composition is often a better option than inheritance. What's you opinion?
+* [Active-Record is the design pattern that promotes objects to include functions such as Insert, Update, and Delete, and properties that correspond to the columns in some underlying database table. In your opinion and experience, which are the limits and pitfalls of the this pattern?](#active-record-is-the-design-pattern-that-promotes-objects-to-include-functions-such-as-insert-update-and-delete-and-properties-that-correspond-to-the-columns-in-some-underlying-database-table-in-your-opinion-and-experience-which-are-the-limits-and-pitfalls-of-the-this-pattern)
+* [Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one instead of the other?](#data-mapper-is-a-design-pattern-that-promotes-the-use-of-a-layer-of-mappers-that-moves-data-between-objects-and-a-database-while-keeping-them-independent-of-each-other-and-the-mapper-itself-on-the-contrary-in-active-record-objects-directly-incorporate-operations-for-persisting-themselves-to-a-database-and-properties-corresponding-to-the-underlying-database-tables-do-you-have-an-opinion-on-those-patterns-when-would-you-use-one-instead-of-the-other)
+* [Why is it often said that the introduction of `null` is a "billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?](#why-is-it-often-said-that-the-introduction-of-null-is-a-billion-dollar-mistake-would-you-discuss-the-techniques-to-avoid-it-such-as-the-null-object-pattern-introduced-by-the-gof-book-or-option-types)
+* [Many state that, in Object-Oriented Programming, composition is often a better option than inheritance. What's you opinion?](#many-state-that-in-object-oriented-programming-composition-is-often-a-better-option-than-inheritance-whats-you-opinion)
 * What is an Anti-corruption Layer?
 * Singleton is a design pattern that restricts the instantiation of a class to one single object. Writing a Thread-Safe Singleton class is not so obvious. Would you try?
 * The ability to change implementation without affecting clients is called Data Abstraction. Produce an example violating this property, then fix it.
@@ -558,4 +558,33 @@ class Crew {
     }
 }
 ```
+<br>[⬆ Back to top](#table-of-contents)
+
+### Active-Record is the design pattern that promotes objects to include functions such as Insert, Update, and Delete, and properties that correspond to the columns in some underlying database table. In your opinion and experience, which are the limits and pitfalls of the this pattern?
+
+1. Those objects are hard to test - they are tied to the data layer.
+2. This design violates SRP, so it might lead us to huge classes with lots of responsibilities.
+4. It's easy to hit the database multiple times (e.g. in foreach loop) because of the leaking abstraction.
+<br>[⬆ Back to top](#table-of-contents)
+
+### Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one instead of the other?
+
+1. ActiveRecord violates the SRP principle and it's hard to test. If we would have a simple application which only read and stores data, with no business logic included, Active Directory seems to be the best choice. In every other case,
+I would go with Data-Mappers.
+<br>[⬆ Back to top](#table-of-contents)
+
+### Why is it often said that the introduction of `null` is a "billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
+
+The presence of null and its assignability to any type makes programs error-prone. Since any variable can be "null", we never know when we may want to call e.g. some method on null instead of the real object.
+
+Null object pattern mail lead to silent errors. It may be also tedious in maintenance, because we have to update it often when original class changes. It would be helpful when we really want to apply default behavior for some cases.
+
+Option types are awesome, because they are completely safe. However, they might create some overhead with a lot of additional code.
+<br>[⬆ Back to top](#table-of-contents)
+
+### Many state that, in Object-Oriented Programming, composition is often a better option than inheritance. What's you opinion?
+
+It depends on the case. The issue with inheritance is that it breaks encapsulation and creates a tight coupling between the parent class and subclasses.
+We might end up also with a single big class. On the other hand, with the composition, we might end up with a lot of small classes. If the relation between the object is `is a` and we
+want to have slightly different behavior, I would choose inheritance. In other cases, I would choose a composition.
 <br>[⬆ Back to top](#table-of-contents)

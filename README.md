@@ -58,9 +58,9 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 * [What is an Anti-corruption Layer?](#what-is-an-anti-corruption-layer)
 * Singleton is a design pattern that restricts the instantiation of a class to one single object. Writing a Thread-Safe Singleton class is not so obvious. Would you try?
 * [The ability to change implementation without affecting clients is called Data Abstraction. Produce an example violating this property, then fix it.](#the-ability-to-change-implementation-without-affecting-clients-is-called-data-abstraction-produce-an-example-violating-this-property-then-fix-it)
-* Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, fix it.
-* How would you deal with Dependency Hell?
-* Is goto evil? You may have heard of the famous paper "Go To Statement Considered Harmful" by Edsger Dijkstra, in which he criticized the use of the `goto` statement and advocated structured programming instead. The use of `goto` has always been controversial, so much that even Dijkstra's letter was criticized with articles such as "'GOTO Considered Harmful' Considered Harmful". What's your opinion on the use of `goto`?
+* [Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, fix it.](#write-a-snippet-of-code-violating-the-dont-repeat-yourself-dry-principle-then-fix-it)
+* [How would you deal with Dependency Hell?](#how-would-you-deal-with-dependency-hell)
+* [Is goto evil? You may have heard of the famous paper "Go To Statement Considered Harmful" by Edsger Dijkstra, in which he criticized the use of the `goto` statement and advocated structured programming instead. The use of `goto` has always been controversial, so much that even Dijkstra's letter was criticized with articles such as "'GOTO Considered Harmful' Considered Harmful". What's your opinion on the use of `goto`?](#is-goto-evil-you-may-have-heard-of-the-famous-paper-go-to-statement-considered-harmful-by-edsger-dijkstra-in-which-he-criticized-the-use-of-the-goto-statement-and-advocated-structured-programming-instead-the-use-of-goto-has-always-been-controversial-so-much-that-even-dijkstras-letter-was-criticized-with-articles-such-as-goto-considered-harmful-considered-harmful-whats-your-opinion-on-the-use-of-goto)
 * The robustness principle is a general design guideline for software that recommends "*be conservative in what you send, be liberal in what you accept*". It is often reworded as "*be a tolerant reader and a careful writer*". Would you like to discuss the rationale of this principle?
 * Separation of Concerns is a design principle for separating a computer program into distinct areas, each one addressing a separate concern. There are a lot of different mechanisms for achieving Separation of Concerns (use of objects, functions, modules, or patterns such as MVC and the like). Would you discuss this topic?
 
@@ -604,6 +604,50 @@ const titlePage = myBook.getTitlePage();
 2. This design violates SRP, so it might lead us to huge classes with lots of responsibilities.
 4. It's easy to hit the database multiple times (e.g. in foreach loop) because of the leaking abstraction.
 <br>[⬆ Back to top](#table-of-contents)
+### Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, fix it.
+
+Code violating the DRY principle:
+```javascript
+class Employee {
+    calculateSalaryNet() {
+        return this.hoursWorked * this.hourlyWage;
+    }
+
+    calculateSalaryGross() {
+        return this.hoursWorked * this.hourlyWage + TAX;
+    }
+}
+```
+
+Fixed code:
+```javascript
+class Employee {
+    calculateSalaryNet() {
+        return this.hoursWorked * this.hourlyWage;
+    }
+
+    calculateSalaryGross() {
+        return this.calculateSalaryNet() + TAX;
+    }
+}
+```
+<br>[⬆ Back to top](#table-of-contents)
+
+
+### How would you deal with Dependency Hell?
+
+1. The most basic approach is to manually update dependencies to satisfy other package versioning or to ask the maintainer to do this.
+2. If I trust the semantic versioning libraries I use, I try to do more relaxed versioning.
+2. A better solution for this problem is to keep projects in monorepo. This approach implies other challenges though.
+3. Another interesting solution is a [system for easier dependencies management](https://www.youtube.com/watch?v=VNqmHJtItCs) introduced by Netflix Engineering. 
+
+<br>[⬆ Back to top](#table-of-contents)
+
+### Is goto evil? You may have heard of the famous paper "Go To Statement Considered Harmful" by Edsger Dijkstra, in which he criticized the use of the `goto` statement and advocated structured programming instead. The use of `goto` has always been controversial, so much that even Dijkstra's letter was criticized with articles such as "'GOTO Considered Harmful' Considered Harmful". What's your opinion on the use of `goto`?
+
+I wouldn't be so radical in either direction. I think that structured programming won the debate because it's the right thing to do. It's easier to reason about a program written in this manner.
+On the other hand, even writing this kind of programs we often use the `goto` like style (early returns, exception handling) and it doesn't do any harm.
+In my opinion the same applies to the `goto` statements - function-scoped `goto` statements here and there might really make our program simpler and easier to understand.
 
 ### Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one instead of the other?
 

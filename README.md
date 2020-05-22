@@ -26,29 +26,258 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 ## <a name='toc'>Table of Contents</a>
 
 * [Questions about Design Patterns](#patterns)
+  * [Globals Are Evil](#globals-are-evil)
+  * [Inversion of Control](#inversion-of-control)
+  * [Law of Demeter](#law-of-demeter)
+  * [Active-Record](#active-record)
+  * [Data-Mapper](#data-mapper)
+  * [Billion-Dollar Mistake](#billion-dollar-mistake)
+  * [Inheritance vs Composition](#inheritance-vs-composition)
+  * [Anti-Corruption Layer](#anti-corruption-layer)
+  * [Singleton](#singleton)
+  * [Data Abstraction](#data-abstraction)
+  * [Don't Repeat Yourself](#don-t-repeat-yourself)
+  * [Dependency Hell](#depencendy-hell)
+  * [Goto Is Evil](#goto-is-evil)
+  * [Robustness Principle](#robustness-principle)
+  * [Separation of Concerns](separation-of-concerne)
+
 * [Questions about Code Design](#design)
+  * [High Cohesion, Loose Coupling](#high-cohesion-loose-coupling)
+  * [Index 0](#index-0)
+  * [TDD](#tdd)
+  * [DRY Violation](#dry-violation)
+  * [Cohesion vs Coupling](#cohesion-vs-coupling)
+  * [Refactoring](#refactoring)
+  * [Code Comments](#code-comments)
+  * [Design vs Architecture](#design-vs-architecture)
+  * [Early Testing](#early-testing)
+  * [Multiple Inheritance](#multiple-inheritance)
+  * [Domain Logic in Stored Procedures](#domain-logic-in-stored-procedures)
+  * [OOP Took Over the World](#oop-took-over-the-world)
+  * [Bad Design](#bad-design)
+
 * [Questions about languages](#languages)
+  * [3 Worst Defects](#3-worst-defects)
+  * [Functional Programming](#functional-programming)
+  * [Closures](#closures)
+  * [Generics](#generics)
+  * [High-Order Functions](#high-order-functions)
+  * [Loops and Recursion](#loops-and-recursion)
+  * [Functions as First-Class Citizens](#functions-as-first-class-citizens)
+  * [Anonymous Functions](#anonymous-functions)
+  * [Static and Dynamic Typing](#static-and-dynamic-typing)
+  * [Namespaces](#namespaces)
+  * [Language Interoperability](#language-interoperability)
+  * [Hate of Java](#hate-of-java)
+  * [Good and Bad Languages](#good-and-bad-languages)
+  * [Referential Transparency](#referencial-transparency)
+  * [Stack and Heap](#stack-and-heap)
+  * [Functions as First Class Citizens](#functions-as-first-class-citizens)
+  * [Pattern Matching](#pattern-matching)
+  * [Exceptions](#exceptions)
+  * [Variant and Contravariant Inheritance](#variant-and-contravariant-inheritance)
+  * [Constructors and Interfaces](#constructors-and-interfaces)
+  * [Node.js](#node-js)
+  * [Java and Time Traveling](#java-and-time-traveling)
+
 * [Web Questions](#web)
+  * [3rd Party Cookies](#3rd-party-cookies)
+  * [API Versioning](#api-versioning)
+  * [SPAs](#spas)
+  * [Statelessness](#statelessness)
+  * [REST vs SOAP](#rest-vs-soap)
+  * [MVC and MVVM](#mvc-and-mvvm)
+
 * [Databases Questions](#databases)
+  * [DB Migrations](#db-migrations)
+  * [NULL is special](#null-is-special)
+  * [ACID](#acid)
+  * [Schema Migrations](#schema-migrations)
+  * [Lazy Loading](#lazy-loading)
+  * [N+1 Problem](#n1-problem)
+  * [Slowest Queries](#slowest-queries)
+  * [Normalization](#normalization)
+  * [Blue/Green Deployment](#bluegreen-deployment)
+
 * [NoSQL Questions](#nosql)
+  * [Eventual Consistency](#eventual-consistency)
+  * [CAP Theorem](#cap-theorem)
+  * [NoSql](#nosql)
+  * [NoSQL and Scalability](#nosql-and-scalability)
+  * [Documant and Relational DBs](#document-and-relational-dbs)
+
 * [Code Versioning Questions](#codeversioning)
+  * [Branching in HG and in Git](#branching-in-hg-and-in-git)
+  * [DVCS](dvcs)
+  * [GitFlow and GitHubFlow](#gitflow-and-githubflow)
+  * [Rebase](#rebase)
+  * [Merging in HG and in Git](#merging-in-hg-and-in-git)
+
 * [Concurrency Questions](#concurrency)
+  * [Why?](#why)
+  * [Testing Concurrency](#testing-concurrency)
+  * [Race Conditions](#race-conditions)
+  * [Deadlocks](#deadlocks)
+  * [Process Starvation](#process-starvation)
+  * [Free Algorithm](#free-algorithm)
+
 * [Questions about Distributed Systems](#distributed)
+  * [Testing Distributed Systems](#testing-distributed-systems)
+  * [Async Communication](#async-communication)
+  * [Pitfalls of RPC](#pitfalls-of-rpc)
+  * [Design of Distributed Systems](#design-of-distributed-systems)
+  * [Fault Tolerance](#fault-tolerance)
+  * [Failures](#failures)
+  * [Network Partitions](#network-partitions)
+  * [Fallacies of Distributed Computing](#fallacies-of-distibuted-computing)
+  * [Request/Reply vs Publish/Subscribe](#requestreply-vs-publishsubscribe)
+  * [Implement Transactions](#implement-transactions)
+
 * [Questions about Software Lifecycle and Team Management](#management)
+  * [Agility](#agility)
+  * [Legacy Code](#legacy-code)
+  * [Legacy Code ELI5](#legacy-code-eli5)
+  * [Sell me Kanban](#sell-me-kanban)
+  * [Agile vs Waterfall](#agile-vs-waterfall)
+  * [Death by Meetings](#death-by-meetings)
+  * [Late Projects](#late-projects)
+  * [Agile Manifesto](#agile-manifesto)
+  * [If I were the CTO](#if-i-were-the-cto)
+  * [PMs](#pms)
+  * [Team Organization](#team-organization)
+  * [Turn Over](#turn-over)
+  * [Qualities](#qualities)
+  * [3 Things about Code](#3-things-about-code)
+  * [1 Month's Revolution](#1-months-revolution)
+
 * [Questions about logic and algorithms](#algorithms)
+  * [FIFO with LIFO](#fifo-with-lifo)
+  * [Stack Overflow](#stack-overflow)
+  * [Tail Recursive n!](#tail-recursive-n)
+  * [REPL](#repl)
+  * [Defragger](#defragger)
+  * [Mazes](#mazes)
+  * [Memory Leaks](#memory-leaks)
+  * [PRNG](#prng)
+  * [Garbage Collecting](#garbage-collecting)
+  * [Queues](#queues)
+  * [Simple Web Server](#simple-web-server)
+  * [Sorting Huge Files](#sorting-huge-files)
+  * [Duplicates](#duplicates)
+
 * [Questions about Software Architecture](#architecture)
+  * [No Cache](#no-cache)
+  * [Event-Driven Architecture](#event-driven-architecture)
+  * [Readibility](#readibility)
+  * [Emergent and Evolutionary](#emergent-and-evolutionary)
+  * [ Scale-Out, Scale-Up](#scale-out-scale-up)
+  * [Failures User Sessions](#failures-user-sessions)
+  * [CQRS](#cqrs)
+  * [n-tier](#n-tier)
+  * [Scalability](#scalability)
+  * [C10K](#c10k)
+  * [P2P](#p2p)
+  * [CGI](#cgi)
+  * [Vendor Lock-in](#vendor-lock-in)
+  * [Pub/Sub](#pubsub)
+  * [CPUs](#cpus)
+  * [Performance](#performance)
+  * [DDOS](#ddos)
+  * [Performance and Scalability](#performance-and-scalability)
+  * [Tight Coupling](#tight-coupling)
+  * [Cloud Readiness](#cloud-readiness)
+  * [Emergent Architecture](#emergent-architecture)
+  * [Design, Architecture, Functionality, Aesthetic](#design-architecture-functionality-aesthetic)
+
 * [Questions about Service Oriented Architecture and Microservices](#soa)
+  * [Long-lived Transactions](#long-lived-transactions)
+  * [SOA and Micro Services](#soa-and-micro-services)
+  * [Versioning and Breaking Changes](#versioning-and-breaking-changes)
+  * [Sagas and compensations](#sagas-and-compensations)
+  * [Too Micro](#too-micro "Too Micro")
+  * [Micro Services Architecture](#micro-services-architecture)
 * [Questions about Security](#security)
+  * [Security by Default](#security-by-default)
+  * [Don't invent Cryptography](#dont-invent-cryptography)
+  * [2-FA](#2-fa)
+  * [Sensible Data in Logs](#sensible-data-in-logs)
+  * [SQL Injection](#sql-injection)
+  * [Detect SQL Injection](#detect-sql-injection)
+  * [XSS](#xss)
+  * [Cross-Site Forgery Attack](#cross-site-forgery-attack)
+  * [HTTPS](#https)
+  * [MITM Attack](#mitm-attack)
+  * [Stealing Sessions](#stealing-sessions)
+
 * [General Questions](#general)
+  * [Why FP?](#why-fp)
+  * [Browsers](#browsers)
+  * [TCP Sockets](#tcp-sockets)
+  * [Encapsulation](#encapsulation)
+  * [Real-time systems](#real-time-systems)
+  * [Real-time and memory allocation](#real-time-and-memory-allocation)
+  * [Immutability](#immutability)
+  * [Mutable vs Immutable](#mutable-vs-immutable)
+  * [Object-Relational Impedance Mismatch](#object-relational-impedance-mismatch)
+  * [Sizing a Cache](#sizing-a-cache)
+  * [TCP and HTTP](#tcp-and-http)
+  * [Client-Side vs Server-Side](#client-side-vs-server-side)
+  * [Reliable and non-reliable channels](#reliable-and-non-reliable-channels)
+  * [Million-Dollar Mistake](#million-dollar-mistake)
+
 * [Open Questions](#open)
+  * [Resistance to Change](#resistance-to-change)
+  * [Threading ELI5](#threading-eli5)
+  * [Innovation and Predictability](#innovation-and-predictability)
+  * [Good Code](#good-code)
+  * [Stradming](#stradming)
+  * [1 Week Improvement](#1-week-improvement)
+  * [Learnt this week](#learnt-this-week)
+  * [Aestheric](#aestheric)
+  * [Last 5 books](#last-5-books)
+  * [Introducing CI/CD](#introducing-cicd)
+  * [Reinvent the Wheel](#reinvent-the-wheel)
+  * [Not Invented Here](#not-invented-here)
+  * [Next Thing to Automate](#next-thing-to-automate)
+  * [Code is Hard](#code-is-hard)
+  * [Green Fields and Brown Fields](#green-fields-and-brown-fields)
+  * [Type "Google.com"](#type-googlecom)
+  * [While idle](#while-idle)
+  * [Unicode](#unicode)
+  * [Defending Monoliths](#defending-monoliths)
+  * [Professional Developers](#professional-developers)
+  * [It's an art](#its-an-art)
+  * [People who like this also like...](#peopl- who-like-this-also-like)
+  * [Corporations vs Startups](#corporations-vs-startups)
+  * [I'm proud of](#im-proud-of)
+
 * [Questions based on snippets of code](#snippets)
+  * [Beware the closure](#beware-the-closure)
+  * [Type Erasure](#type-erasure)
+  * [Memory Leak](#memory-leak)
+  * [Kill the switch](#kill-the-switch)
+  * [Kill the if](#kill-the-if)
+  * [Kill the if-chain](#kill-the-if-chain)
+
 * [Bill Gates Style Questions](#billgates)
+  * [Mirrors](#mirrors)
+  * [Clones](#clones)
+  * [Revert](#revert)
+  * [Quora](#quora)
+  * [Cobol](#cobol)
+  * [10 years](#10-years)
+  * [Fire me](#fire-me)
+  * [From scratch](#from-scratch)
+  * [Telling lies](#telling-lies)
+  * [Your past self](#your-past-self)
+
 
 
 
 ### [[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
 
-#### Globals are evil
+#### Globals Are Evil
 Why are global and static objects evil? Can you show it with a code example? <br/>
 [Answer](#why-are-global-and-static-objects-evil-can-you-show-it-with-a-code-example)
 
@@ -206,7 +435,7 @@ Some languages, especially the ones that promote a functional approach, allow a 
 #### Exceptions
 Why do some languages have no exceptions by design? What are the pros and cons?
 
-#### Variant and Controvariant Inheritance
+#### Variant and Contravariant Inheritance
 If `Cat` is an `Animal`, is `TakeCare<Cat>` a `TakeCare<Animal>`?
 
 #### Constructors and Interfaces
@@ -302,7 +531,7 @@ When would you use a document database like MongoDB instead of a relational data
 #### Branching in HG and in Git
 Why is branching with Mercurial or git easier than with SVN?
  
-#### DCVS
+#### DVCS
 What are the pros and cons of distributed version control systems like Git over centralized ones like SVN?
 
 #### GitFlow and GitHubFlow
@@ -338,7 +567,7 @@ What is a wait free algorithm?
 
 ### [[↑]](#toc) <a name='distributed'>Questions about Distributed Systems:</a>
 
-#### Testing in Distributed Systems
+#### Testing Distributed Systems
 How would you test a distributed system?
 
 #### Async Communication
@@ -395,7 +624,7 @@ How would you manage a very late project?
 #### Agile Manifesto
 "*Individuals and interactions over processes and tools*" and "*Customer collaboration over contract negotiation*" comprise half of the values of the Agile Manifesto. Discuss
 
-#### If I'm the CTO
+#### If I were the CTO
 Tell me what decisions would you take if you could be the CTO of your Company.
 
 #### PMs
@@ -489,7 +718,7 @@ How would you design a software system for scalability?
 #### C10K
 Someone gave the name "The "C10k problem" to the problem of optimising network sockets to handle over 10.000 open connections at once. While handling 10.000 concurrent clients is not the same as handling 10.000 open connection, the context is similar. It's a tough challenge anyway, and no one is expected to know every single detail to solve it. It may be interesting to discuss the strategies you know to deal with that problem. Would you like to try?
 
-#### P2fp
+#### P2P
 How would you design a decentralized (that is, with no central server) P2P system?
 
 #### CGI
@@ -510,7 +739,7 @@ In which part of the lifecycle of a software performance should be taken in cons
 #### DDOS
 How could a denial of service arise not maliciously but due to a design or architectural problem?
 
-#### Performace and Scalability
+#### Performance and Scalability
 What’s the relationship between performance and scalability?
 
 #### Tight Coupling
@@ -579,7 +808,7 @@ How does HTTPS work?
 #### MITM Attack
 What's a man-in-the-middle Attack, and why does HTTPS help protect against it?
 
-#### Stooling Sessions
+#### Stealing Sessions
 How can you prevent the user's session from being stolen? Chances are you remember what session or cookie hijacking is, otherwise let's read its Wikipedia page together.
 
 

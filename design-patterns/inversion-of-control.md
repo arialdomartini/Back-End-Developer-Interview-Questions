@@ -1,8 +1,22 @@
-# Tell me about Inversion of Control and how it improves the design of code
+# Inversion of Control
 
-## [Krzysztof Grzybek](https://github.com/krzysztof-grzybek)
+## Links
 
-Inversion of Control is a pattern in which we reverse the relation of the code execution: we don't call the external code, external code calls our code.
-E.g. when working we libraries, we usually import some module and call functions from that module. When working with frameworks, our custom code 
-is called by the framework code. This is also known as the Hollywood Principle - "Don't call us, we'll call you".
-It may help keeping single responsibility of the specific classes and design more concise API's.
+* [InversionOfControl - Fowler](https://martinfowler.com/bliki/InversionOfControl.html)
+* [Inversion of Control Containers and the Dependency Injection pattern - Fowler](https://martinfowler.com/articles/injection.html)
+* [Inversion of Control Containers and the Dependency Injection pattern - Fowler](https://martinfowler.com/articles/injection.html)
+* [DIP in the Wild - Brett L. Schuchert](https://martinfowler.com/articles/dipInTheWild.html)
+
+## Related topics
+
+* Topics that might be confused with each other
+  - Inversion of Control
+  - Dependency Inversion Principle (from SOLID)
+  - Dependency Injection
+
+They are all related, but in fact separate.
+
+### Relation with Hollywood Principle
+For some the Hollywood Principle (or Law) is just a synonym of Inversion of Control; some others see subtle differences. See  [Confusion between Inversion of Control and Hollywood Principle](https://stackoverflow.com/questions/43786221/confusion-between-inversion-of-control-and-hollywood-principle).
+
+In this context, another related topic is the difference between libraries and frameworks, as it is stated that frameworks follow the Hollywood Principle (see [What is the difference between a framework and a library?](https://stackoverflow.com/questions/148747/what-is-the-difference-between-a-framework-and-a-library)).

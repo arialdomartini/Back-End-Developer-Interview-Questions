@@ -248,7 +248,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [Defending Monoliths](#defending-monoliths)
   * [Professional Developers](#professional-developers)
   * [It's an art](#its-an-art)
-  * [People who like this also like...](#peopl- who-like-this-also-like)
+  * [People who like this also like...](#people-who-like-this-also-like)
   * [Corporations vs Startups](#corporations-vs-startups)
   * [I'm proud of](#im-proud-of)
 

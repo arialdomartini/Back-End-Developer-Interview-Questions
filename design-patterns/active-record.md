@@ -1,7 +1,7 @@
 # Active Record
 
-## [Krzysztof Grzybek](https://github.com/krzysztof-grzybek)
+Related topics suggested by [Krzysztof Grzybek](https://github.com/krzysztof-grzybek)
 
-1. Those objects are hard to test - they are tied to the data layer.
-2. This design violates SRP, so it might lead us to huge classes with lots of responsibilities.
-4. It's easy to hit the database multiple times (e.g. in foreach loop) because of the leaking abstraction.
+- How hard is to test code that uses Active Record? How is domain model tied or independent from data layer?
+- What's the relation between objects implementing Active Record and the Single Responsibility Principle?
+- How easy is to hit the database multiple times (e.g. in foreach loop) because of the leaking abstraction?

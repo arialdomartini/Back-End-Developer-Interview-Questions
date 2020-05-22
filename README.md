@@ -279,56 +279,56 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 #### Globals Are Evil
 Why are global and static objects evil? Can you show it with a code example? <br/>
-[Answer](#why-are-global-and-static-objects-evil-can-you-show-it-with-a-code-example)
+[Resources](design-patterns/globals-are-evil.md)
 
 #### Inversion of Control
 Tell me about Inversion of Control and how it improves the design of code.<br/>
-[Answer](#tell-me-about-inversion-of-control-and-how-it-improves-the-design-of-code)
+[Resources](design-patterns/inversion-of-control.md)
 
 
 #### Law of Demeter
 The Law of Demeter (the Principle of Least Knowledge) states that each unit should have only limited knowledge about other units and it should only talk to its immediate friends (sometimes stated as "don't talk to strangers").<br/>
 Would you write code violating this principle, show why it is a bad design and then fix it?<br/>
-[Answer](#user-content-the-law-of-demeter-the-principle-of-least-knowledge-states-that-each-unit-should-have-only-limited-knowledge-about-other-units-and-it-should-only-talk-to-its-immediate-friends-sometimes-stated-as-dont-talk-to-strangers-would-you-write-code-violating-this-principle-show-why-it-is-a-bad-design-and-then-fix-it)
+[Resources](design-patterns/law-of-demeter.md)
 
 #### Active-Record
 Active-Record is the design pattern that promotes objects to include functions such as Insert, Update, and Delete, and properties that correspond to the columns in some underlying database table. In your opinion and experience, which are the limits and pitfalls of the this pattern?<br/>
-[Answer](#active-record-is-the-design-pattern-that-promotes-objects-to-include-functions-such-as-insert-update-and-delete-and-properties-that-correspond-to-the-columns-in-some-underlying-database-table-in-your-opinion-and-experience-which-are-the-limits-and-pitfalls-of-the-this-pattern)
+[Resources](design-patterns/active-record.md)
 
 #### Data-Mapper
 Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one instead of the other?<br/>
-[Answer](#data-mapper-is-a-design-pattern-that-promotes-the-use-of-a-layer-of-mappers-that-moves-data-between-objects-and-a-database-while-keeping-them-independent-of-each-other-and-the-mapper-itself-on-the-contrary-in-active-record-objects-directly-incorporate-operations-for-persisting-themselves-to-a-database-and-properties-corresponding-to-the-underlying-database-tables-do-you-have-an-opinion-on-those-patterns-when-would-you-use-one-instead-of-the-other)
+[Resources](design-patterns/data-mapper.md)
 
 #### Billion Dollar Mistake
 Why is it often said that the introduction of `null` is a "billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?<br/>
-[Answer](#why-is-it-often-said-that-the-introduction-of-null-is-a-billion-dollar-mistake-would-you-discuss-the-techniques-to-avoid-it-such-as-the-null-object-pattern-introduced-by-the-gof-book-or-option-types)
+[Resources](design-patterns/billion-dollar-mistake.md)
 
 #### Inheritance vs Composition
 Many state that, in Object-Oriented Programming, composition is often a better option than inheritance. What's you opinion?<br/>
-[Answer](#many-state-that-in-object-oriented-programming-composition-is-often-a-better-option-than-inheritance-whats-you-opinion)
+[Resources](design-patterns/inheritance-vs-composition.md)
 
 #### Anti-corruption Layer
 What is an Anti-corruption Layer?<br/>
-[Answer](#what-is-an-anti-corruption-layer)
+[Resources](design-patterns/anti-corruption-layer.md)
 
 #### Singleton
 Singleton is a design pattern that restricts the instantiation of a class to one single object. Writing a Thread-Safe Singleton class is not so obvious. Would you try?
 
 #### Data Abstraction
 The ability to change implementation without affecting clients is called Data Abstraction. Produce an example violating this property, then fix it.<br/>
-[Answer](#the-ability-to-change-implementation-without-affecting-clients-is-called-data-abstraction-produce-an-example-violating-this-property-then-fix-it)
+[Resources](design-patterns/data-abstraction.md)
 
 #### Dont't Repeat Yourself
 Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, fix it.<br/>
-[Answer](#write-a-snippet-of-code-violating-the-dont-repeat-yourself-dry-principle-then-fix-it)
+[Resources](design-patterns/dont-repeat-yourself.md)
 
 #### Dependency Hell
 How would you deal with Dependency Hell?<br/>
-[Answer](#how-would-you-deal-with-dependency-hell)
+[Resources](design-patterns/dependency-hell.md)
 
 #### Goto is Evil
 Is goto evil? You may have heard of the famous paper "Go To Statement Considered Harmful" by Edsger Dijkstra, in which he criticized the use of the `goto` statement and advocated structured programming instead. The use of `goto` has always been controversial, so much that even Dijkstra's letter was criticized with articles such as "'GOTO Considered Harmful' Considered Harmful". What's your opinion on the use of `goto`?<br/>
-[Answer](#is-goto-evil-you-may-have-heard-of-the-famous-paper-go-to-statement-considered-harmful-by-edsger-dijkstra-in-which-he-criticized-the-use-of-the-goto-statement-and-advocated-structured-programming-instead-the-use-of-goto-has-always-been-controversial-so-much-that-even-dijkstras-letter-was-criticized-with-articles-such-as-goto-considered-harmful-considered-harmful-whats-your-opinion-on-the-use-of-goto)
+[Resources](design-patterns/goto-is-evil.md)
 
 #### Robustness Principle
 The robustness principle is a general design guideline for software that recommends "*be conservative in what you send, be liberal in what you accept*". It is often reworded as "*be a tolerant reader and a careful writer*". Would you like to discuss the rationale of this principle?
@@ -473,39 +473,39 @@ In web development, Model-View Controller and Model-View-View-Model approaches a
 
 #### DB Migrations
 How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face?<br/>
-[Answer](#how-would-you-migrate-an-application-from-a-database-to-another-for-example-from-mysql-to-postgresql-if-you-had-to-manage-that-project-which-issues-would-you-expect-to-face)
+[Resources](databases/db-migrations.md)
 
 #### NULL is special
 Why do databases treat null as a so special case? For example, why does ```SELECT * FROM table WHERE field = null``` not match records with null ``field`` in SQL?<br/>
-[Answer](#why-do-databases-treat-null-as-a-so-special-case-for-example-why-does-select--from-table-where-field--null-not-match-records-with-null-field-in-sql)
+[Resources](databases/null-is-special.md)
 
 #### ACID
 ACID is an acronym that refers to Atomicity, Consistency, Isolation and Durability, 4 properties guaranteed by a database transaction in most database engines. What do you know about this topic? Would you like to elaborate?<br/>
-[Answer](#acid-is-an-acronym-that-refers-to-atomicity-consistency-isolation-and-durability-4-properties-guaranteed-by-a-database-transaction-in-most-database-engines-what-do-you-know-about-this-topic-would-you-like-to-elaborate)
+[Resources](databases/acid.md)
 
 #### Schema Migrations
 How would you manage database schema migrations? That is, how would you automate changes to database schema, as the application evolves, version after version?<br/>
-[Answer](#how-would-you-manage-database-schema-migrations-that-is-how-would-you-automate-changes-to-database-schema-as-the-application-evolves-version-after-version)
+[Resources](databases/schema-migrations.md)
 
 #### Lazy Loading
 How is lazy loading achieved? When is it useful? What are its pitfalls?<br/>
-[Answer](#how-is-lazy-loading-achieved-when-is-it-useful-what-are-its-pitfalls)
+[Resources](databases/lazy-loading.md)
 
 #### N+1 Problem
 The so called "N + 1 problem" is an issue that occurs when code needs to load the children of a parent-child relationship with a ORMs that have lazy-loading enabled, and that therefore issue a query for the parent record, and then one query for each child record. How to fix it?<br/>
-[Answer](#the-so-called-n--1-problem-is-an-issue-that-occurs-when-code-needs-to-load-the-children-of-a-parent-child-relationship-with-a-orms-that-have-lazy-loading-enabled-and-that-therefore-issue-a-query-for-the-parent-record-and-then-one-query-for-each-child-record-how-to-fix-it)
+[Resources](databases/n1-problem.md)
 
 #### Slowest Queries
 How would you find the most expensive queries in an application?<br/>
-[Answer](#how-would-you-find-the-most-expensive-queries-in-an-application)
+[Resources](databases/slowest-queries.md)
 
 #### Normalization
 In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?<br/>
-[Answer](#in-your-opinion-is-it-always-needed-to-use-database-normalization-when-is-it-advisable-to-use-denormalized-databases)
+[Resources](databases/normalization.md)
 
 #### Blue/Green Deployment
 Of of the Continuous Integration's techniques is called Blue-Green Deployment: it consists in having two production environments, as identical as possible, and in performing the deployment in one of them while the other one is still operating, and than in safely switching the traffic to the second one after some convenient testing. This technique becomes more complicated when the deployment includes changes to the database structure or content. I'd like to discuss this topic with you.<br/>
-[Answer](#of-of-the-continuous-integrations-techniques-is-called-blue-green-deployment-it-consists-in-having-two-production-environments-as-identical-as-possible-and-in-performing-the-deployment-in-one-of-them-while-the-other-one-is-still-operating-and-than-in-safely-switching-the-traffic-to-the-second-one-after-some-convenient-testing-this-technique-becomes-more-complicated-when-the-deployment-includes-changes-to-the-database-structure-or-content-id-like-to-discuss-this-topic-with-you)
+[Resources](databases/bluegreen-deployment.md)
 
 
 ### [[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>
@@ -1090,22 +1090,7 @@ function()
     return error;
 }
 ```
-
-* Answer :
-
-```js
-function()
-{
-    HRESULT error = S_OK;
-
-    if( !SUCCEEDED(Operation1() ) return OPERATION1FAILED;
-    if( !SUCCEEDED(Operation2() ) return OPERATION2FAILED;
-    if( !SUCCEEDED(Operation3() ) return OPERATION3FAILED;
-    if( !SUCCEEDED(Operation3() ) return OPERATION3FAILED;
-    if( !SUCCEEDED(Operation4() ) return OPERATION4FAILED;
-
-}
-```
+[Resources](snippets/kill-the-if-chain.md)
 
 ### [[↑]](#toc) <a name='billgates'>Bill Gates Style Questions:</a>
 This section collects some weird questions along the lines of the [Manhole Cover Question](https://en.wikipedia.org/wiki/Microsoft_interview#Manhole_cover_question).
@@ -1139,276 +1124,3 @@ Your boss asks you to lie to the company. What's your reaction?
 
 #### Your past self
 If you could travel back in time, which advice would you give to your younger self?
-
-
----
-
-### Why are global and static objects evil? Can you show it with a code example?
-
-1. Global and static objects causes implicit dependencies/coupling, thus breaks the idea of encapsulation.
-2. It's hard to reason about them - logical scope for understanding behaviour of these objects is expanded to the whole program.
-3. It's Hard to mock/stub them.
-4. Global objects pollutes the main scope.
-
-Bad:
-```javascript
-class Player {
-    walk() {
-        this.x = nextDestination.x;
-        this.y = nextDestination.y;
-    }
-}
-```
-
-Good:
-```javascript
-class Player {
-    walk(destination) {
-        this.x = destination.x;
-        this.y = destination.y;
-    }
-}
-```
-<br>[⬆ Back to top](#table-of-contents)
-
-### Tell me about Inversion of Control and how it improves the design of code.
-
-Inversion of Control is a pattern in which we reverse the relation of the code execution: we don't call the external code, external code calls our code.
-E.g. when working we libraries, we usually import some module and call functions from that module. When working with frameworks, our custom code 
-is called by the framework code. This is also known as the Hollywood Principle - "Don't call us, we'll call you".
-It may help keeping single responsibility of the specific classes and design more concise API's.
-<br>[⬆ Back to top](#table-of-contents)
-
-### The Law of Demeter (the Principle of Least Knowledge) states that each unit should have only limited knowledge about other units and it should only talk to its immediate friends (sometimes stated as "don't talk to strangers"). Would you write code violating this principle, show why it is a bad design and then fix it?
-
-Code violating The Law of Demeter:
-```javascript
-class Plane {
-    constructor(crew) {
-        this.crew = crew;
-    }
-    
-    getPilotsName() {
-        this.crew.pilot.getName();
-    }
-}
-
-class Crew {
-    constructor(pilot) {
-        this.pilot = pilot;
-    }
-}
-
-class Pilot {
-    getName() {
-        // ...
-    }
-}
-```
-It's bad, because it creates tight coupling between objects - they are dependent on internal structure of other objects.
-
-Fixed code:
-```javascript
-class Plane {
-    getPilotsName() {
-        this.crew.getPilotsName();
-    }
-}
-
-class Crew {
-    constructor(pilot) {
-        this.pilot = pilot;
-    }
-
-    getPilotsName() {
-        return this.pilot.getName();
-    }
-}
-```
-<br>[⬆ Back to top](#table-of-contents)
-
-### What is an Anti-corruption Layer?
-    
-It's a layer in the system which is responsible for communication between subsystems (most likely with the external or legacy system) which don't operate on the same models.
-Its purpose is to create an isolating layer which provides clients with functionality in terms of their own domain model.
-### The so called "N + 1 problem" is an issue that occurs when code needs to load the children of a parent-child relationship with a ORMs that have lazy-loading enabled, and that therefore issue a query for the parent record, and then one query for each child record. How to fix it?
-
-It depends on the ORM engine, but generally, the fix is to use `JOIN` query. In hibernate it's e.g. `join fetch` which results in `INNER JOIN` SQL query.
-
-<br>[⬆ Back to top](#table-of-contents)
-
-### The ability to change implementation without affecting clients is called Data Abstraction. Produce an example violating this property, then fix it.
-### How would you find the most expensive queries in an application?
-
-Data Abstraction violation:
-```javascript
-class Book {
-    constructor(pages) {
-        this.pages = pages;
-    }
-}
-
-const myBook = new Book([{ text: 'content of the title page'}, { text: '...'}]);
-const titlePage = myBook.pages[0];
-```
-I worked mainly with mySql database. It provides a tool for monitoring slow queries. All You have to do is enabling logging slow queries into the specified file. You can also specify the minimum time threshold.
-Additionally, if app is deployed to the cloud, probably there is an option to setup an email notifications which will notify you if those queries were executed.
-
-<br>[⬆ Back to top](#table-of-contents)
-
-### In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?
-
-I think that database denormalization is needed only if we need to improve the performance of our queries, and the other optimizations (indexing, sql views) are not enough.
-We need to remember that the cost of database denormalization is to build and maintain tools for keeping our data consistent (e.g. crons).
-
-<br>[⬆ Back to top](#table-of-contents)
-
-Fixed:
-```javascript
-class Book {
-    constructor(title, pages) {
-        this.title = title;
-### Of of the Continuous Integration's techniques is called Blue-Green Deployment: it consists in having two production environments, as identical as possible, and in performing the deployment in one of them while the other one is still operating, and than in safely switching the traffic to the second one after some convenient testing. This technique becomes more complicated when the deployment includes changes to the database structure or content. I'd like to discuss this topic with you.
-
-This is the most tricky part of the Blue-Green Deployment. The common solution for this case is to have an intermediate release, with database schema which will be supported by both previous and the next release.
-With this approach, we still have all the benefits of the Blue-Green Deployment, including quick revert. The cost is an overhead with the intermediate release.
-
-        this.pages = pages;
-    }
-
-    getTitlePage() {
-        return this.pages[0];
-    }   
-}
-
-const myBook = new Book([{ text: 'content of the title page'}, { text: '...'}]);
-const titlePage = myBook.getTitlePage();
-```
-<br>[⬆ Back to top](#table-of-contents)
-
-### Active-Record is the design pattern that promotes objects to include functions such as Insert, Update, and Delete, and properties that correspond to the columns in some underlying database table. In your opinion and experience, which are the limits and pitfalls of the this pattern?
-
-1. Those objects are hard to test - they are tied to the data layer.
-2. This design violates SRP, so it might lead us to huge classes with lots of responsibilities.
-4. It's easy to hit the database multiple times (e.g. in foreach loop) because of the leaking abstraction.
-<br>[⬆ Back to top](#table-of-contents)
-### Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, fix it.
-### How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face?
-
-The strategy would highly depend on application downtime possibility. If some downtime would be possible, migration would be much easier. I would pay attention especially to:
-1. Consistency in data changes after migration has been started (if downtime is not possible).
-2. Data types compatibility between different db engines.
-3. Database api changes.
-4. Security issues (we would transfer a lot of sensitive data through the network).
-5. Troublesome potential revert.
-<br>[⬆ Back to top](#table-of-contents)
-
-### Why do databases treat null as a so special case? For example, why does ```SELECT * FROM table WHERE field = null``` not match records with null ``field`` in SQL?
-
-"NULL", basically means "a missing unknown value". It requires often special treatment because it represents something that doesn't exist.
-The example above doesn't work, because the result of any arithmetic comparison with NULL is NULL itself, e.g.:
-
-```sql
-1 = NULL, 1 <> NULL, 1 < NULL, 1 > NULL
-```
-, and even
-```sql
-NULL = NULL
-```
-It somehow makes sense, because how would you compare a number to something that doesn't exist, or how would you compare something that doesn't exist to something that doesn't exist?!
-<br>[⬆ Back to top](#table-of-contents)
-
-### ACID is an acronym that refers to Atomicity, Consistency, Isolation and Durability, 4 properties guaranteed by a database transaction in most database engines. What do you know about this topic? Would you like to elaborate?
-
-1. Atomicity specifies that if any query in a single transaction fails, the whole transaction also fails and the database is left unchanged. By "fail" we mean not only application errors, but also external factors, like a power outage.
-2. Consistency specifies that each transaction has to lead the database from one valid state to another valid state. It has to maintain its invariants.
-3. Isolation specifies that each transaction has to be performed in isolation of each other. There are different levels of isolation:
-    * "read uncommitted" - no isolation - we can read uncommitted data from another transaction
-    * "read committed" - better isolation - we can read only committed data from other transactions. It leads to inconsistencies if a concurrent transaction has been started during another transaction, but has been finished earlier.
-    * "repeatable read" - usually "good enough" isolation - each query in the transaction sees only committed updates at the beginning of the transaction. It might be implemented with locks or versioning. Phantom reads might occur.
-    * "serializable" - the highest level of isolation - transactions are not executed concurrently, they are executed consecutively.
-    
-    The performance goes down with the level of isolation. That's why "repeatable read" is used most often.
-    Also, presented model is often more complicated in some db engines implementation. You can find the details here https://github.com/ept/hermitage
-4. Durability specifies that after a transaction has been committed, the data will remain even after power outage or crash.
-    
-<br>[⬆ Back to top](#table-of-contents)
-
-### How would you manage database schema migrations? That is, how would you automate changes to database schema, as the application evolves, version after version?
-
-I would use migration scripts which would be tracked in the version control system. Each change to database schema would be a script ordered chronologically, e.g. they would be named `1_add_age_to_user`, `2_add_price_to_order`.
-I would also track in database which migration scripts were executed already. With setup like this, it would be easy to execute migration scripts automatically - in development environment on application start, and in CI - before deployment. 
-
-Code violating the DRY principle:
-```javascript
-class Employee {
-    calculateSalaryNet() {
-        return this.hoursWorked * this.hourlyWage;
-    }
-
-    calculateSalaryGross() {
-        return this.hoursWorked * this.hourlyWage + TAX;
-<br>[⬆ Back to top](#table-of-contents)
-
-### How is lazy loading achieved? When is it useful? What are its pitfalls?
-
-Lazy loading is a pattern in which we delay loading the data until it's actually needed. Lazy loading data from the database is usually achieved by Implementing proper Proxy class.
-It might be useful if we have an object which requires a lot of data to be fetched from the database, but probably we don't need all the data in every case. It might reduce object initialization phase and memory usage.
-On the other hand, we might end up with a lot of database queries to get small chunks of data, and it might cause performance problems. It's not so hard to do that because lazy loading is a very leaking abstraction.
-Another pitfall, probably more important is that we might work with inconsistent data. If we loaded user data first, and then after some time we loaded user orders, we can't be sure that the orders data wasn't modified already by someone else.
-
-    }
-}
-```
-
-Fixed code:
-```javascript
-class Employee {
-    calculateSalaryNet() {
-        return this.hoursWorked * this.hourlyWage;
-    }
-
-    calculateSalaryGross() {
-        return this.calculateSalaryNet() + TAX;
-    }
-}
-```
-<br>[⬆ Back to top](#table-of-contents)
-
-
-### How would you deal with Dependency Hell?
-
-1. The most basic approach is to manually update dependencies to satisfy other package versioning or to ask the maintainer to do this.
-2. If I trust the semantic versioning libraries I use, I try to do more relaxed versioning.
-2. A better solution for this problem is to keep projects in monorepo. This approach implies other challenges though.
-3. Another interesting solution is a [system for easier dependencies management](https://www.youtube.com/watch?v=VNqmHJtItCs) introduced by Netflix Engineering. 
-
-<br>[⬆ Back to top](#table-of-contents)
-
-### Is goto evil? You may have heard of the famous paper "Go To Statement Considered Harmful" by Edsger Dijkstra, in which he criticized the use of the `goto` statement and advocated structured programming instead. The use of `goto` has always been controversial, so much that even Dijkstra's letter was criticized with articles such as "'GOTO Considered Harmful' Considered Harmful". What's your opinion on the use of `goto`?
-
-I wouldn't be so radical in either direction. I think that structured programming won the debate because it's the right thing to do. It's easier to reason about a program written in this manner.
-On the other hand, even writing this kind of programs we often use the `goto` like style (early returns, exception handling) and it doesn't do any harm.
-In my opinion the same applies to the `goto` statements - function-scoped `goto` statements here and there might really make our program simpler and easier to understand.
-
-### Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one instead of the other?
-
-1. ActiveRecord violates the SRP principle and it's hard to test. If we would have a simple application which only read and stores data, with no business logic included, Active Directory seems to be the best choice. In every other case,
-I would go with Data-Mappers.
-<br>[⬆ Back to top](#table-of-contents)
-
-### Why is it often said that the introduction of `null` is a "billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
-
-The presence of null and its assignability to any type makes programs error-prone. Since any variable can be "null", we never know when we may want to call e.g. some method on null instead of the real object.
-
-Null object pattern mail lead to silent errors. It may be also tedious in maintenance, because we have to update it often when original class changes. It would be helpful when we really want to apply default behavior for some cases.
-
-Option types are awesome, because they are completely safe. However, they might create some overhead with a lot of additional code.
-<br>[⬆ Back to top](#table-of-contents)
-
-### Many state that, in Object-Oriented Programming, composition is often a better option than inheritance. What's you opinion?
-
-It depends on the case. The issue with inheritance is that it breaks encapsulation and creates a tight coupling between the parent class and subclasses.
-We might end up also with a single big class. On the other hand, with the composition, we might end up with a lot of small classes. If the relation between the object is `is a` and we
-want to have slightly different behavior, I would choose inheritance. In other cases, I would choose a composition.
-<br>[⬆ Back to top](#table-of-contents)

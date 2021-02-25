@@ -73,7 +73,6 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [Good and Bad Languages](#good-and-bad-languages)
   * [Referential Transparency](#referencial-transparency)
   * [Stack and Heap](#stack-and-heap)
-  * [Functions as First Class Citizens](#functions-as-first-class-citizens)
   * [Pattern Matching](#pattern-matching)
   * [Exceptions](#exceptions)
   * [Variant and Contravariant Inheritance](#variant-and-contravariant-inheritance)
@@ -401,6 +400,7 @@ Write a loop, then transform it into a recursive function, using only immutable 
 
 #### Functions as First-Class Citizens
 What does it mean when a language treats functions as first-class citizens?
+Why is it important that in a language functions are first-class citizens?
 
 #### Anonymous Functions
 Show me an example where an anonymous function can be useful.
@@ -425,9 +425,6 @@ Write two functions, one referentially transparent and the other one referential
 
 #### Stack and Heap
 What is a stack and what is a heap? What's a stack overflow?
-
-#### Functions as First Class Citizens
-Why is it important that in a language functions are first class citizens?
 
 #### Pattern Matching
 Some languages, especially the ones that promote a functional approach, allow a technique called pattern matching. Do you know it? How is pattern matching different from switch clauses?

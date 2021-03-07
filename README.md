@@ -420,7 +420,7 @@ Why do many software engineers not like Java?
 #### Good and Bad Languages
 What makes a good language good and a bad language bad?
 
-#### Rerefential Transparency
+#### Referential Transparency
 Write two functions, one referentially transparent and the other one referentially opaque. Discuss.
 
 #### Stack and Heap

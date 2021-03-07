@@ -4,7 +4,6 @@
 
 * [InversionOfControl - Fowler](https://martinfowler.com/bliki/InversionOfControl.html)
 * [Inversion of Control Containers and the Dependency Injection pattern - Fowler](https://martinfowler.com/articles/injection.html)
-* [Inversion of Control Containers and the Dependency Injection pattern - Fowler](https://martinfowler.com/articles/injection.html)
 * [DIP in the Wild - Brett L. Schuchert](https://martinfowler.com/articles/dipInTheWild.html)
 
 ## Related topics

@@ -40,7 +40,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [Dependency Hell](#depencendy-hell)
   * [Goto Is Evil](#goto-is-evil)
   * [Robustness Principle](#robustness-principle)
-  * [Separation of Concerns](separation-of-concerne)
+  * [Separation of Concerns](#separation-of-concerns)
 
 * [Questions about Code Design](#design)
   * [High Cohesion, Loose Coupling](#high-cohesion-loose-coupling)

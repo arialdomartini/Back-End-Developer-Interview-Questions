@@ -36,7 +36,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [Anti-Corruption Layer](#anti-corruption-layer)
   * [Singleton](#singleton)
   * [Data Abstraction](#data-abstraction)
-  * [Don't Repeat Yourself](#don-t-repeat-yourself)
+  * [Don't Repeat Yourself](#dont-repeat-yourself)
   * [Dependency Hell](#depencendy-hell)
   * [Goto Is Evil](#goto-is-evil)
   * [Robustness Principle](#robustness-principle)

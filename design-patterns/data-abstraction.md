@@ -17,13 +17,13 @@ const titlePage = myBook.pages[0];
 Fixed:
 ```javascript
 class Book {
-    constructor(title, pages) {
-        this.title = title;
+    constructor(pages, title) {
         this.pages = pages;
+        this.title = title;
     }
 
     getTitlePage() {
-        return this.pages[0];
+        return this.title || this.pages[0];
     }   
 }
 

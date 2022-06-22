@@ -37,7 +37,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [Singleton](#singleton)
   * [Data Abstraction](#data-abstraction)
   * [Don't Repeat Yourself](#dont-repeat-yourself)
-  * [Dependency Hell](#depencendy-hell)
+  * [Dependency Hell](#dependency-hell)
   * [Goto Is Evil](#goto-is-evil)
   * [Robustness Principle](#robustness-principle)
   * [Separation of Concerns](#separation-of-concerns)

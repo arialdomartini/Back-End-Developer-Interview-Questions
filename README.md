@@ -277,8 +277,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 ### [[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
 
 #### Globals Are Evil
-Why are global and static objects evil? Can you show it with a code example? <br/>
-[Resources](design-patterns/globals-are-evil.md)
+Why are global and static objects evil? Can you show it with a code example?
 
 #### Inversion of Control
 Tell me about Inversion of Control and how it improves the design of code.<br/>
@@ -295,39 +294,31 @@ Active-Record is the design pattern that promotes objects to include functions s
 [Resources](design-patterns/active-record.md)
 
 #### Data-Mapper
-Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one instead of the other?<br/>
-[Resources](design-patterns/data-mapper.md)
+Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one instead of the other?
 
 #### Billion Dollar Mistake
-Why is it often said that the introduction of `null` is a "billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?<br/>
-[Resources](design-patterns/billion-dollar-mistake.md)
+Why is it often said that the introduction of `null` is a "billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
 
 #### Inheritance vs Composition
-Many state that, in Object-Oriented Programming, composition is often a better option than inheritance. What's you opinion?<br/>
-[Resources](design-patterns/inheritance-vs-composition.md)
+Many state that, in Object-Oriented Programming, composition is often a better option than inheritance. What's you opinion?
 
 #### Anti-corruption Layer
-What is an Anti-corruption Layer?<br/>
-[Resources](design-patterns/anti-corruption-layer.md)
+What is an Anti-corruption Layer?
 
 #### Singleton
 Singleton is a design pattern that restricts the instantiation of a class to one single object. Writing a Thread-Safe Singleton class is not so obvious. Would you try?
 
 #### Data Abstraction
-The ability to change implementation without affecting clients is called Data Abstraction. Produce an example violating this property, then fix it.<br/>
-[Resources](design-patterns/data-abstraction.md)
+The ability to change implementation without affecting clients is called Data Abstraction. Produce an example violating this property, then fix it.
 
 #### Don't Repeat Yourself
-Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, fix it.<br/>
-[Resources](design-patterns/dont-repeat-yourself.md)
+Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, fix it.
 
 #### Dependency Hell
-How would you deal with Dependency Hell?<br/>
-[Resources](design-patterns/dependency-hell.md)
+How would you deal with Dependency Hell?
 
 #### Goto is Evil
-Is goto evil? You may have heard of the famous paper "Go To Statement Considered Harmful" by Edsger Dijkstra, in which he criticized the use of the `goto` statement and advocated structured programming instead. The use of `goto` has always been controversial, so much that even Dijkstra's letter was criticized with articles such as "'GOTO Considered Harmful' Considered Harmful". What's your opinion on the use of `goto`?<br/>
-[Resources](design-patterns/goto-is-evil.md)
+Is goto evil? You may have heard of the famous paper "Go To Statement Considered Harmful" by Edsger Dijkstra, in which he criticized the use of the `goto` statement and advocated structured programming instead. The use of `goto` has always been controversial, so much that even Dijkstra's letter was criticized with articles such as "'GOTO Considered Harmful' Considered Harmful". What's your opinion on the use of `goto`?
 
 #### Robustness Principle
 The robustness principle is a general design guideline for software that recommends "*be conservative in what you send, be liberal in what you accept*". It is often reworded as "*be a tolerant reader and a careful writer*". Would you like to discuss the rationale of this principle?
@@ -469,40 +460,31 @@ In web development, Model-View Controller and Model-View-View-Model approaches a
 ### [[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 
 #### DB Migrations
-How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face?<br/>
-[Resources](databases/db-migrations.md)
+How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face?
 
 #### NULL is special
-Why do databases treat null as a so special case? For example, why does ```SELECT * FROM table WHERE field = null``` not match records with null ``field`` in SQL?<br/>
-[Resources](databases/null-is-special.md)
+Why do databases treat null as a so special case? For example, why does ```SELECT * FROM table WHERE field = null``` not match records with null ``field`` in SQL?
 
 #### ACID
-ACID is an acronym that refers to Atomicity, Consistency, Isolation and Durability, 4 properties guaranteed by a database transaction in most database engines. What do you know about this topic? Would you like to elaborate?<br/>
-[Resources](databases/acid.md)
+ACID is an acronym that refers to Atomicity, Consistency, Isolation and Durability, 4 properties guaranteed by a database transaction in most database engines. What do you know about this topic? Would you like to elaborate?
 
 #### Schema Migrations
-How would you manage database schema migrations? That is, how would you automate changes to database schema, as the application evolves, version after version?<br/>
-[Resources](databases/schema-migrations.md)
+How would you manage database schema migrations? That is, how would you automate changes to database schema, as the application evolves, version after version?
 
 #### Lazy Loading
-How is lazy loading achieved? When is it useful? What are its pitfalls?<br/>
-[Resources](databases/lazy-loading.md)
+How is lazy loading achieved? When is it useful? What are its pitfalls?
 
 #### N+1 Problem
-The so called "N + 1 problem" is an issue that occurs when code needs to load the children of a parent-child relationship with a ORMs that have lazy-loading enabled, and that therefore issue a query for the parent record, and then one query for each child record. How to fix it?<br/>
-[Resources](databases/n1-problem.md)
+The so called "N + 1 problem" is an issue that occurs when code needs to load the children of a parent-child relationship with a ORMs that have lazy-loading enabled, and that therefore issue a query for the parent record, and then one query for each child record. How to fix it?
 
 #### Slowest Queries
-How would you find the most expensive queries in an application?<br/>
-[Resources](databases/slowest-queries.md)
+How would you find the most expensive queries in an application?
 
 #### Normalization
-In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?<br/>
-[Resources](databases/normalization.md)
+In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?
 
 #### Blue/Green Deployment
-Of of the Continuous Integration's techniques is called Blue-Green Deployment: it consists in having two production environments, as identical as possible, and in performing the deployment in one of them while the other one is still operating, and than in safely switching the traffic to the second one after some convenient testing. This technique becomes more complicated when the deployment includes changes to the database structure or content. I'd like to discuss this topic with you.<br/>
-[Resources](databases/bluegreen-deployment.md)
+Of of the Continuous Integration's techniques is called Blue-Green Deployment: it consists in having two production environments, as identical as possible, and in performing the deployment in one of them while the other one is still operating, and than in safely switching the traffic to the second one after some convenient testing. This technique becomes more complicated when the deployment includes changes to the database structure or content. I'd like to discuss this topic with you.
 
 
 ### [[↑]](#toc) <a name='nosql'>Questions about NoSQL:</a>

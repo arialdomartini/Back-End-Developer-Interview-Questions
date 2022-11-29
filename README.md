@@ -901,7 +901,7 @@ Defend the monolithic architecture.
 What does it mean to be a "professional developer"?
 
 #### It's an art
-Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
+Is developing software Art, Engineering, Crafts or Science? Your opinion.
 
 #### People who like this also like...
 "People who like this also like... ". How would you implement this feature in an e-commerce shop?

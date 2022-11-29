@@ -475,8 +475,7 @@ How would you manage database schema migrations? That is, how would you automate
 How is lazy loading achieved? When is it useful? What are its pitfalls?
 
 #### N+1 Problem
-The so called "N + 1 problem" is an issue that occurs when code needs to load the children of a parent-child relationship with a ORMs that have lazy-loading enabled, and that therefore issue a query for the parent record, and then one query for each child record. How to fix it?<br/>
-[Resources](databases/n1-problem.md)
+The so called "N + 1 problem" is an issue that occurs when code needs to load the children of a parent-child relationship with a ORMs that have lazy-loading enabled, and that therefore issue a query for the parent record, and then one query for each child record. How to fix it?
 
 #### Slowest Queries
 How would you find the most expensive queries in an application?<br/>

@@ -472,8 +472,7 @@ ACID is an acronym that refers to Atomicity, Consistency, Isolation and Durabili
 How would you manage database schema migrations? That is, how would you automate changes to database schema, as the application evolves, version after version?
 
 #### Lazy Loading
-How is lazy loading achieved? When is it useful? What are its pitfalls?<br/>
-[Resources](databases/lazy-loading.md)
+How is lazy loading achieved? When is it useful? What are its pitfalls?
 
 #### N+1 Problem
 The so called "N + 1 problem" is an issue that occurs when code needs to load the children of a parent-child relationship with a ORMs that have lazy-loading enabled, and that therefore issue a query for the parent record, and then one query for each child record. How to fix it?<br/>

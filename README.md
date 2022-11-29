@@ -469,8 +469,7 @@ Why do databases treat null as a so special case? For example, why does ```SELEC
 ACID is an acronym that refers to Atomicity, Consistency, Isolation and Durability, 4 properties guaranteed by a database transaction in most database engines. What do you know about this topic? Would you like to elaborate?
 
 #### Schema Migrations
-How would you manage database schema migrations? That is, how would you automate changes to database schema, as the application evolves, version after version?<br/>
-[Resources](databases/schema-migrations.md)
+How would you manage database schema migrations? That is, how would you automate changes to database schema, as the application evolves, version after version?
 
 #### Lazy Loading
 How is lazy loading achieved? When is it useful? What are its pitfalls?<br/>

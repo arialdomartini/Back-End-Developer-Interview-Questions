@@ -300,8 +300,7 @@ Data-Mapper is a design pattern that promotes the use of a layer of Mappers that
 Why is it often said that the introduction of `null` is a "billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
 
 #### Inheritance vs Composition
-Many state that, in Object-Oriented Programming, composition is often a better option than inheritance. What's you opinion?<br/>
-[Resources](design-patterns/inheritance-vs-composition.md)
+Many state that, in Object-Oriented Programming, composition is often a better option than inheritance. What's you opinion?
 
 #### Anti-corruption Layer
 What is an Anti-corruption Layer?<br/>

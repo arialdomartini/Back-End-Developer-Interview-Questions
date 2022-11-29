@@ -303,8 +303,7 @@ Why is it often said that the introduction of `null` is a "billion dollar mistak
 Many state that, in Object-Oriented Programming, composition is often a better option than inheritance. What's you opinion?
 
 #### Anti-corruption Layer
-What is an Anti-corruption Layer?<br/>
-[Resources](design-patterns/anti-corruption-layer.md)
+What is an Anti-corruption Layer?
 
 #### Singleton
 Singleton is a design pattern that restricts the instantiation of a class to one single object. Writing a Thread-Safe Singleton class is not so obvious. Would you try?

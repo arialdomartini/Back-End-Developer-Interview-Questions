@@ -3,24 +3,24 @@ Back-End Developer Interview Questions
 
 This page has been translated to [Chinese](https://github.com/monklof/Back-End-Developer-Interview-Questions) by [monklof](https://github.com/monklof).
 
-I started writing down this list as a personal reminder of topics I had the chance to discuss with colleagues and friends, and that I wanted to deepen...
+I started writing down this list as my personal notes of topics I discussed with colleagues and friends, and that I wanted to deepen...
 
-I'm not a big fan of asking technical questions in job interviews: I rather prefer to sit together with candidates in front of some real code, hands on the keyboard, facing a real problem, and have a full day of pair programming, hopefully rotating with all the other team members. Yet, I feel some technical questions could be a good starting point to begin an engaging and nice conversation, and this can be useful to get a deeper knowledge of each others.
+I'm not a big fan of asking technical questions in job interviews: I rather prefer to sit together with candidates in front of some real code, hands on the keyboard, facing a real problem, and to have a full day of pair programming, hopefully rotating with all the other team members. It is one of the best opportunities to know each others' style and to let candidates know some details about their future job.
 
-This repo collects a number of back end related questions that can be used when vetting potential candidates. It is by no means recommended to use every single question on the same candidate: that would take hours, and would have no sense at all, as they cover a too broad set of topics for a single developer's to possibly know. Browse the section you find more relevant for your context, and pick the questions that give you more ideas on the conversation to have.
+Yet, I feel some categories of technical questions could be a good starting point to begin an engaging conversation. 
 
-### Notice
-Most of the questions are open-ended, and some of them just don't have a *right* or a *wrong* answer. On the contrary, they are intended to be used as the starting point for a conversation that hopefully tells you more about the person's capabilities than a straight answer would. Personally, I would even choose the questions whose answers are not yet clear to me.
-
-Again, I stress that just asking questions is hardly sufficient. Complete the interview with a long pair programming session with your candidates: it is one of the best opportunities to know each others' style and approach and to let candidates know some details about their future day job.
+This repo collects a number of back-end related questions that can be used when vetting potential candidates. It is by no means recommended to use every single question on the same candidate: that would take hours, and would have no sense at all, as they cover a too broad set of topics for a single developer's to possibly know. Browse the section you find more relevant for your context, and pick the questions that give you more ideas on the conversation to have.
 
 This project is admittedly inspired by [Front-end Job Interview Questions](https://github.com/darcyclarke/Front-end-Developer-Interview-Questions) by [@darcyclarke](https://github.com/darcyclarke)
 
+## Where are the answers?
+I didn't include any.<br/>
+Most of the questions are open-ended, and some of them just don't have a *right* or a *wrong* answer. On the contrary, they are intended to be used as the starting point for a conversation that hopefully tells you more about the person's capabilities than a straight answer would. Personally, I would even choose the questions whose answers are not yet clear to me.
+
+Feel free to open a [Discussion](https://github.com/arialdomartini/Back-End-Developer-Interview-Questions/discussions).
 
 
-### Where are the answers?
 
-Sooner or later I will complete it with the relative answers. Feel free to contribute, it would be highly appreciated!
 
 
 ## <a name='toc'>Table of Contents</a>
@@ -79,6 +79,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [Constructors and Interfaces](#constructors-and-interfaces)
   * [Node.js](#node-js)
   * [Java and Time Traveling](#java-and-time-traveling)
+  * [Eliminate Null](#eliminate-null)
 
 * [Web Questions](#web)
   * [3rd Party Cookies](#3rd-party-cookies)
@@ -113,7 +114,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [Rebase](#rebase)
   * [Merging in HG and in Git](#merging-in-hg-and-in-git)
 
-* [Concurrency Questions](#concurrency)
+* [Questions about Concurrency](#concurrency)
   * [Why?](#why)
   * [Testing Concurrency](#testing-concurrency)
   * [Race Conditions](#race-conditions)
@@ -147,7 +148,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [Team Organization](#team-organization)
   * [Turn Over](#turn-over)
   * [Qualities](#qualities)
-  * [3 Things about Code](#3-things-about-code)
+  * [3 Things About Code](#3-things-about-code)
   * [1 Month's Revolution](#1-months-revolution)
 
 * [Questions about logic and algorithms](#algorithms)
@@ -170,7 +171,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [Event-Driven Architecture](#event-driven-architecture)
   * [Readibility](#readibility)
   * [Emergent and Evolutionary](#emergent-and-evolutionary)
-  * [ Scale-Out, Scale-Up](#scale-out-scale-up)
+  * [Scale-Out, Scale-Up](#scale-out-scale-up)
   * [Failures User Sessions](#failures-user-sessions)
   * [CQRS](#cqrs)
   * [n-tier](#n-tier)
@@ -196,11 +197,12 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [Sagas and compensations](#sagas-and-compensations)
   * [Too Micro](#too-micro "Too Micro")
   * [Micro Services Architecture](#micro-services-architecture)
+
 * [Questions about Security](#security)
   * [Security by Default](#security-by-default)
-  * [Don't invent Cryptography](#dont-invent-cryptography)
+  * [Don't Invent Cryptography](#dont-invent-cryptography)
   * [2-FA](#2-fa)
-  * [Sensible Data in Logs](#sensible-data-in-logs)
+  * [Confidential Data in Logs](#confidential-data-in-logs)
   * [SQL Injection](#sql-injection)
   * [Detect SQL Injection](#detect-sql-injection)
   * [XSS](#xss)
@@ -223,14 +225,13 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [TCP and HTTP](#tcp-and-http)
   * [Client-Side vs Server-Side](#client-side-vs-server-side)
   * [Reliable and non-reliable channels](#reliable-and-non-reliable-channels)
-  * [Million-Dollar Mistake](#million-dollar-mistake)
 
 * [Open Questions](#open)
   * [Resistance to Change](#resistance-to-change)
   * [Threading ELI5](#threading-eli5)
   * [Innovation and Predictability](#innovation-and-predictability)
   * [Good Code](#good-code)
-  * [Stradming](#stradming)
+  * [Streaming](#streaming)
   * [1 Week Improvement](#1-week-improvement)
   * [Learnt this week](#learnt-this-week)
   * [Aestheric](#aestheric)
@@ -239,7 +240,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [Reinvent the Wheel](#reinvent-the-wheel)
   * [Not Invented Here](#not-invented-here)
   * [Next Thing to Automate](#next-thing-to-automate)
-  * [Code is Hard](#code-is-hard)
+  * [Coding is Hard](#coding-is-hard)
   * [Green Fields and Brown Fields](#green-fields-and-brown-fields)
   * [Type "Google.com"](#type-googlecom)
   * [While idle](#while-idle)
@@ -252,7 +253,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [I'm proud of](#im-proud-of)
 
 * [Questions based on snippets of code](#snippets)
-  * [Beware the closure](#beware-the-closure)
+  * [Beware the Closure](#beware-the-closure)
   * [Type Erasure](#type-erasure)
   * [Memory Leak](#memory-leak)
   * [Kill the switch](#kill-the-switch)
@@ -275,7 +276,6 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 
 
 ### [[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
-
 #### Globals Are Evil
 Why are global and static objects evil? Can you show it with a code example?
 
@@ -297,12 +297,14 @@ Active-Record is the design pattern that promotes objects to include functions s
 Data-Mapper is a design pattern that promotes the use of a layer of Mappers that moves data between objects and a database while keeping them independent of each other and the mapper itself. On the contrary, in Active-Record objects directly incorporate operations for persisting themselves to a database, and properties corresponding to the underlying database tables. Do you have an opinion on those patterns? When would you use one instead of the other?
 
 #### Billion Dollar Mistake
-Why is it often said that the introduction of `null` is a "billion dollar mistake"? Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
+[Tony Hoare](https://en.m.wikipedia.org/wiki/Tony_Hoare) who invented the null reference once said "*I call it my billion-dollar mistake*" since it led to "*innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years*".
+
+Would you discuss the techniques to avoid it, such as the Null Object Pattern introduced by the GOF book, or Option types?
 
 #### Inheritance vs Composition
 Many state that, in Object-Oriented Programming, composition is often a better option than inheritance. What's you opinion?
 
-#### Anti-corruption Layer
+#### Anti-Corruption Layer
 What is an Anti-corruption Layer?
 
 #### Singleton
@@ -338,7 +340,7 @@ Why do array indexes start with '0' in most languages?
 #### TDD
 How do tests and TDD influence code design?
 
-#### DRY violation
+#### DRY Violation
 Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, explain why it is a bad design, and fix it.
 
 #### Cohesion vs Coupling
@@ -347,7 +349,7 @@ What's the difference between cohesion and coupling?
 #### Refactoring
 What is refactoring useful for?
 
-#### Code comments
+#### Code Comments
 Are comments in code useful? Some say they should be avoided as much as possible, and hopefully made unnecessary. Do you agree?
 
 #### Design vs Architecture
@@ -362,7 +364,7 @@ C++ supports multiple inheritance, and Java allows a class to implement multiple
 #### Domain Logic in Stored Procedures
 What are the pros and cons of holding domain logic in Stored Procedures?
 
-#### OOP took over the world
+#### OOP Took Over the World
 In your opinion, why has Object-Oriented Design dominated the market for so many years?
 
 #### Bad Design
@@ -434,6 +436,8 @@ In the last years there has been a lot of hype around Node.js. What's your opini
 
 #### Java and time-traveling
 * Pretend you have a time machine and pretend that you have the opportunity to go to a particular point in time during Java's (or C#, Python, Go or whatever) history, and talk with some of the JDK architects. What would you try to convince them of? Removing checked exceptions? Adding unsigned primitives? Adding multiple-inheritance?
+#### Eliminate Null
+Imagine you want to remove the possibility to have null references in your preferred language: how would you achieve this goal? What consequences would this have?
 
 
 ### [[↑]](#toc) <a name='web'>Questions about Web development:</a>
@@ -679,7 +683,7 @@ What makes code readable?
 #### Emergent and Evolutionary
 What is the difference between emergent design and evolutionary architecture?
 
-##### Scale-Out, Scale-Up
+#### Scale-Out, Scale-Up
 Scale out vs scale up: how are they different? When to apply one, when the other?
 
 #### Failures User Sessions
@@ -760,13 +764,13 @@ What are the pros and cons of microservice architecture?
 #### Security by Default
 How do you write secure code? In your opinion, is it one of the developer's duties, or does it require a specialized role in the company? And why?
 
-#### Don't invent Cryptography
+#### Don't Invent Cryptography
 Why is it said that cryptography is not something you should try to invent or design yourself?
 
 #### 2-FA
 What is two factor authentication? How would you implement it in an existing web application?
 
-#### Sensible Data in Logs
+#### Confidential Data in Logs
 If not carefully handled, there is always a risk of logs containing sensitive information, such as passwords. How would you deal with this?
 
 #### SQL Injection
@@ -833,8 +837,6 @@ What are the tradeoffs of client-side rendering vs. server-side rendering?
 How could you develop a reliable communication protocol based on a non-reliable one?
 
 
-#### Million-Dollar Mistake
-[Tony Hoare](https://en.m.wikipedia.org/wiki/Tony_Hoare) who invented the null reference once said "*I call it my billion-dollar mistake*" since it led to "*innumerable errors, vulnerabilities, and system crashes, which have probably caused a billion dollars of pain and damage in the last forty years*". Imagine you want to remove the possibility to have null references in your preferred language: how would you achieve this goal? What consequences could this have?
 
 
 ### [[↑]](#toc) <a name='open'>Open Questions:</a>
@@ -851,7 +853,7 @@ As a software engineer you want both to innovate and to be predictable. How thos
 #### Good Code
 What makes good code good?
 
-#### Stradming
+#### Streaming
 Explain streaming and how you would implement it.
 
 #### 1 Week Improvement
@@ -877,7 +879,7 @@ Let's have a conversation about "*reinventing the wheel*", the "*not invented he
 
 #### Next Thing to Automate
 What's the next thing you would automate in your current workflow?
-#### Code is Hard
+#### Coding is Hard
 Why is writing software difficult? What makes maintaining software hard?
 
 #### Green Fields and Brown Fields
@@ -899,7 +901,7 @@ Defend the monolithic architecture.
 What does it mean to be a "professional developer"?
 
 #### It's an art
-Is developing software an art, a craftsmanship or an engineering endeavour? Your opinion.
+Is developing software Art, Engineering, Crafts or Science? Your opinion.
 
 #### People who like this also like...
 "People who like this also like... ". How would you implement this feature in an e-commerce shop?
@@ -914,7 +916,7 @@ What have you achieved recently that you are proud of?
 
 ### [[↑]](#toc) <a name='snippets'>Questions about snippets of code:</a>
 
-#### Beware the closure
+#### Beware the Closure
 What's the output of this Javascript function?
 ```javascript
 function hookupevents() {
@@ -970,7 +972,7 @@ public class Stack {
 }
 ```
 
-#### Kill the switch
+#### Kill the wwitch
 `if`s and in general conditional statements lead to procedural and imperative programming. Can you get rid of this `switch` and make this snippet more object oriented?
 
 ```java

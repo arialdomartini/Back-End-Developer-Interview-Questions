@@ -481,8 +481,7 @@ The so called "N + 1 problem" is an issue that occurs when code needs to load th
 How would you find the most expensive queries in an application?
 
 #### Normalization
-In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?<br/>
-[Resources](databases/normalization.md)
+In your opinion, is it always needed to use database normalization? When is it advisable to use denormalized databases?
 
 #### Blue/Green Deployment
 Of of the Continuous Integration's techniques is called Blue-Green Deployment: it consists in having two production environments, as identical as possible, and in performing the deployment in one of them while the other one is still operating, and than in safely switching the traffic to the second one after some convenient testing. This technique becomes more complicated when the deployment includes changes to the database structure or content. I'd like to discuss this topic with you.<br/>

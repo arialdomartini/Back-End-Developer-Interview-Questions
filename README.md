@@ -196,6 +196,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
   * [Sagas and compensations](#sagas-and-compensations)
   * [Too Micro](#too-micro "Too Micro")
   * [Micro Services Architecture](#micro-services-architecture)
+
 * [Questions about Security](#security)
   * [Security by Default](#security-by-default)
   * [Don't invent Cryptography](#dont-invent-cryptography)

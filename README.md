@@ -277,8 +277,7 @@ Sooner or later I will complete it with the relative answers. Feel free to contr
 ### [[↑]](#toc) <a name='patterns'>Questions about Design Patterns:</a>
 
 #### Globals Are Evil
-Why are global and static objects evil? Can you show it with a code example? <br/>
-[Resources](design-patterns/globals-are-evil.md)
+Why are global and static objects evil? Can you show it with a code example?
 
 #### Inversion of Control
 Tell me about Inversion of Control and how it improves the design of code.<br/>

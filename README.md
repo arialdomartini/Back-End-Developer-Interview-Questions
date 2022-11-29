@@ -460,8 +460,7 @@ In web development, Model-View Controller and Model-View-View-Model approaches a
 ### [[↑]](#toc) <a name='databases'>Questions about Databases:</a>
 
 #### DB Migrations
-How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face?<br/>
-[Resources](databases/db-migrations.md)
+How would you migrate an application from a database to another, for example from MySQL to PostgreSQL? If you had to manage that project, which issues would you expect to face?
 
 #### NULL is special
 Why do databases treat null as a so special case? For example, why does ```SELECT * FROM table WHERE field = null``` not match records with null ``field`` in SQL?<br/>

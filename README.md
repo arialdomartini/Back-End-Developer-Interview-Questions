@@ -309,8 +309,7 @@ What is an Anti-corruption Layer?
 Singleton is a design pattern that restricts the instantiation of a class to one single object. Writing a Thread-Safe Singleton class is not so obvious. Would you try?
 
 #### Data Abstraction
-The ability to change implementation without affecting clients is called Data Abstraction. Produce an example violating this property, then fix it.<br/>
-[Resources](design-patterns/data-abstraction.md)
+The ability to change implementation without affecting clients is called Data Abstraction. Produce an example violating this property, then fix it.
 
 #### Don't Repeat Yourself
 Write a snippet of code violating the Don't Repeat Yourself (DRY) principle. Then, fix it.<br/>

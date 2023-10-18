@@ -165,6 +165,7 @@ Feel free to open a [Discussion](https://github.com/arialdomartini/Back-End-Deve
   * [Simple Web Server](#simple-web-server)
   * [Sorting Huge Files](#sorting-huge-files)
   * [Duplicates](#duplicates)
+  * [Big-O Notation](#big-o-notation)
 
 * [Questions about Software Architecture](#architecture)
   * [No Cache](#no-cache)
@@ -668,6 +669,9 @@ How would you sort a 10GB file? How would your approach change with a 10TB one?
 
 #### Duplicates
 How would you programmatically detect file duplicates?
+
+#### Big-O Notation
+Consider the following Code, what is its complexity in Big-O notation?
 
 ### [[↑]](#toc) <a name='architecture'>Questions about Software Architecture:</a>
 

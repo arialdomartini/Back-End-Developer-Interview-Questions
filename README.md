@@ -87,6 +87,7 @@ Feel free to open a [Discussion](https://github.com/arialdomartini/Back-End-Deve
   * [SPAs](#spas)
   * [Statelessness](#statelessness)
   * [REST vs SOAP](#rest-vs-soap)
+  * [REST vs GraphQL](#rest-vs-graphql)
   * [MVC and MVVM](#mvc-and-mvvm)
 
 * [Databases Questions](#databases)

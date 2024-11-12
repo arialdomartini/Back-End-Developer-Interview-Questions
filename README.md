@@ -105,7 +105,7 @@ Feel free to open a [Discussion](https://github.com/arialdomartini/Back-End-Deve
   * [CAP Theorem](#cap-theorem)
   * [NoSql](#nosql)
   * [NoSQL and Scalability](#nosql-and-scalability)
-  * [document and Relational DBs](#document-and-relational-dbs)
+  * [Document and Relational DBs](#document-and-relational-dbs)
 
 * [Code Versioning Questions](#codeversioning)
   * [Branching in HG and in Git](#branching-in-hg-and-in-git)
@@ -169,7 +169,7 @@ Feel free to open a [Discussion](https://github.com/arialdomartini/Back-End-Deve
 * [Questions about Software Architecture](#architecture)
   * [No Cache](#no-cache)
   * [Event-Driven Architecture](#event-driven-architecture)
-  * [readability](#readability)
+  * [Readability](#readability)
   * [Emergent and Evolutionary](#emergent-and-evolutionary)
   * [Scale-Out, Scale-Up](#scale-out-scale-up)
   * [Failures User Sessions](#failures-user-sessions)
@@ -234,7 +234,7 @@ Feel free to open a [Discussion](https://github.com/arialdomartini/Back-End-Deve
   * [Streaming](#streaming)
   * [1 Week Improvement](#1-week-improvement)
   * [Learnt this week](#learnt-this-week)
-  * [aesthetic](#aesthetic)
+  * [Aesthetic](#aesthetic)
   * [Last 5 books](#last-5-books)
   * [Introducing CI/CD](#introducing-cicd)
   * [Reinvent the Wheel](#reinvent-the-wheel)
@@ -677,7 +677,7 @@ When is a cache not useful or even dangerous?
 #### Event-Driven Architecture
 Why does Event-Driven Architecture improve scalability?
 
-#### readability
+#### Readability
 What makes code readable?
 
 #### Emergent and Evolutionary
@@ -862,7 +862,7 @@ Say your company gives you one week you can use to improve your and your colleag
 #### Learnt this week
 What did you learn this week?
 
-#### aesthetic
+#### Aesthetic
 There is an aesthetic element to all design. The question is, is this aesthetic element your friend or your enemy?
 
 #### Last 5 books
